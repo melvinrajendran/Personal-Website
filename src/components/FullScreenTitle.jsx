@@ -7,7 +7,7 @@ function FullScreenTitle(props) {
     <Container fluid>
       <Container>
         <Row className="fs-title-container align-items-center">
-          <Col lg className="mb-4 mb-lg-0">
+          <Col lg className="text-center text-lg-start">
             <h1 className="display-1 fst-italic mb-4">{props.title}</h1>
             <p className="fs-4">{props.subtitle}</p>
           </Col>
