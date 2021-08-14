@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import "./About.css";
-import { Col, Container, Image, Row } from "react-bootstrap";
 import FullScreenTitle from "./FullScreenTitle";
 import portraitImage from "../images/melvin-portrait.jpg";
 
