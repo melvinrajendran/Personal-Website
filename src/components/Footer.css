@@ -1,0 +1,7 @@
+.row:hover .social-icon {
+  color: #d9d9d9;
+}
+
+.row .social-icon:hover {
+  color: #21252a;
+}

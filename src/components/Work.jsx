@@ -1,0 +1,14 @@
+import React, { useEffect } from "react";
+import Title from "./Title";
+
+function Work() {
+  useEffect(() => (document.title = "Melvin Rajendran | Aspiring Software Engineer | Work"));
+
+  return (
+    <div>
+      <Title title="Work" subtitle="A collection of my notable experiences and favorite programming projects." />
+    </div>
+  );
+}
+
+export default Work;

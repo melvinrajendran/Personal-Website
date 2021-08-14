@@ -1,0 +1,17 @@
+import React, { useEffect } from "react";
+import "./About.css";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import FullScreenTitle from "./FullScreenTitle";
+import portraitImage from "../images/melvin-portrait.jpg";
+
+function About() {
+  useEffect(() => (document.title = "Melvin Rajendran | Aspiring Software Engineer | About"));
+
+  return (
+    <div>
+      <FullScreenTitle title="Hi. I'm Melvin." subtitle="An aspiring software engineer." imageSrc={portraitImage} imageAlt="Melvin Portrait" />
+    </div>
+  );
+}
+
+export default About;

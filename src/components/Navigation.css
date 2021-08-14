@@ -1,0 +1,41 @@
+.nav-link {
+  font-weight: 500;
+  text-decoration: underline 0.2em;
+  text-decoration-color: #f8f9fa;
+  text-underline-offset: 0.2em;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
+.nav-link:hover {
+  text-decoration-color: #21252a;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
+#navbarScrollingDropdown::after {
+  content: none;
+}
+
+.dropdown-menu {
+  min-width: fit-content;
+}
+
+.dropdown-menu:hover .social-icon {
+  color: #d9d9d9;
+}
+
+.dropdown-item:hover {
+  background-color: inherit;
+}
+
+.dropdown-item:hover .social-icon {
+  color: #21252a;
+}
+
+.dropdown-item:active {
+  background-color: inherit;
+}
+
+.letter-icon {
+  font-family: "Meddon", cursive;
+  top: 28px;
+}
