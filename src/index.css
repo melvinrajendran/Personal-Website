@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  color: #495057;
 }
 
 code {
@@ -18,7 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  color: #4361ee;
 }
 
 .link-dark {
@@ -30,7 +32,7 @@ h6 {
 }
 
 .link-dark:hover {
-  text-decoration-color: #21252a;
+  text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
 }
 

@@ -8,8 +8,8 @@ function FullScreenTitle(props) {
       <Container>
         <Row className="fs-title-container align-items-center">
           <Col lg className="text-center text-lg-start">
-            <h1 className="display-1 fst-italic mb-4">{props.title}</h1>
-            <p className="fs-4">{props.subtitle}</p>
+            <h1 className="display-1 mb-4">{props.title}</h1>
+            <p className="fs-3">{props.subtitle}</p>
           </Col>
           <Col lg className="d-flex justify-content-center">
             <Image className="rounded-corners" fluid width="550" height="550" src={props.imageSrc} alt={props.imageAlt} />

@@ -7,7 +7,7 @@
 }
 
 .nav-link:hover {
-  text-decoration-color: #21252a;
+  text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .dropdown-item:hover .social-icon {
-  color: #21252a;
+  color: #4361ee;
 }
 
 .dropdown-item:active {
@@ -38,4 +38,13 @@
 .letter-icon {
   font-family: "Meddon", cursive;
   top: 28px;
+}
+
+.letter {
+  transition: color 500ms;
+}
+
+.letter:hover {
+  color: #4361ee;
+  transition: color 500ms;
 }

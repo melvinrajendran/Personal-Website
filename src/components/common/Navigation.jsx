@@ -36,7 +36,7 @@ function Navigation(props) {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="/" className="letter-icon position-fixed start-50 translate-middle">
-          M
+          <span className="letter">M</span>
         </Navbar.Brand>
       </Container>
     </Navbar>
