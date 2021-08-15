@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Title from "../titles/Title";
-import Blog from "./Blog";
+import Blog from "./blog/Blog";
+import OnRepeat from "./onRepeat/OnRepeat";
 
 function BTW() {
   useEffect(() => (document.title = "Melvin Rajendran | Aspiring Software Engineer | BTW"));
@@ -9,6 +10,7 @@ function BTW() {
     <div>
       <Title title="by the way" subtitle="Other cool things that I'm up to." />
       <Blog />
+      <OnRepeat />
     </div>
   );
 }

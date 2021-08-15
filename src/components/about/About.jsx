@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import FullScreenTitle from "../titles/FullScreenTitle";
 import portraitImage from "../../images/melvin-portrait.jpg";
-import AboutMe from "./AboutMe";
+import AboutMe from "./AboutMe.jsx";
 import Technologies from "./Technologies";
 
 function About() {
