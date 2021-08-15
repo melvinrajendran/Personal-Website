@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./AboutMe.css";
 import Heading from "../common/Heading";
-import aboutMe from "./aboutMe.js";
+import aboutMe from "./aboutMeInfo.js";
 
 function AboutMe() {
   return (

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import FullScreenTitle from "../titles/FullScreenTitle";
-import portraitImage from "../../images/melvin-portrait.jpg";
-import AboutMe from "./AboutMe.jsx";
+import AboutMe from "./AboutMe";
 import Technologies from "./Technologies";
 
 function About() {
@@ -9,7 +8,7 @@ function About() {
 
   return (
     <div>
-      <FullScreenTitle title="hey, i'm melvin." subtitle="An aspiring software engineer." imageSrc={portraitImage} imageAlt="Melvin Portrait" />
+      <FullScreenTitle title="hey, i'm melvin." subtitle="An aspiring software engineer." imageSrc={"/images/melvin-portrait.jpg"} imageAlt="Melvin Portrait" />
       <AboutMe />
       <Technologies />
     </div>

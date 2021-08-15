@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import BlogDate from "./BlogDate";
 import BlogArticle from "./BlogArticle";
-import blogPosts from "./blogPosts";
+import blogPosts from "./blogPosts.js";
 
 function Blog() {
   return (
