@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Title from "./Title";
+import Title from "../titles/Title";
 
 function Work() {
   useEffect(() => (document.title = "Melvin Rajendran | Aspiring Software Engineer | Work"));

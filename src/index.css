@@ -24,6 +24,7 @@ h6 {
 }
 
 .link-dark {
+  color: #495057;
   font-weight: bold;
   text-decoration: underline 0.19em;
   text-decoration-color: #f8f9fa;
@@ -32,6 +33,7 @@ h6 {
 }
 
 .link-dark:hover {
+  color: #495057;
   text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
 }
@@ -43,4 +45,8 @@ h6 {
 
 .rounded-corners {
   border-radius: 30px;
+}
+
+.border-purple {
+  border: 3px solid #4361ee;
 }

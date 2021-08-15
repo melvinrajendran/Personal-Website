@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "./common/Navigation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./About";
-import Work from "./Work";
-import BTW from "./BTW";
+import Navigation from "./common/Navigation";
+import About from "./about/About";
+import Work from "./work/Work";
+import BTW from "./btw/BTW";
 import Footer from "./common/Footer";
 
 function App() {

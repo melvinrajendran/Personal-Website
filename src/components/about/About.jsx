@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import FullScreenTitle from "./FullScreenTitle";
-import portraitImage from "../images/melvin-portrait.jpg";
+import FullScreenTitle from "../titles/FullScreenTitle";
+import portraitImage from "../../images/melvin-portrait.jpg";
 import AboutMe from "./AboutMe";
 import Technologies from "./Technologies";
 

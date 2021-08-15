@@ -21,16 +21,16 @@ function Navigation(props) {
             </Nav.Link>
             <NavDropdown title="Contact" id="navbarScrollingDropdown">
               <NavDropdown.Item href="mailto:melvin.rajendran@gmail.com" className="d-flex justify-content-center">
-                <i class="btn fas fa-envelope fa-lg social-icon"></i>
+                <i className="btn fas fa-envelope fa-lg social-icon"></i>
               </NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/melvinrajendran/" className="d-flex justify-content-center">
-                <i class="btn fab fa-linkedin-in fa-lg social-icon"></i>
+                <i className="btn fab fa-linkedin-in fa-lg social-icon"></i>
               </NavDropdown.Item>
               <NavDropdown.Item href="https://www.instagram.com/melvnraj/" className="d-flex justify-content-center">
-                <i class="btn fab fa-instagram fa-lg social-icon"></i>
+                <i className="btn fab fa-instagram fa-lg social-icon"></i>
               </NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/melvinrajendran" className="d-flex justify-content-center">
-                <i class="btn fab fa-github fa-lg social-icon"></i>
+                <i className="btn fab fa-github fa-lg social-icon"></i>
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
