@@ -32,6 +32,21 @@ h6 {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
+.link-white:hover {
+  color: #495057;
+  text-decoration-color: #4361ee;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
+.link-white {
+  color: #495057;
+  font-weight: bold;
+  text-decoration: underline 0.19em;
+  text-decoration-color: #fff;
+  text-underline-offset: 0.175em;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
 .link-dark:hover {
   color: #495057;
   text-decoration-color: #4361ee;

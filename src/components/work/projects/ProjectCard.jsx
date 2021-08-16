@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 
 function ProjectCard(props) {
   return (
-    <Card className="project-card">
+    <Card className="project-card bg-white shadow">
       <Card.Img src={props.imageURL} alt={props.imageAlt} />
       <Card.Body className="pt-4">
         <Card.Title>
