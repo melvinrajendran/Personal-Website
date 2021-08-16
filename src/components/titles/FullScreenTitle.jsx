@@ -4,7 +4,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 
 function FullScreenTitle(props) {
   return (
-    <Container fluid>
+    <Container fluid className="py-4">
       <Container>
         <Row className="fs-title-container align-items-center">
           <Col lg className="text-center text-lg-start">
