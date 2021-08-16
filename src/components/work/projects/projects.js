@@ -7,7 +7,7 @@ const projects = [
     text: (
       <span>
         A "soccar" game using{" "}
-        <a href="https://www.photonengine.com/pun" class="link-white">
+        <a href="https://www.photonengine.com/pun" className="link-white">
           Photon Unity Networking
         </a>{" "}
         to host online games in a room-based multiplayer server.
@@ -27,7 +27,7 @@ const projects = [
     technologies: (
       <span>
         Unity, C#,{" "}
-        <a href="https://unity.com/products/machine-learning-agents" class="link-white">
+        <a href="https://unity.com/products/machine-learning-agents" className="link-white">
           MLAgents
         </a>
       </span>
@@ -41,7 +41,7 @@ const projects = [
     text: (
       <span>
         An app that visualizes a{" "}
-        <a href="https://en.wikipedia.org/wiki/Julia_set" class="link-white">
+        <a href="https://en.wikipedia.org/wiki/Julia_set" className="link-white">
           Julia set
         </a>{" "}
         and enables adjustment of both its values and appearance.

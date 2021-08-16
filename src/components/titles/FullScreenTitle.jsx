@@ -12,7 +12,7 @@ function FullScreenTitle(props) {
             <p className="fs-3">{props.subtitle}</p>
           </Col>
           <Col lg className="d-flex justify-content-center">
-            <Image className="rounded-corners border-purple shadow-lg" fluid width="550" height="550" src={props.imageSrc} alt={props.imageAlt} />
+            <Image className="rounded-corners border-purple shadow" fluid width="550" height="550" src={props.imageSrc} alt={props.imageAlt} />
           </Col>
         </Row>
       </Container>

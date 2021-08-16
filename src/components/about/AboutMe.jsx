@@ -11,7 +11,7 @@ function AboutMe() {
 
       {aboutMe.map((item, index) => {
         return (
-          <Row className="align-items-md-stretch">
+          <Row key={index} className="align-items-md-stretch">
             <Col lg className={"mb-4 align-self-center " + (index % 2 === 0 ? "order-lg-1" : "order-lg-2")}>
               <div className="p-4 text-center">
                 <p className="h2 fw-normal">{item.text}</p>

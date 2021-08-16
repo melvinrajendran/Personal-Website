@@ -9,9 +9,9 @@ function OnRepeat() {
     <Container className="py-4">
       <Heading text="// on repeat" />
       <Row className="g-4 pt-4">
-        {albums.map((album) => {
+        {albums.map((album, index) => {
           return (
-            <Col className="d-flex justify-content-center">
+            <Col key={index} className="d-flex justify-content-center">
               <AlbumCard songURL={album.songURL} imageURL={album.imageURL} imageAlt={album.imageAlt} albumTitle={album.albumTitle} artist={album.artist} />
             </Col>
           );

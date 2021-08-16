@@ -6,7 +6,7 @@ function AlbumCard(props) {
   return (
     <Card className="album-card">
       <a href={props.songURL}>
-        <Card.Img className="rounded" variant="top" src={props.imageURL} alt={props.imageAlt} />
+        <Card.Img className="rounded shadow" variant="top" src={props.imageURL} alt={props.imageAlt} />
       </a>
       <Card.Body className="pt-4">
         <Card.Title>

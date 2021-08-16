@@ -21,6 +21,7 @@ ul.timeline:before {
 
 li.timeline-item {
   margin: 20px 0;
+  cursor: pointer;
 }
 
 /* Timeline item circle marker */

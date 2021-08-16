@@ -50,8 +50,8 @@ function Timeline() {
             <i className="fa fa-clock-o mr-1"></i> {workExperiences[clickedIndex].startToEndDate}
           </p>
           <ul className="timeline-ul">
-            {workExperiences[clickedIndex].bullets.map((bullet) => {
-              return <li>{bullet}</li>;
+            {workExperiences[clickedIndex].bullets.map((bullet, index) => {
+              return <li key={index}>{bullet}</li>;
             })}
           </ul>
         </div>
