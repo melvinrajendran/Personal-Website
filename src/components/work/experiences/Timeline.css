@@ -44,6 +44,7 @@ li.timeline-item::before {
 
 .selected-item {
   background: #4361ee;
+  transition: background 500ms;
 }
 
 .selected-text {
@@ -56,4 +57,8 @@ li.timeline-item::before {
 
 .timeline-ul {
   line-height: 2;
+}
+
+.unclickable {
+  pointer-events: none;
 }

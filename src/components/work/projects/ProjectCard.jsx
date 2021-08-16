@@ -16,7 +16,7 @@ function ProjectCard(props) {
           <a href={props.projectURL}>
             <i className="project-icon btn fab fa-github fa-lg" />
           </a>
-          <small class="text-muted float-end">{props.technologies}</small>
+          <small className="text-muted float-end">{props.technologies}</small>
         </div>
       </Card.Body>
     </Card>

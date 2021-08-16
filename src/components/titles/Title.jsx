@@ -6,8 +6,8 @@ function Title(props) {
     <Container className="title-container py-lg-4">
       <Row className="align-items-center justify-content-center"></Row>
       <Col md={{ span: 6, offset: 3 }} className="p-5">
-        <h1 class="display-1 mb-4 text-center">{props.title}</h1>
-        <p class="fs-3 text-center">{props.subtitle}</p>
+        <h1 className="display-1 mb-4 text-center">{props.title}</h1>
+        <p className="fs-3 text-center">{props.subtitle}</p>
       </Col>
     </Container>
   );

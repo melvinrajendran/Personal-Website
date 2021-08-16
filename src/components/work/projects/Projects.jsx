@@ -9,9 +9,9 @@ function Projects() {
     <Container className="py-4">
       <Heading text="// projects" />
       <Row className="g-4 pt-4">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <Col className="d-flex justify-content-center">
+            <Col className="d-flex justify-content-center" key={index}>
               <ProjectCard imageURL={project.imageURL} imageAlt={project.imageAlt} title={project.title} date={project.date} text={project.text} projectURL={project.projectURL} technologies={project.technologies} />
             </Col>
           );
