@@ -3,3 +3,8 @@
     height: 94.5vh;
   }
 }
+
+.full-screen-image {
+  max-width: 550px;
+  max-height: 550px;
+}
