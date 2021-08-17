@@ -5,7 +5,7 @@ import Timeline from "./Timeline";
 
 function Experiences() {
   return (
-    <Container className="py-4">
+    <Container className="p-4">
       <Heading text="// experiences" />
       <Timeline />
     </Container>

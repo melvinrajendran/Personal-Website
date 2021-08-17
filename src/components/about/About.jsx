@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import FullScreenTitle from "../titles/FullScreenTitle";
+import FullScreenTitle from "../common/titles/FullScreenTitle";
 import AboutMe from "./AboutMe";
 import Technologies from "./Technologies";
 

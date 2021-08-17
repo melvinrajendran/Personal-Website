@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <Container className="py-4">
+    <Container className="p-4">
       <Heading text="// projects" />
       <Row className="g-4 pt-4">
         {projects.map((project, index) => {

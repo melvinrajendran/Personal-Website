@@ -6,7 +6,7 @@ import aboutMe from "./aboutMeInfo.js";
 
 function AboutMe() {
   return (
-    <Container className="py-4">
+    <Container className="p-4">
       <Heading text="// about me" />
 
       {aboutMe.map((item, index) => {

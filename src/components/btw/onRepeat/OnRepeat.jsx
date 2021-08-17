@@ -6,7 +6,7 @@ import AlbumCard from "./AlbumCard";
 
 function OnRepeat() {
   return (
-    <Container className="py-4">
+    <Container className="p-4">
       <Heading text="// on repeat" />
       <Row className="g-4 pt-4">
         {albums.map((album, index) => {

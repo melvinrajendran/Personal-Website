@@ -3,7 +3,7 @@ const workExperiences = [
     name: "Code Ninjas",
     jobTitle: "Programming Tutor",
     startToEndDate: "NOV 19 - AUG 21",
-    bullets: ["Taught children ages 7 to 14 fundamental programming concepts in the context of game development", "Organized and ran annual hackathon", "Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning", "Directed 2-month summer camps on Web Development, Python (w/ Pygame), JavaScript, Minecraft Modding, and Roblox Studio"]
+    bullets: ["Taught children ages 7 to 14 fundamental programming concepts in the context of game development", "Organized and ran annual hackathon", "Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning", "Directed 2-month summer camps on Web Development, Python, and JavaScript"]
   },
   {
     name: "X-STEM Club",

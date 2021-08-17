@@ -4,7 +4,7 @@ import Heading from "../common/Heading";
 
 function Technologies() {
   return (
-    <Container className="py-4">
+    <Container className="p-4">
       <Heading text="// technologies" />
       <Row className="p-4">
         <Col xs={{ span: 8, offset: 2 }} md={{ span: 8, offset: 3 }} lg={{ span: 4, offset: 2 }}>

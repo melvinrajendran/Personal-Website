@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Title from "../titles/Title";
+import Title from "../common/titles/Title";
 import Experiences from "./experiences/Experiences";
 import Projects from "./projects/Projects.jsx";
 

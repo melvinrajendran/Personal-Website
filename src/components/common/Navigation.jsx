@@ -20,7 +20,7 @@ function Navigation(props) {
               BTW
             </Nav.Link>
             <NavDropdown title="Contact" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="mailto:melvin.rajendran@gmail.com" className="d-flex justify-content-center">
+              <NavDropdown.Item href="mailto:melvin.rajendran@gmail.com" target="_blank" rel="noopener noreferrer" className="d-flex justify-content-center">
                 <i className="btn fas fa-envelope fa-lg social-icon"></i>
               </NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/melvinrajendran/" className="d-flex justify-content-center">

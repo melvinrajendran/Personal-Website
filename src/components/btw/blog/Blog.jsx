@@ -8,7 +8,7 @@ function Blog() {
   return (
     <Container>
       <Row className="gy-5 justify-content-center">
-        <Col md={7}>
+        <Col md={7} className="px-4">
           <BlogDate month="July" year="2021" />
           {blogPosts.map((post, index) => {
             return (

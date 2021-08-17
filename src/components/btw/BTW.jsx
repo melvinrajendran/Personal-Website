@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Title from "../titles/Title";
+import Title from "../common/titles/Title";
 import Blog from "./blog/Blog";
 import OnRepeat from "./onRepeat/OnRepeat";
 

@@ -32,7 +32,7 @@ h6 {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
-.link-white:hover {
+.link-dark:hover {
   color: #495057;
   text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
@@ -47,7 +47,7 @@ h6 {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
-.link-dark:hover {
+.link-white:hover {
   color: #495057;
   text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
@@ -64,4 +64,8 @@ h6 {
 
 .border-purple {
   border: 8px solid #4361ee;
+}
+
+.mono {
+  filter: grayscale(100%);
 }
