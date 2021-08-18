@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import FullScreenTitle from "../common/titles/FullScreenTitle";
-import AboutMe from "./AboutMe";
+import AboutMe from "./AboutMe.jsx";
 import Technologies from "./Technologies.jsx";
 
 function About() {
