@@ -1,0 +1,36 @@
+.timeline-item {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/* Timeline item circle marker */
+.timeline-item::before {
+  content: " ";
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.selected-item {
+  background: #4361ee;
+  transition: background 500ms;
+}
+
+.selected-text {
+  color: #fff;
+}
+
+.selected-subtext {
+  color: #e3e3e3;
+}
+
+.unclickable {
+  pointer-events: none;
+}

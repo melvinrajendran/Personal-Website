@@ -9,6 +9,7 @@ function Projects() {
   return (
     <Container className="p-4">
       <Heading text="// projects" />
+
       <Row className="g-4 pt-4">
         {projects.map((project, index) => {
           let fadeInManyFromBottom = {
@@ -22,7 +23,7 @@ function Projects() {
           return (
             <Col className="d-flex justify-content-center" key={index}>
               <Anime {...fadeInManyFromBottom}>
-                <ProjectCard imageURL={project.imageURL} imageAlt={project.imageAlt} title={project.title} date={project.date} text={project.text} projectURL={project.projectURL} technologies={project.technologies} />
+                <ProjectCard {...project} />
               </Anime>
             </Col>
           );
