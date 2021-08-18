@@ -22,7 +22,7 @@ function OnRepeat() {
           return (
             <Col key={index} className="d-flex justify-content-center">
               <Anime {...fadeInManyFromBottom}>
-                <AlbumCard songURL={album.songURL} imageURL={album.imageURL} imageAlt={album.imageAlt} albumTitle={album.albumTitle} artist={album.artist} />
+                <AlbumCard {...album} />
               </Anime>
             </Col>
           );

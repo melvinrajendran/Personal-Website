@@ -1,8 +1,12 @@
+import _ from "underscore";
+
 const blogPosts = [
   {
     iconClass: "fas fa-compact-disc",
     title: "humble beginnings of a vinyl collection",
-    date: "JULY 04, 2021",
+    month: "July",
+    day: 4,
+    year: 2021,
     body: [
       <p>After years of putting it off, I finally got around to buying my first vinyl record and starting a collection.</p>,
       <p>
@@ -37,3 +41,13 @@ const blogPosts = [
 ];
 
 export default blogPosts;
+
+let activeMonths = [];
+
+blogPosts.forEach((post) => {
+  if (_.findWhere(activeMonths, { month: post.month, year: post.year }) == null) {
+    activeMonths.push({ month: post.month, year: post.year });
+  }
+});
+
+export { activeMonths };

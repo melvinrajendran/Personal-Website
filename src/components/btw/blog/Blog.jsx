@@ -2,25 +2,25 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import BlogDate from "./BlogDate";
 import BlogArticle from "./BlogArticle";
-import blogPosts from "./blogPosts.js";
+import blogPosts, { activeMonths } from "./blogPosts.js";
 
 function Blog() {
   return (
     <Container>
       <Row className="gy-5 justify-content-center">
         <Col md={7} className="px-4">
-          <BlogDate month="July" year="2021" />
-          {blogPosts.map((post, index) => {
+          {activeMonths.map((activeMonth) => {
             return (
-              <BlogArticle
-                key={index}
-                iconClass={post.iconClass}
-                title={post.title}
-                date={post.date}
-                body={post.body.map((paragraph, index) => {
-                  return <div key={index}>{paragraph}</div>;
+              <div>
+                <BlogDate month={activeMonth.month} year={activeMonth.year} />
+                {blogPosts.map((post, index) => {
+                  if (post.month === activeMonth.month && post.year === activeMonth.year) {
+                    return <BlogArticle key={index} {...post} />;
+                  } else {
+                    return null;
+                  }
                 })}
-              />
+              </div>
             );
           })}
         </Col>

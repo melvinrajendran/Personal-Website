@@ -8,7 +8,7 @@ function BlogArticle(props) {
         <i className={props.iconClass + " me-3"}></i>
         {props.title}
       </h2>
-      <p className="blog-post-meta h6 mb-4">{props.date}</p>
+      <p className="blog-post-meta h6 mb-4">{`${props.month.toUpperCase()} ${props.day.toLocaleString("en-US", { minimumIntegerDigits: 2, useGrouping: false })}, ${props.year}`}</p>
 
       <div className="article-body">{props.body}</div>
     </article>
