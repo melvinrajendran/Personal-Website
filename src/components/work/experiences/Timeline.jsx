@@ -10,6 +10,10 @@ function Timeline() {
     setClickedIndex(parseInt(event.target.id));
   }
 
+  function getClickedIndex() {
+    return clickedIndex;
+  }
+
   return (
     <Row className="align-items-center gy-4">
       <Col className="text-center" md={{ span: 4, offset: 0 }} lg={{ span: 3, offset: 1 }}>

@@ -5,8 +5,8 @@ import Anime from "react-anime";
 import Typewriter from "typewriter-effect";
 
 function FullScreenTitle(props) {
-  let fadeInProps = {
-    translateY: [100, 0],
+  let fadeInFromBottom = {
+    translateY: [75, 0],
     opacity: [0, 1],
     duration: 1000,
     easing: "easeOutCubic"
@@ -25,12 +25,12 @@ function FullScreenTitle(props) {
                 }}
               />
             </h1>
-            <Anime delay={3000} {...fadeInProps}>
+            <Anime delay={3000} {...fadeInFromBottom}>
               <p className="fs-3">{props.subtitle}</p>
             </Anime>
           </Col>
           <Col lg={5} className="d-flex justify-content-center">
-            <Anime {...fadeInProps}>
+            <Anime {...fadeInFromBottom}>
               <Image className="rounded-corners border-purple shadow" fluid width="550" height="500" src={props.imageSrc} alt={props.imageAlt} />
             </Anime>
           </Col>

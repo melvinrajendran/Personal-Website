@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 import "./Navigation.css";
+import socials from "./socials";
 
 function Navigation(props) {
   return (
@@ -20,18 +21,13 @@ function Navigation(props) {
               BTW
             </Nav.Link>
             <NavDropdown title="Contact" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="mailto:melvin.rajendran@gmail.com" target="_blank" rel="noopener noreferrer" className="d-flex justify-content-center">
-                <i className="btn fas fa-envelope fa-lg social-icon"></i>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="https://www.linkedin.com/in/melvinrajendran/" className="d-flex justify-content-center">
-                <i className="btn fab fa-linkedin-in fa-lg social-icon"></i>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="https://www.instagram.com/melvnraj/" className="d-flex justify-content-center">
-                <i className="btn fab fa-instagram fa-lg social-icon"></i>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/melvinrajendran" className="d-flex justify-content-center">
-                <i className="btn fab fa-github fa-lg social-icon"></i>
-              </NavDropdown.Item>
+              {socials.map((social, index) => {
+                return (
+                  <NavDropdown.Item key={index} href={social.href} target={social.target} rel={social.rel} className="d-flex justify-content-center">
+                    <i className={"btn fa-lg social-icon " + social.iconClass}></i>
+                  </NavDropdown.Item>
+                );
+              })}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

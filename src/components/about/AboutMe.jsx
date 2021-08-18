@@ -18,9 +18,9 @@ function AboutMe() {
               </div>
             </Col>
             <Col lg className={"mb-4 align-self-center text-center " + (index % 2 === 0 ? "order-lg-2" : "order-lg-1")}>
-              <span className="about-icon">
+              <div className="about-icon">
                 <i className={item.iconClass}></i>
-              </span>
+              </div>
             </Col>
           </Row>
         );
