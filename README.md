@@ -4,11 +4,11 @@
 
 This repository houses the source and build files for the latest version of personal CV website. The website is built using React, React Bootstrap components, and React Router for client-side routing. It contains information about myself, specifically my interests, work experiences, and software projects. I've also started a small (but growing) blog about my passions besides coding. Feel free to check it out here: https://www.melvinrajendran.com.
 
-In many ways, this site has been my web dev playground, and I've used it to apply new skills that I've learned. I'll continue to add projects and features to it in the future. In the meantime, I would be happy to hear any feedback as to what improvements I could make.
+In many ways, this site has been my web dev playground, and I've used it to apply new skills as I learn them. I'll continue to add projects and features to it in the future. In the meantime, I would be happy to hear any feedback as to what I can improve.
 
 ## Notes on v1.0
 
-Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bootstrap 5. It contained a lot of the same theming and content as v2.0, but also used tons of repetitive code that has now been consolidated through ES6 mapping and React components. The code is no longer available on GitHub, as I believe the current website is the best reflection of my skills as of now.
+Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bootstrap 5. It contained a lot of the same theming and content as v2.0, but it also used tons of repetitive code that has now been consolidated through ES6 mapping and React components. The code is no longer available on GitHub, as I believe the current website is the best reflection of my skill set.
 
 ## Getting Started with Create React App
 
