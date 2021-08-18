@@ -2,7 +2,7 @@
 
 ![Screen Shot 2021-08-18 at 1 49 10 AM](https://user-images.githubusercontent.com/44681827/129844408-81cee7c5-3dea-45b8-9873-98ca89e35305.png)
 
-This repository houses the source and build files for the latest version of personal CV website. The website is built using React, React Bootstrap components, and React Router for client-side routing. It contains information about myself, specifically my interests, work experiences, and software projects. I've also started a small (but growing) blog about my passions besides coding. Feel free to check it out here: https://www.melvinrajendran.com.
+This repository houses the source files for the latest version of personal CV website. The website is built using React, React Bootstrap components, and React Router for client-side routing. It contains information about myself, specifically my interests, work experiences, and software projects. I've also started a small (but growing) blog about my passions besides coding. Feel free to check it out here: https://www.melvinrajendran.com.
 
 In many ways, this site has been my web dev playground, and I've used it to apply new skills as I learn them. I'll continue to add projects and features to it in the future. In the meantime, I would be happy to hear any feedback as to what I can improve.
 
