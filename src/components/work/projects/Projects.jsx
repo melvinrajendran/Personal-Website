@@ -4,8 +4,15 @@ import Heading from "../../common/Heading";
 import projects from "./projects";
 import ProjectCard from "./ProjectCard";
 import Anime from "react-anime";
+import { useInView } from "react-intersection-observer";
 
 function Projects() {
+  const { inView } = useInView({
+    threshold: 0
+  });
+
+  console.log(inView);
+
   return (
     <Container className="p-4">
       <Heading text="// projects" />

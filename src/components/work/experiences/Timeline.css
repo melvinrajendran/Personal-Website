@@ -15,6 +15,6 @@ ul.timeline:before {
   left: 16px;
   width: 4px;
   height: 100%;
-  z-index: 400;
+  z-index: 0;
   border-radius: 1rem;
 }

@@ -4,6 +4,7 @@ import "./Timeline.css";
 import TimelineDescription from "./TimelineDescription";
 import TimelineItem from "./TimelineItem";
 import workExperiences from "./workExperiences";
+import Anime from "react-anime";
 
 function Timeline() {
   let [clickedIndex, setClickedIndex] = useState(0);
@@ -21,12 +22,24 @@ function Timeline() {
       <Col className="text-center" md={{ span: 4, offset: 0 }} lg={{ span: 3, offset: 1 }}>
         <ul className="timeline">
           {workExperiences.map((experience, index) => {
-            return <TimelineItem key={index} id={index} getClickedIndex={getClickedIndex} handleClick={handleClick} name={experience.name} startToEndDate={experience.startToEndDate} />;
+            let fadeInManyFromBottom = {
+              translateY: [75, 0],
+              opacity: [0, 1],
+              duration: 1000,
+              easing: "easeOutCubic",
+              delay: index * 500
+            };
+
+            return (
+              <Anime {...fadeInManyFromBottom}>
+                <TimelineItem key={index} id={index} getClickedIndex={getClickedIndex} handleClick={handleClick} name={experience.name} startToEndDate={experience.startToEndDate} />
+              </Anime>
+            );
           })}
         </ul>
       </Col>
       <Col md={{ span: 7, offset: 1 }} lg={{ span: 6, offset: 1 }}>
-        <TimelineDescription {...workExperiences[clickedIndex]} />
+        <TimelineDescription key={clickedIndex} {...workExperiences[clickedIndex]} />
       </Col>
     </Row>
   );
