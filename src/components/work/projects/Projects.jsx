@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Heading from "../../common/Heading";
 import projects from "./projects";
 import ProjectCard from "./ProjectCard";
-import Anime from "react-anime";
 
 function Projects() {
   return (
@@ -12,19 +11,9 @@ function Projects() {
 
       <Row className="g-4 pt-4">
         {projects.map((project, index) => {
-          let fadeInManyFromBottom = {
-            translateY: [75, 0],
-            opacity: [0, 1],
-            duration: 1000,
-            easing: "easeOutCubic",
-            delay: index * 500
-          };
-
           return (
             <Col className="d-flex justify-content-center" key={index}>
-              <Anime {...fadeInManyFromBottom}>
-                <ProjectCard {...project} />
-              </Anime>
+              <ProjectCard {...project} id={index} />
             </Col>
           );
         })}
