@@ -9,7 +9,7 @@ function TimelineItem(props) {
     triggerOnce: true
   });
 
-  let fadeInManyFromBottom = {
+  let fadeInFromBottom = {
     translateY: [75, 0],
     opacity: [0, 1],
     duration: 1000,
@@ -22,7 +22,7 @@ function TimelineItem(props) {
   return (
     <div ref={ref}>
       {inView ? (
-        <Anime {...fadeInManyFromBottom}>
+        <Anime {...fadeInFromBottom}>
           <li id={props.id} className={"timeline-item rounded ml-3 p-4 shadow " + (isClicked && "selected-item")} onClick={() => props.handleClick(props.id)}>
             <div className="unclickable">
               <h2 className={"text-start h5 mb-0 " + (isClicked && "selected-text")}>{props.name}</h2>

@@ -9,10 +9,6 @@ body {
   color: #495057;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
 h1,
 h2,
 h3,
@@ -23,7 +19,18 @@ h6 {
   color: #4361ee;
 }
 
-.link-dark {
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+::selection {
+  background: #e3e3e3;
+  color: #404040;
+}
+
+/* Links */
+
+.link-cultured {
   color: #495057;
   font-weight: bold;
   text-decoration: underline 0.19em;
@@ -32,7 +39,7 @@ h6 {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
-.link-dark:hover {
+.link-cultured:hover {
   color: #495057;
   text-decoration-color: #4361ee;
   transition: color 500ms, text-decoration-color 500ms;
@@ -53,10 +60,7 @@ h6 {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
-::selection {
-  background: #e3e3e3;
-  color: #404040;
-}
+/* Images and Cards */
 
 .rounded-corners {
   border-radius: 30px;

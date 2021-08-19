@@ -11,7 +11,7 @@ const blogPosts = [
       <p>After years of putting it off, I finally got around to buying my first vinyl record and starting a collection.</p>,
       <p>
         A couple of friends and I spent the day walking around Princeton, and as we were about to drive home, we realized that we had parked right next to the Princeton Record Exchange. As we stepped inside the quaint, retro-inspired store, we immediately noticed the aisles of crates packed with vinyls from all different eras and genres of music. I flipped through hundreds of vibrant, colorful records and finally landed on one of my favorite hip-hop releases:{" "}
-        <a href="https://open.spotify.com/album/42fyKPanos0Q3woi848ktg?si=l70SrdDYTV-7hOoYjQkn4Q&dl_branch=1" className="link-dark">
+        <a href="https://open.spotify.com/album/42fyKPanos0Q3woi848ktg?si=l70SrdDYTV-7hOoYjQkn4Q&dl_branch=1" className="link-cultured">
           <em>Imperial</em>
         </a>{" "}
         by Denzel Curry. Spoiler alert: I bought it.
@@ -19,7 +19,7 @@ const blogPosts = [
       <p>Now, as I format the &lt;p&gt; tags for what I hope will be a long-term blog, this album is playing in the background. While I’m still in search of the perfect turntable and speakers to hear the “crisp, warm” audio that audiophiles preach comes with vinyl, Spotify will cut it for now.</p>,
       <p>
         In more ways than one, I’ve seen parallels between music and programming. In every CS class that I’ve taken in high school, songs ranging from pop hits to punk rock have served as the backdrop to the meticulous keyboard taps and mouse clicks. Some of the most avid music listeners I know are programmers. But it’s so much more than that. Here’s some insights from Jeff Atwood’s{" "}
-        <a href="https://blog.codinghorror.com/the-one-thing-programmers-and-musicians-have-in-common/" className="link-dark">
+        <a href="https://blog.codinghorror.com/the-one-thing-programmers-and-musicians-have-in-common/" className="link-cultured">
           blog
         </a>
         :

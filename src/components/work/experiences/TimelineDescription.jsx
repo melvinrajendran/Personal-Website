@@ -32,16 +32,8 @@ function TimelineDescription(props) {
 
           <ul className="timeline-ul">
             {props.bullets.map((bullet, index) => {
-              let fadeInManyFromBottom = {
-                translateY: [75, 0],
-                opacity: [0, 1],
-                duration: 1000,
-                easing: "easeOutCubic",
-                delay: 1000 + index * 250
-              };
-
               return (
-                <Anime {...fadeInManyFromBottom}>
+                <Anime {...fadeInFromBottom} delay={1000 + index * 250}>
                   <li key={index}>{bullet}</li>
                 </Anime>
               );

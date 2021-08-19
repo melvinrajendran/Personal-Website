@@ -17,37 +17,24 @@ function AboutMeItem(props) {
   };
 
   return (
-    <div ref={ref}>
-      {inView ? (
-        <Row key={props.id} className="align-items-md-stretch">
-          <Col lg className={"mb-4 align-self-center " + (props.id % 2 === 0 ? "order-lg-1" : "order-lg-2")}>
+    <Row className="align-items-md-stretch" ref={ref}>
+      <Col lg className={"mb-4 align-self-center text-center " + (props.id % 2 === 0 ? "order-lg-1" : "order-lg-2")}>
+        <div className="p-4">
+          {inView ? (
             <Anime {...fadeIn} translateX={props.id % 2 === 0 ? [-75, 0] : [75, 0]}>
-              <div className="p-4 text-center">
-                <p className="h2 fw-normal">{props.text}</p>
-              </div>
-            </Anime>
-          </Col>
-          <Col lg className={"mb-4 align-self-center text-center " + (props.id % 2 === 0 ? "order-lg-2" : "order-lg-1")}>
-            <div className="about-icon">
-              <i className={props.iconClass}></i>
-            </div>
-          </Col>
-        </Row>
-      ) : (
-        <Row key={props.id} className="align-items-md-stretch">
-          <Col lg className={"mb-4 align-self-center invisible " + (props.id % 2 === 0 ? "order-lg-1" : "order-lg-2")}>
-            <div className="p-4 text-center">
               <p className="h2 fw-normal">{props.text}</p>
-            </div>
-          </Col>
-          <Col lg className={"mb-4 align-self-center text-center " + (props.id % 2 === 0 ? "order-lg-2" : "order-lg-1")}>
-            <div className="about-icon">
-              <i className={props.iconClass}></i>
-            </div>
-          </Col>
-        </Row>
-      )}
-    </div>
+            </Anime>
+          ) : (
+            <p className="h2 fw-normal invisible">{props.text}</p>
+          )}
+        </div>
+      </Col>
+      <Col lg className={"mb-4 align-self-center text-center " + (props.id % 2 === 0 ? "order-lg-2" : "order-lg-1")}>
+        <div className="about-icon">
+          <i className={props.iconClass}></i>
+        </div>
+      </Col>
+    </Row>
   );
 }
 
