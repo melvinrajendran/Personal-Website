@@ -9,9 +9,9 @@ function Blog() {
     <Container>
       <Row className="gy-5 justify-content-center">
         <Col md={7} className="px-4">
-          {activeMonths.map((activeMonth) => {
+          {activeMonths.map((activeMonth, index) => {
             return (
-              <div>
+              <div key={index}>
                 <BlogDate month={activeMonth.month} year={activeMonth.year} />
                 {blogPosts.map((post, index) => {
                   if (post.month === activeMonth.month && post.year === activeMonth.year) {
