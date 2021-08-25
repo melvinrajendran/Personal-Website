@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 function TechnologiesList(props) {
   const { ref, inView } = useInView({
-    threshold: 0.85,
+    threshold: 0.6,
     triggerOnce: true
   });
 

@@ -1,14 +1,8 @@
 import React from "react";
 import "./TimelineDescription.css";
-import { useInView } from "react-intersection-observer";
 import Anime from "react-anime";
 
 function TimelineDescription(props) {
-  const { ref, inView } = useInView({
-    threshold: 0.85,
-    triggerOnce: true
-  });
-
   let fadeInFromBottom = {
     translateY: [75, 0],
     opacity: [0, 1],

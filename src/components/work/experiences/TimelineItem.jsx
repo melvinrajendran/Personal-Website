@@ -5,7 +5,7 @@ import Anime from "react-anime";
 
 function TimelineItem(props) {
   const { ref, inView } = useInView({
-    threshold: 0.85,
+    threshold: 0.6,
     triggerOnce: true
   });
 
