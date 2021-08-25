@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 function AlbumCard(props) {
   const { ref, inView } = useInView({
-    threshold: 0.75,
+    threshold: 0.85,
     triggerOnce: true
   });
 

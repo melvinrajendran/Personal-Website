@@ -6,7 +6,7 @@ import Anime from "react-anime";
 
 function ProjectCard(props) {
   const { ref, inView } = useInView({
-    threshold: 0.75,
+    threshold: 0.85,
     triggerOnce: true
   });
 
