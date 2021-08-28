@@ -40,7 +40,9 @@ function ProjectCard(props) {
           </Card>
         </Anime>
       ) : (
-        <Card className="project-card invisible" />
+        <Card className="project-card bg-white shadow invisible">
+          <Card.Img src={props.imageURL} alt={props.imageAlt} />
+        </Card>
       )}
     </div>
   );
