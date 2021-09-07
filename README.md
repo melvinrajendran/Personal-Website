@@ -13,7 +13,7 @@ Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bo
 ## Color Palette
 
 | Color | Hex |
-| ----- | --- |
+| :-----: | :---: |
 | Ultramarine Blue | <img width="20" alt="Screen Shot 2021-09-07 at 11 03 05 AM" src="https://user-images.githubusercontent.com/44681827/132367759-c85ccb80-a0a2-4483-a411-6878d991f075.png"> #4361EE |
 | Raisin Black | <img width="20" alt="Screen Shot 2021-09-07 at 11 03 13 AM" src="https://user-images.githubusercontent.com/44681827/132367781-a65ff455-3e2d-42d2-bb1a-53efea852435.png"> #21252A |
 | Davys Grey | <img width="20" alt="Screen Shot 2021-09-07 at 11 03 19 AM" src="https://user-images.githubusercontent.com/44681827/132367790-64040fd1-8cd3-4786-b9c1-a67f4f663364.png"> #495057 |
