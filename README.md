@@ -14,13 +14,13 @@ Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bo
 
 | Color | Hex |
 | ----- | --- |
-| Ultramarine Blue | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 05 AM" src="https://user-images.githubusercontent.com/44681827/132367759-c85ccb80-a0a2-4483-a411-6878d991f075.png"> #4361EE |
-| Raisin Black | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 13 AM" src="https://user-images.githubusercontent.com/44681827/132367781-a65ff455-3e2d-42d2-bb1a-53efea852435.png"> #21252A |
-| Davys Grey | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 19 AM" src="https://user-images.githubusercontent.com/44681827/132367790-64040fd1-8cd3-4786-b9c1-a67f4f663364.png"> #495057 |
-| Gainsboro | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 27 AM" src="https://user-images.githubusercontent.com/44681827/132367806-fb9e48e2-17b4-4580-9f49-c0a5af0402b0.png"> #D9D9D9 |
-| Platinum | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 34 AM" src="https://user-images.githubusercontent.com/44681827/132367835-c1c7e87d-90fb-4c80-a19c-abc2034ba837.png"> #E3E3E3 |
-| Cultured | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 40 AM" src="https://user-images.githubusercontent.com/44681827/132367852-178fcbb1-a041-45e1-a952-840dc9095f7d.png"> #F8F9FA |
-| White | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 47 AM" src="https://user-images.githubusercontent.com/44681827/132367869-50219015-92fb-409d-93c4-692b116cc096.png"> #FFFFFF |
+| Ultramarine Blue | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 05 AM" src="https://user-images.githubusercontent.com/44681827/132367759-c85ccb80-a0a2-4483-a411-6878d991f075.png">  #4361EE |
+| Raisin Black | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 13 AM" src="https://user-images.githubusercontent.com/44681827/132367781-a65ff455-3e2d-42d2-bb1a-53efea852435.png">  #21252A |
+| Davys Grey | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 19 AM" src="https://user-images.githubusercontent.com/44681827/132367790-64040fd1-8cd3-4786-b9c1-a67f4f663364.png">  #495057 |
+| Gainsboro | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 27 AM" src="https://user-images.githubusercontent.com/44681827/132367806-fb9e48e2-17b4-4580-9f49-c0a5af0402b0.png">  #D9D9D9 |
+| Platinum | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 34 AM" src="https://user-images.githubusercontent.com/44681827/132367835-c1c7e87d-90fb-4c80-a19c-abc2034ba837.png">  #E3E3E3 |
+| Cultured | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 40 AM" src="https://user-images.githubusercontent.com/44681827/132367852-178fcbb1-a041-45e1-a952-840dc9095f7d.png">  #F8F9FA |
+| White | <img width="15" alt="Screen Shot 2021-09-07 at 11 03 47 AM" src="https://user-images.githubusercontent.com/44681827/132367869-50219015-92fb-409d-93c4-692b116cc096.png">  #FFFFFF |
 
 ## Getting Started with Create React App
 
