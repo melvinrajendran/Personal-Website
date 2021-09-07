@@ -10,6 +10,18 @@ In many ways, this site has been my web dev playground, and I've used it to appl
 
 Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bootstrap 5. It contained a lot of the same theming and content as v2.0, but it also used tons of repetitive code that has now been consolidated through ES6 mapping and React components. The code is no longer available on GitHub, as I believe the current website is the best reflection of my skill set.
 
+## Color Palette
+
+| Color | Hex |
+| ----- | --- |
+| Ultramarine Blue | #4361EE |
+| Raisin Black | #21252A |
+| Davys Grey | #495057 |
+| Gainsboro | #D9D9D9 |
+| Platinum | #E3E3E3 |
+| Cultured | #F8F9FA |
+| White | #FFFFFF |
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
