@@ -7,19 +7,19 @@ const socials = [
   },
   {
     href: "https://www.linkedin.com/in/melvinrajendran/",
-    target: "",
+    target: "_blank",
     rel: "",
     iconClass: "fab fa-linkedin-in"
   },
   {
     href: "https://www.instagram.com/melvnraj/",
-    target: "",
+    target: "_blank",
     rel: "",
     iconClass: "fab fa-instagram"
   },
   {
     href: "https://github.com/melvinrajendran",
-    target: "",
+    target: "_blank",
     rel: "",
     iconClass: "fab fa-github"
   }
