@@ -4,6 +4,7 @@ import Navigation from "./common/Navigation";
 import About from "./about/About";
 import Work from "./work/Work";
 import BTW from "./btw/BTW";
+import NotFound from "./common/NotFound";
 import Footer from "./common/Footer";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/btw">
           <BTW />
+        </Route>
+        <Route exact path="*">
+          <NotFound />
         </Route>
       </Switch>
       <Footer />
