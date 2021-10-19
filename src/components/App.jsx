@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/btw">
           <BTW />
         </Route>
-        <Route exact path="*">
+        <Route path="*">
           <NotFound />
         </Route>
       </Switch>
