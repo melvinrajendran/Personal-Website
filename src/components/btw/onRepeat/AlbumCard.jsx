@@ -23,7 +23,7 @@ function AlbumCard(props) {
       {inView ? (
         <Anime {...fadeInManyFromBottom}>
           <Card className="album-card">
-            <a href={props.songURL}>
+            <a href={props.songURL} target="_blank" rel="noopener noreferrer">
               <Card.Img className="rounded shadow" variant="top" src={props.imageURL} alt={props.imageAlt} />
             </a>
             <Card.Body className="pt-4">

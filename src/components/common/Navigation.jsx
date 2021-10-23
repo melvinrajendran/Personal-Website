@@ -23,7 +23,7 @@ function Navigation(props) {
             <NavDropdown title="Contact" id="navbarScrollingDropdown">
               {socials.map((social, index) => {
                 return (
-                  <NavDropdown.Item key={index} href={social.href} target={social.target} rel={social.rel} className="d-flex justify-content-center">
+                  <NavDropdown.Item key={index} href={social.href} target="_blank" rel="noopener noreferrer" className="d-flex justify-content-center">
                     <i className={"btn fa-lg social-icon " + social.iconClass}></i>
                   </NavDropdown.Item>
                 );

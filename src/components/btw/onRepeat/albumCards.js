@@ -1,24 +1,24 @@
 const albums = [
   {
-    songURL: "https://open.spotify.com/album/4JAvwK4APPArjIsOdGoJXX?si=mfwweg_4Qv2IKXOmd7VO8Q&dl_branch=1",
-    imageURL: "/images/music/j-cole-the-off-season.jpeg",
-    imageAlt: "TheOffSeason",
-    albumTitle: "The Off-Season",
-    artist: "J. Cole"
+    songURL: "https://open.spotify.com/album/5CnpZV3q5BcESefcB3WJmz?si=KepFz_3GQzuPyKgvaEUTVw",
+    imageURL: "/images/music/kanye-donda.jpeg",
+    imageAlt: "Donda",
+    albumTitle: "Donda",
+    artist: "Kanye West"
   },
   {
-    songURL: "https://open.spotify.com/album/6sPcgDto5EI6EBPc2jhDC7?si=cnxYKkznSYSzNkxmkHNB0A&dl_branch=1",
-    imageURL: "/images/music/brockhampton-roadrunner.jpeg",
-    imageAlt: "ROADRUNNER: NEW LIGHT, NEW MACHINE",
-    albumTitle: "ROADRUNNER: NEW ...",
-    artist: "BROCKHAMPTON"
+    songURL: "https://open.spotify.com/album/2suR5CCbtL2Wq8ShFo8rFr?si=0HHUNTmNRCKoOuMhSSLK-A",
+    imageURL: "/images/music/vince-self-titled.jpeg",
+    imageAlt: "Vince Staples",
+    albumTitle: "Vince Staples",
+    artist: "Vince Staples"
   },
   {
-    songURL: "https://open.spotify.com/album/7qE3WaOVAAIxgH8WtjbBBj?si=Y1PIuSCuQDuELlbmqKxkLg&dl_branch=1",
-    imageURL: "/images/music/slowthai-tyron.jpeg",
-    imageAlt: "TYRON",
-    albumTitle: "TYRON",
-    artist: "slowthai"
+    songURL: "https://open.spotify.com/album/45ba6QAtNrdv6Ke4MFOKk9?si=lIp8L2tjTfy2M1hn9rcjLg",
+    imageURL: "/images/music/tyler-cmiygl.jpg",
+    imageAlt: "CALL ME IF YOU GET LOST",
+    albumTitle: "CALL ME IF YOU GET ...",
+    artist: "Tyler, The Creator"
   }
 ];
 
