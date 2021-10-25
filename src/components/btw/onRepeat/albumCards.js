@@ -14,11 +14,11 @@ const albums = [
     artist: "Vince Staples"
   },
   {
-    songURL: "https://open.spotify.com/album/45ba6QAtNrdv6Ke4MFOKk9?si=lIp8L2tjTfy2M1hn9rcjLg",
-    imageURL: "/images/music/tyler-cmiygl.jpg",
-    imageAlt: "CALL ME IF YOU GET LOST",
-    albumTitle: "CALL ME IF YOU GET ...",
-    artist: "Tyler, The Creator"
+    songURL: "https://open.spotify.com/album/4inXqcdjG79gV4m2mU8dQh?si=jyuMKFOVQ3uJ7hJ9TNWZVw",
+    imageURL: "/images/music/jpeg-lp!.jpeg",
+    imageAlt: "LP!",
+    albumTitle: "LP!",
+    artist: "JPEGMAFIA"
   }
 ];
 
