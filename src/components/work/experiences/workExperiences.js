@@ -16,11 +16,11 @@ const workExperiences = [
       "Organized online event, LaunchSB, in which members pitched their startups to and received feedback from renowned entrepreneurs in the tech industry",
       <span>
         Placed Top 30 in 2020{" "}
-        <a href="https://blueoceancompetition.org/" className="link-cultured">
+        <a href="https://blueoceancompetition.org/" className="link-cultured" target="_blank" rel="noopener noreferrer">
           Blue Ocean High School Entrepreneurship Competition
         </a>{" "}
         for creating a shared parking application called{" "}
-        <a href="https://youtu.be/rYuGI8eEXg0" className="link-cultured">
+        <a href="https://youtu.be/rYuGI8eEXg0" className="link-cultured" target="_blank" rel="noopener noreferrer">
           Haven
         </a>
       </span>

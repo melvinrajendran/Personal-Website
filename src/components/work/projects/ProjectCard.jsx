@@ -31,7 +31,7 @@ function ProjectCard(props) {
               <Card.Subtitle className="mb-2 text-muted">{props.date}</Card.Subtitle>
               <Card.Text>{props.text}</Card.Text>
               <div className="align-text-bottom">
-                <a href={props.projectURL}>
+                <a href={props.projectURL} target="_blank" rel="noopener noreferrer">
                   <i className="project-icon btn fab fa-github fa-lg" />
                 </a>
                 <small className="text-muted float-end">{props.technologies}</small>
