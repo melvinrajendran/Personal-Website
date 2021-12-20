@@ -36,9 +36,15 @@ function AlbumCard(props) {
         </Anime>
       ) : (
         <Card className="album-card invisible">
-          <a href={props.songURL}>
+          <a href={props.songURL} target="_blank" rel="noopener noreferrer">
             <Card.Img className="rounded shadow" variant="top" src={props.imageURL} alt={props.imageAlt} />
           </a>
+          <Card.Body className="pt-4">
+            <Card.Title>
+              <h5>{props.albumTitle}</h5>
+            </Card.Title>
+            <Card.Text>{props.artist}</Card.Text>
+          </Card.Body>
         </Card>
       )}
     </div>
