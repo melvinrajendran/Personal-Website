@@ -4,7 +4,7 @@ import Heading from "../common/Heading";
 import technologies from "./technologies";
 import TechnologiesList from "./TechnologiesList";
 
-function Technologies() {
+const Technologies = () => {
   return (
     <Container className="p-4">
       <Heading text="// technologies" />
@@ -19,6 +19,6 @@ function Technologies() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Technologies;

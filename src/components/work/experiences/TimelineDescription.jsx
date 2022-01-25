@@ -2,7 +2,7 @@ import React from "react";
 import "./TimelineDescription.css";
 import Anime from "react-anime";
 
-function TimelineDescription(props) {
+const TimelineDescription = (props) => {
   let fadeInFromBottom = {
     translateY: [75, 0],
     opacity: [0, 1],
@@ -11,7 +11,7 @@ function TimelineDescription(props) {
   };
 
   return (
-    <div>
+    <>
       <Anime {...fadeInFromBottom}>
         <h2>
           <span className="title-text">{props.jobTitle + " @ "}</span>
@@ -31,8 +31,8 @@ function TimelineDescription(props) {
           );
         })}
       </ul>
-    </div>
+    </>
   );
-}
+};
 
 export default TimelineDescription;

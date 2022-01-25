@@ -2,7 +2,7 @@ import React from "react";
 import "./NotFound.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-function NotFound() {
+const NotFound = () => {
   return (
     <Container fluid className="p-4">
       <Container>
@@ -15,6 +15,6 @@ function NotFound() {
       </Container>
     </Container>
   );
-}
+};
 
 export default NotFound;

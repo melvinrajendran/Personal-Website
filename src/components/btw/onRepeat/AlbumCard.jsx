@@ -4,7 +4,7 @@ import "./AlbumCard.css";
 import Anime from "react-anime";
 import { useInView } from "react-intersection-observer";
 
-function AlbumCard(props) {
+const AlbumCard = (props) => {
   const { ref, inView } = useInView({
     threshold: 0.6,
     triggerOnce: true
@@ -49,6 +49,6 @@ function AlbumCard(props) {
       )}
     </div>
   );
-}
+};
 
 export default AlbumCard;

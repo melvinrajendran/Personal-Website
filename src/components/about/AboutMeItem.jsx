@@ -4,7 +4,7 @@ import "./AboutMe.css";
 import { useInView } from "react-intersection-observer";
 import Anime from "react-anime";
 
-function AboutMeItem(props) {
+const AboutMeItem = (props) => {
   const { ref, inView } = useInView({
     threshold: 0.6,
     triggerOnce: true
@@ -36,6 +36,6 @@ function AboutMeItem(props) {
       </Col>
     </Row>
   );
-}
+};
 
 export default AboutMeItem;

@@ -4,7 +4,7 @@ import Heading from "../../common/Heading";
 import albums from "./albumCards.js";
 import AlbumCard from "./AlbumCard";
 
-function OnRepeat() {
+const OnRepeat = () => {
   return (
     <Container className="p-4">
       <Heading text="// on repeat" />
@@ -19,6 +19,6 @@ function OnRepeat() {
       </Row>
     </Container>
   );
-}
+};
 
 export default OnRepeat;

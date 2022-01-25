@@ -5,7 +5,7 @@ import Heading from "../common/Heading";
 import aboutMe from "./aboutMe.js";
 import AboutMeItem from "./AboutMeItem";
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <Container className="p-4">
       <Heading text="// about me" />
@@ -14,6 +14,6 @@ function AboutMe() {
       })}
     </Container>
   );
-}
+};
 
 export default AboutMe;

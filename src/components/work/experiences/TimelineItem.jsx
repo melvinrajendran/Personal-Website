@@ -3,7 +3,7 @@ import "./TimelineItem.css";
 import { useInView } from "react-intersection-observer";
 import Anime from "react-anime";
 
-function TimelineItem(props) {
+const TimelineItem = (props) => {
   const { ref, inView } = useInView({
     threshold: 0.6,
     triggerOnce: true
@@ -42,6 +42,6 @@ function TimelineItem(props) {
       )}
     </div>
   );
-}
+};
 
 export default TimelineItem;

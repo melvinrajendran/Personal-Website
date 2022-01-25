@@ -5,7 +5,7 @@ import TimelineDescription from "./TimelineDescription";
 import TimelineItem from "./TimelineItem";
 import workExperiences from "./workExperiences";
 
-function Timeline() {
+const Timeline = () => {
   let [clickedIndex, setClickedIndex] = useState(0);
 
   function getClickedIndex() {
@@ -30,6 +30,6 @@ function Timeline() {
       </Col>
     </Row>
   );
-}
+};
 
 export default Timeline;

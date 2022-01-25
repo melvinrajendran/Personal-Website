@@ -1,7 +1,7 @@
 import React from "react";
 import "./BlogArticle.css";
 
-function BlogArticle(props) {
+const BlogArticle = (props) => {
   return (
     <article className="blog-post">
       <h2 className="blog-post-title mt-5 mb-3">
@@ -17,6 +17,6 @@ function BlogArticle(props) {
       </div>
     </article>
   );
-}
+};
 
 export default BlogArticle;

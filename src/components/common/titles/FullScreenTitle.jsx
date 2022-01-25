@@ -4,7 +4,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import Anime from "react-anime";
 import Typewriter from "typewriter-effect";
 
-function FullScreenTitle(props) {
+const FullScreenTitle = (props) => {
   let fadeInFromBottom = {
     translateY: [75, 0],
     opacity: [0, 1],
@@ -38,6 +38,6 @@ function FullScreenTitle(props) {
       </Container>
     </Container>
   );
-}
+};
 
 export default FullScreenTitle;

@@ -3,13 +3,13 @@ import { Container } from "react-bootstrap";
 import Heading from "../../common/Heading";
 import Timeline from "./Timeline";
 
-function Experiences() {
+const Experiences = () => {
   return (
     <Container className="p-4">
       <Heading text="// experiences" />
       <Timeline />
     </Container>
   );
-}
+};
 
 export default Experiences;

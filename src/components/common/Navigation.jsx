@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 import "./Navigation.css";
 import socials from "./socials";
 
-function Navigation(props) {
+const Navigation = (props) => {
   return (
     <Navbar fixed="top" bg="light" variant="light" expand="lg">
       <Container fluid>
@@ -37,6 +37,6 @@ function Navigation(props) {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default withRouter(Navigation);

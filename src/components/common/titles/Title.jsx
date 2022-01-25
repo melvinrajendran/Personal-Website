@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Anime from "react-anime";
 
-function Title(props) {
+const Title = (props) => {
   let fadeInFromBottom = {
     translateY: [75, 0],
     opacity: [0, 1],
@@ -23,6 +23,6 @@ function Title(props) {
       </Col>
     </Container>
   );
-}
+};
 
 export default Title;

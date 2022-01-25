@@ -4,7 +4,7 @@ import BlogDate from "./BlogDate";
 import BlogArticle from "./BlogArticle";
 import blogPosts, { activeMonths } from "./blogPosts.js";
 
-function Blog() {
+const Blog = () => {
   return (
     <Container>
       <Row className="gy-5 justify-content-center">
@@ -27,6 +27,6 @@ function Blog() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Blog;

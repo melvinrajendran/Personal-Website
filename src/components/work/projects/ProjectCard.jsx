@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 import { useInView } from "react-intersection-observer";
 import Anime from "react-anime";
 
-function ProjectCard(props) {
+const ProjectCard = (props) => {
   const { ref, inView } = useInView({
     threshold: 0.6,
     triggerOnce: true
@@ -59,6 +59,6 @@ function ProjectCard(props) {
       )}
     </div>
   );
-}
+};
 
 export default ProjectCard;

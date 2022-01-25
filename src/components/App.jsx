@@ -7,7 +7,7 @@ import BTW from "./btw/BTW";
 import NotFound from "./common/NotFound";
 import Footer from "./common/Footer";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Navigation />
@@ -28,6 +28,6 @@ function App() {
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;

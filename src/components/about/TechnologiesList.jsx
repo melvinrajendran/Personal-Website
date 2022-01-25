@@ -2,7 +2,7 @@ import React from "react";
 import Anime from "react-anime";
 import { useInView } from "react-intersection-observer";
 
-function TechnologiesList(props) {
+const TechnologiesList = (props) => {
   const { ref, inView } = useInView({
     threshold: 0.6,
     triggerOnce: true
@@ -19,7 +19,7 @@ function TechnologiesList(props) {
     <ul className="h2 fw-normal" ref={ref}>
       {props.list.map((technology, index) => {
         return (
-          <div>
+          <>
             {inView ? (
               <Anime {...fadeInFromBottom} delay={index * 250}>
                 <li key={index}>
@@ -31,11 +31,11 @@ function TechnologiesList(props) {
                 <p>{technology}</p>
               </li>
             )}
-          </div>
+          </>
         );
       })}
     </ul>
   );
-}
+};
 
 export default TechnologiesList;

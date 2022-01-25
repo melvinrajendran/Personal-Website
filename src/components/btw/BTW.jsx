@@ -3,16 +3,16 @@ import Title from "../common/titles/Title";
 import Blog from "./blog/Blog";
 import OnRepeat from "./onRepeat/OnRepeat";
 
-function BTW() {
+const BTW = () => {
   useEffect(() => (document.title = "Melvin Rajendran | Aspiring Software Engineer | BTW"));
 
   return (
-    <div>
+    <>
       <Title title="by the way" subtitle="Other cool things that I'm up to." />
       <Blog />
       <OnRepeat />
-    </div>
+    </>
   );
-}
+};
 
 export default BTW;

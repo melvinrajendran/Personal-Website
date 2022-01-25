@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Footer.css";
 import socials from "./socials";
 
-function Footer() {
+const Footer = () => {
   return (
     <Container className="py-4">
       <footer className="pt-3 mt-4 border-top">
@@ -23,6 +23,6 @@ function Footer() {
       </footer>
     </Container>
   );
-}
+};
 
 export default Footer;

@@ -4,7 +4,7 @@ import Heading from "../../common/Heading";
 import projects from "./projects";
 import ProjectCard from "./ProjectCard";
 
-function Projects() {
+const Projects = () => {
   return (
     <Container className="p-4">
       <Heading text="// projects" />
@@ -20,6 +20,6 @@ function Projects() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Projects;
