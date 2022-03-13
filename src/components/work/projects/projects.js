@@ -1,5 +1,21 @@
 const projects = [
   {
+    imageURL: "images/projects/Convertify.png",
+    imageAlt: "Convertify",
+    title: "Convertify",
+    date: "January 2022 ~",
+    text: "A web application that enables Spotify users to quickly convert their playlists between explicit and clean.",
+    projectURL: "https://github.com/melvinrajendran/Convertify",
+    technologies: (
+      <span>
+        React,{" "}
+        <a href="https://developer.spotify.com/documentation/web-api/" className="link-white" target="_blank" rel="noopener noreferrer">
+          Spotify Web API
+        </a>
+      </span>
+    )
+  },
+  {
     imageURL: "images/projects/RocketLeagueGame.png",
     imageAlt: "Rocket League Game",
     title: "Rocket League",

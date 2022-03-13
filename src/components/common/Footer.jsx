@@ -4,6 +4,8 @@ import "./Footer.css";
 import socials from "./socials";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <Container className="py-4">
       <footer className="pt-3 mt-4 border-top">
@@ -19,7 +21,7 @@ const Footer = () => {
           })}
         </Row>
 
-        <p className="text-muted text-center">&copy; 2021 Melvin Rajendran</p>
+        <p className="text-muted text-center">&copy; {currentYear} Melvin Rajendran</p>
       </footer>
     </Container>
   );

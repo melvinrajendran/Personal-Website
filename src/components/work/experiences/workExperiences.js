@@ -1,5 +1,21 @@
 const workExperiences = [
   {
+    name: "Bitcamp",
+    jobTitle: "Logistics Organizer",
+    startToEndDate: "NOV 21 ~",
+    bullets: [
+      <span>
+        Organizes{" "}
+        <a href="https://bit.camp/" className="link-cultured" target="_blank" rel="noopener noreferrer">
+          Bitcamp
+        </a>
+        , the University of Maryland's 36-hour hackathon that hosts 1,200+ campers annually
+      </span>,
+      "Communicates with local vendors to secure power equipment for the event",
+      "Designs Xfinity Center floor plans to align with university social distancing measures"
+    ]
+  },
+  {
     name: "Code Ninjas",
     jobTitle: "Programming Tutor",
     startToEndDate: "NOV 19 - AUG 21",

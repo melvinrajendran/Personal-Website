@@ -1,6 +1,6 @@
 const aboutMe = [
   {
-    text: "I'm studying Computer Science at the University of Maryland with a specialization in Machine Learning.",
+    text: "I'm studying Computer Science at the University of Maryland with a minor in Business Analytics.",
     iconClass: "fas fa-university"
   },
   {
@@ -12,7 +12,7 @@ const aboutMe = [
     iconClass: "fas fa-eye"
   },
   {
-    text: "During my free time, you'll find me lifting weights, listening to Kendrick Lamar, or playing video games.",
+    text: "During my free time, you'll find me lifting weights, listening to Kanye West, or playing video games.",
     iconClass: "fas fa-headphones-alt"
   }
 ];
