@@ -4,7 +4,7 @@ const aboutMe = [
     iconClass: "fas fa-university"
   },
   {
-    text: "I'm also a full-stack developer knowledgeable in creating MERN applications.",
+    text: "I'm also a full-stack developer knowledgeable in creating Java and MERN applications.",
     iconClass: "fas fa-code"
   },
   {
@@ -12,7 +12,7 @@ const aboutMe = [
     iconClass: "fas fa-eye"
   },
   {
-    text: "During my free time, you'll find me lifting weights, listening to Kanye West, or playing video games.",
+    text: "During my free time, you'll find me lifting weights, trying out new foods, or listening to Kendrick Lamar.",
     iconClass: "fas fa-headphones-alt"
   }
 ];

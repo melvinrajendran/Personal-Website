@@ -12,7 +12,8 @@ const workExperiences = [
         , the University of Maryland's 36-hour hackathon that hosts 1,200+ campers annually
       </span>,
       "Communicates with local vendors to secure power equipment for the event",
-      "Designs Xfinity Center floor plans to align with university social distancing measures"
+      "Designs Xfinity Center floor plans to align with university social distancing measures",
+      "Operates A/V equipment throughout the event to host speakers and make announcements to campers"
     ]
   },
   {

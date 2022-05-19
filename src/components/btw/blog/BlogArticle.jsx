@@ -3,7 +3,7 @@ import "./BlogArticle.css";
 
 const BlogArticle = (props) => {
   return (
-    <article className="blog-post">
+    <article className="blog-post mb-5">
       <h2 className="blog-post-title mt-5 mb-3">
         <i className={props.iconClass + " me-3"}></i>
         {props.title}
