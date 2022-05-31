@@ -12,7 +12,11 @@ const BlogArticle = (props) => {
 
       <div className="article-body">
         {props.body.map((paragraph, index) => {
-          return <div key={index}>{paragraph}</div>;
+          return (
+            <div align="justify" key={index}>
+              {paragraph}
+            </div>
+          );
         })}
       </div>
     </article>

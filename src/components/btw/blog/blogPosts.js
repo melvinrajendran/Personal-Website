@@ -2,6 +2,14 @@ import _ from "underscore";
 
 const blogPosts = [
   {
+    iconClass: "fa fa-keyboard",
+    title: "codersthetic",
+    month: "May",
+    day: 28,
+    year: 2022,
+    body: [<p>Just wanted to romanticize my workspace for this upcoming summer. I think it's pretty cool.</p>, <img className="rounded-corners shadow mt-4 img-fluid mx-auto d-block" width="450" height="600" src="images/blog/workspace.jpg" alt="Melvin's workspace" />]
+  },
+  {
     iconClass: "fas fa-compact-disc",
     title: "humble beginnings of a vinyl collection",
     month: "July",
