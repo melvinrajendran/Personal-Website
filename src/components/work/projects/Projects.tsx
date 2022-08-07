@@ -1,8 +1,8 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Heading from "../../common/Heading";
-import projects from "./projects";
-import ProjectCard from "./ProjectCard";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Heading from '../../common/Heading';
+import projects from './projects';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (

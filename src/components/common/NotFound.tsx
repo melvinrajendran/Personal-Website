@@ -1,6 +1,6 @@
-import React from "react";
-import "./NotFound.css";
-import { Col, Container, Row } from "react-bootstrap";
+import React from 'react';
+import './NotFound.css';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const NotFound = () => {
   return (

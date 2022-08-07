@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import "./Footer.css";
-import socials from "./socials";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import './Footer.css';
+import socials from './socials';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
             return (
               <Col key={index} xs={2} lg={1} className="d-flex justify-content-center">
                 <a href={social.href} target="_blank" rel="noopener noreferrer">
-                  <i className={"social-icon btn fa-lg " + social.iconClass}></i>
+                  <i className={'social-icon btn fa-lg ' + social.iconClass}></i>
                 </a>
               </Col>
             );

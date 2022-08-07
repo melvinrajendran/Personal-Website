@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import Heading from "../../common/Heading";
-import Timeline from "./Timeline";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import Heading from '../../common/Heading';
+import Timeline from './Timeline';
 
 const Experiences = () => {
   return (

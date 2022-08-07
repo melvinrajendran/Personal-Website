@@ -1,11 +1,11 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navigation from "./common/Navigation";
-import About from "./about/About";
-import Work from "./work/Work";
-import BTW from "./btw/BTW";
-import NotFound from "./common/NotFound";
-import Footer from "./common/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './common/Footer';
+import Navigation from './common/Navigation';
+import NotFound from './common/NotFound';
+import About from './about/About';
+import Work from './work/Work';
+import BTW from './btw/BTW';
 
 const App = () => {
   return (

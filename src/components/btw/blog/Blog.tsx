@@ -1,8 +1,8 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import BlogDate from "./BlogDate";
-import BlogArticle from "./BlogArticle";
-import blogPosts, { activeMonths } from "./blogPosts.js";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import BlogDate from './BlogDate';
+import BlogArticle from './BlogArticle';
+import blogPosts, { activeMonths } from './blogPosts.js';
 
 const Blog = () => {
   return (

@@ -1,8 +1,8 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import Heading from "../common/Heading";
-import technologies from "./technologies";
-import TechnologiesList from "./TechnologiesList";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import Heading from '../common/Heading';
+import technologies from './technologies';
+import TechnologiesList from './TechnologiesList';
 
 const Technologies = () => {
   return (
