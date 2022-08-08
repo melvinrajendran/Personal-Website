@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Heading from '../../common/Heading';
-import albums from './albumCards.js';
+import albums from './albums.js';
 import AlbumCard from './AlbumCard';
 
 const OnRepeat = () => {
@@ -12,7 +12,7 @@ const OnRepeat = () => {
         {albums.map((album, index) => {
           return (
             <Col key={index} className="d-flex justify-content-center">
-              <AlbumCard id={index} {...album} />
+              <AlbumCard {...album} />
             </Col>
           );
         })}
