@@ -1,10 +1,10 @@
-const aboutMe = [
+const aboutMeItems = [
   {
     text: 'I\'m studying Computer Science at the University of Maryland with a minor in Business Analytics.',
     iconClass: 'fas fa-university'
   },
   {
-    text: 'I\'m also a full-stack developer knowledgeable in creating Java and MERN applications.',
+    text: 'I\'m also a full-stack software engineer knowledgeable in creating web applications.',
     iconClass: 'fas fa-code'
   },
   {
@@ -17,4 +17,4 @@ const aboutMe = [
   }
 ];
 
-export default aboutMe;
+export default aboutMeItems;

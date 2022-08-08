@@ -6,7 +6,7 @@ import TimelineItem from './TimelineItem';
 import workExperiences from './workExperiences';
 
 const Timeline = () => {
-  let [clickedIndex, setClickedIndex] = useState(0);
+  const [clickedIndex, setClickedIndex] = useState(0);
 
   function getClickedIndex() {
     return clickedIndex;

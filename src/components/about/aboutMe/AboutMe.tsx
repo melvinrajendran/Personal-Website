@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Heading from '../../common/Heading';
-import aboutMeItems from './aboutMeItems.js';
+import aboutMeItems from './aboutMeItems';
 import AboutMeItem from './AboutMeItem';
 
 const AboutMe = () => {
