@@ -4,11 +4,11 @@ const aboutMeItems = [
     iconClass: 'fas fa-university'
   },
   {
-    text: 'I\'m also a full-stack software engineer knowledgeable in creating web applications.',
+    text: 'I\'m also a full-stack developer knowledgeable in building web applications.',
     iconClass: 'fas fa-code'
   },
   {
-    text: 'In and out of the classroom, I am a passionate learner who is attentive to detail.',
+    text: 'In and out of the classroom, I\'m a passionate learner who\'s attentive to detail.',
     iconClass: 'fas fa-eye'
   },
   {

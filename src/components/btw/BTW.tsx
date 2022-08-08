@@ -4,7 +4,9 @@ import Blog from './blog/Blog';
 import OnRepeat from './onRepeat/OnRepeat';
 
 const BTW = () => {
-  useEffect(() => (document.title = 'Melvin Rajendran | Aspiring Software Engineer | BTW'));
+  useEffect(() => {
+    document.title = 'Melvin Rajendran | Aspiring Software Engineer | BTW';
+  });
 
   return (
     <>
