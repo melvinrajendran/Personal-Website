@@ -1,13 +1,18 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-const Title = (props) => {
+export type TitleProps = {
+  title: string,
+  subtitle: string
+}
+
+const Title = ({ title, subtitle }: TitleProps) => {
   return (
     <Container className="p-4">
-      <Row className="align-items-center justify-content-center"></Row>
+      <Row className="align-items-center justify-content-center" />
       <Col md={{ span: 6, offset: 3 }} className="p-5">
-        <h1 className="display-1 mb-4 text-center">{props.title}</h1>
-        <p className="fs-3 text-center">{props.subtitle}</p>
+        <h1 className="display-1 mb-4 text-center">{title}</h1>
+        <p className="fs-3 text-center">{subtitle}</p>
       </Col>
     </Container>
   );

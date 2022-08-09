@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import technologyListItems from './technologyListItems.js';
+import technologyListItems from './technologyListItems';
 
 const TechnologyList = () => {
   const numItems = technologyListItems.length;

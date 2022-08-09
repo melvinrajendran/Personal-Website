@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Heading from '../../common/Heading';
-import albums from './albums.js';
+import albums from './albums';
 import AlbumCard from './AlbumCard';
 
 const OnRepeat = () => {

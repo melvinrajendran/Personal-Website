@@ -28,8 +28,14 @@ const AlbumCard = ({
         />
       </a>
       <Card.Body className="pt-4">
-        <Card.Title><h5>{albumTitle}</h5></Card.Title>
-        <Card.Text>{artist}</Card.Text>
+        <Card.Title>
+          <h5>
+            {albumTitle}
+          </h5>
+        </Card.Title>
+        <Card.Text>
+          {artist}
+        </Card.Text>
       </Card.Body>
     </Card>
   );

@@ -12,8 +12,8 @@ const Timeline = () => {
     return clickedIndex;
   }
 
-  function handleClick(id) {
-    setClickedIndex(parseInt(id));
+  function handleClick(id: number) {
+    setClickedIndex(id);
   }
 
   return (

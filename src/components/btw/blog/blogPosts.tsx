@@ -1,7 +1,8 @@
 import React from 'react';
-import _ from 'underscore';
+import { find } from 'lodash';
+import { BlogPostProps } from './BlogPost';
 
-const blogPosts = [
+const blogPosts: Array<BlogPostProps> = [
   {
     iconClass: 'fa fa-keyboard',
     title: 'codersthetic',
@@ -52,14 +53,12 @@ const blogPosts = [
   }
 ];
 
-export default blogPosts;
-
-let activeMonths = [];
+const activeMonths:Array<{month: string, year: number}> = [];
 
 blogPosts.forEach((post) => {
-  if (_.findWhere(activeMonths, { month: post.month, year: post.year }) == null) {
+  if (find(activeMonths, { month: post.month, year: post.year }) === undefined) {
     activeMonths.push({ month: post.month, year: post.year });
   }
 });
 
-export { activeMonths };
+export { blogPosts, activeMonths };

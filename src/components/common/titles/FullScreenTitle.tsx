@@ -3,7 +3,14 @@ import './FullScreenTitle.css';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 
-const FullScreenTitle = (props) => {
+export type FullScreenTitleProps = {
+  title: string,
+  subtitle: string
+  imageSrc: string,
+  imageAlt: string
+}
+
+const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitleProps) => {
   return (
     <Container fluid className="p-4">
       <Container>
@@ -12,15 +19,15 @@ const FullScreenTitle = (props) => {
             <h1 className="display-1 mb-4">
               <Typewriter
                 options={{
-                  strings: props.title,
+                  strings: title,
                   autoStart: true
                 }}
               />
             </h1>
-            <p className="fs-3">{props.subtitle}</p>
+            <p className="fs-3">{subtitle}</p>
           </Col>
           <Col lg={5} className="d-flex justify-content-center">
-            <Image className="rounded-corners border-purple shadow" fluid width="550" height="500" src={props.imageSrc} alt={props.imageAlt} />
+            <Image className="rounded-corners border-purple shadow" fluid width="550" height="500" src={imageSrc} alt={imageAlt} />
           </Col>
         </Row>
       </Container>

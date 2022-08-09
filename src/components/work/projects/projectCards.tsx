@@ -1,12 +1,12 @@
 import React from 'react';
 
-const projects = [
+const projectCards = [
   {
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
     title: 'Convertify',
     date: 'January 2022 ~',
-    text: 'A web application that enables Spotify users to quickly convert their playlists between explicit and clean.',
+    text: (<span>A web application that enables Spotify users to quickly convert their playlists between explicit and clean.</span>),
     projectURL: 'https://github.com/melvinrajendran/Convertify',
     technologies: (
       <span>
@@ -32,7 +32,7 @@ const projects = [
       </span>
     ),
     projectURL: 'https://github.com/melvinrajendran/High-School-CS/tree/master/Virtual%20Reality%20and%20Game%20Design%202020-21/RocketLeagueGame',
-    technologies: 'Unity, C#, PUN'
+    technologies: (<span>Unity, C#, PUN</span>)
   },
 
   {
@@ -40,7 +40,7 @@ const projects = [
     imageAlt: 'Galaga Game',
     title: 'Galaga',
     date: 'March 2021 - April 2021',
-    text: 'A space shooter in which AI enemies are trained using curriculum-based reinforcement learning.',
+    text: (<span>A space shooter in which AI enemies are trained using curriculum-based reinforcement learning.</span>),
     projectURL: 'https://github.com/melvinrajendran/High-School-CS/tree/master/Virtual%20Reality%20and%20Game%20Design%202020-21/GalagaGame',
     technologies: (
       <span>
@@ -66,8 +66,8 @@ const projects = [
       </span>
     ),
     projectURL: 'https://github.com/melvinrajendran/High-School-CS/tree/master/Data%20Structures%202020-21/GUI/Julia%20Set%20Activity',
-    technologies: 'Java, Swing'
+    technologies: (<span>Java, Swing</span>)
   }
 ];
 
-export default projects;
+export default projectCards;

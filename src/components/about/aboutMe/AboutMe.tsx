@@ -9,7 +9,7 @@ const AboutMe = () => {
     <Container className="p-4">
       <Heading text="// about me" />
       {aboutMeItems.map((item, index) => {
-        return <AboutMeItem key={index} {...item} />;
+        return <AboutMeItem key={index} index={index} {...item} />;
       })}
     </Container>
   );
