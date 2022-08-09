@@ -1,12 +1,11 @@
-import React, { ReactNode } from 'react';
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import './TimelineDescription.css';
 
-export type TimelineDescriptionProps = {
+type TimelineDescriptionProps = {
   jobTitle: string,
   name: string,
   startToEndDate: string,
-  bullets: Array<ReactNode>
+  bullets: Array<ReactElement | string>
 }
 
 const TimelineDescription = ({

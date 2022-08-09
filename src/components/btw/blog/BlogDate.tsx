@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type BlogDateProps = {
+type BlogDateProps = {
   month: string,
   year: number
 }

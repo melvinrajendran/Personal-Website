@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './AlbumCard.css';
 
-export type AlbumCardProps = {
+type AlbumCardProps = {
   songURL: string,
   imageURL: string,
   imageAlt: string,

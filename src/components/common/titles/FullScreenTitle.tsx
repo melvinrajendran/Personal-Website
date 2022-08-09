@@ -3,7 +3,7 @@ import './FullScreenTitle.css';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 
-export type FullScreenTitleProps = {
+type FullScreenTitleProps = {
   title: string,
   subtitle: string
   imageSrc: string,

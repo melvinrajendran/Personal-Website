@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import './BlogPost.css';
 
-export type BlogPostProps = {
+type BlogPostProps = {
   iconClass: string,
   title: string,
   month: string,

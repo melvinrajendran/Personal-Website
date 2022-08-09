@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type HeadingProps = {
+type HeadingProps = {
   text: string
 };
 

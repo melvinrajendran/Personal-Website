@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './AboutMeItem.css';
 
-export type AboutMeItemProps = {
+type AboutMeItemProps = {
   index: number,
   text: string,
   iconClass: string

@@ -9,7 +9,7 @@ ul.timeline {
 /* Timeline vertical line */
 ul.timeline:before {
   content: " ";
-  background: #fff;
+  background: #F8F9FA;
   display: inline-block;
   position: absolute;
   left: 16px;

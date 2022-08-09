@@ -1,8 +1,7 @@
 import React from 'react';
 import { find } from 'lodash';
-import { BlogPostProps } from './BlogPost';
 
-const blogPosts: Array<BlogPostProps> = [
+const blogPosts = [
   {
     iconClass: 'fa fa-keyboard',
     title: 'codersthetic',
@@ -37,7 +36,7 @@ const blogPosts: Array<BlogPostProps> = [
         </a>
         :
       </p>,
-      <ul key={4} className="article-body fw-bold h6 pb-2">
+      <ul key={4} className="fw-bold">
         <li>
           &quot;<em>Creating music and software are simultaneously collaborative and individualistic undertakings.</em>
         </li>

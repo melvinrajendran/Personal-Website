@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import BlogDate from './BlogDate';
-import BlogArticle, { BlogPostProps } from './BlogPost';
+import BlogArticle from './BlogPost';
 import { blogPosts, activeMonths } from './blogPosts';
 import { filter } from 'lodash';
 
@@ -14,7 +14,7 @@ const Blog = () => {
             return (
               <div key={index}>
                 <BlogDate month={activeMonth.month} year={activeMonth.year} />
-                {filter(blogPosts, (post: BlogPostProps) => post.month === activeMonth.month && post.year === activeMonth.year).map((post, index) => {
+                {filter(blogPosts, (post) => post.month === activeMonth.month && post.year === activeMonth.year).map((post, index) => {
                   return <BlogArticle key={index} {...post} />;
                 })}
               </div>

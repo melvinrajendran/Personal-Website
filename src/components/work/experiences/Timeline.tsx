@@ -21,7 +21,14 @@ const Timeline = () => {
       <Col className="text-center" md={{ span: 4, offset: 0 }} lg={{ span: 3, offset: 1 }}>
         <ul className="timeline">
           {workExperiences.map((experience, index) => {
-            return <TimelineItem key={index} id={index} getClickedIndex={getClickedIndex} handleClick={handleClick} name={experience.name} startToEndDate={experience.startToEndDate} />;
+            return <TimelineItem
+              key={index}
+              id={index}
+              getClickedIndex={getClickedIndex}
+              handleClick={handleClick}
+              name={experience.name}
+              startToEndDate={experience.startToEndDate}
+            />;
           })}
         </ul>
       </Col>

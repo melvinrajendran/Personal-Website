@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import { Card } from 'react-bootstrap';
 import './ProjectCard.css';
 
-export type ProjectCardProps = {
+type ProjectCardProps = {
   imageURL: string,
   imageAlt: string,
   title: string,
