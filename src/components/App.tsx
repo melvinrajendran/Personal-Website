@@ -6,6 +6,7 @@ import NotFound from './common/NotFound';
 import About from './about/About';
 import Work from './work/Work';
 import BTW from './btw/BTW';
+import BlogDate from './btw/blog/BlogDate';
 
 const App = () => {
   return (
