@@ -1,14 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Heading from '../../common/Heading';
+import { Row, Col } from 'react-bootstrap';
 import projectCards from './projectCards';
 import ProjectCard from './ProjectCard';
+import Section from '../../common/Section';
 
 const Projects = () => {
   return (
-    <Container className="p-4">
-      <Heading text="// projects" />
-
+    <Section title="projects">
       <Row className="g-4 py-4">
         {projectCards.map((project, index) => {
           return (
@@ -18,7 +16,7 @@ const Projects = () => {
           );
         })}
       </Row>
-    </Container>
+    </Section>
   );
 };
 

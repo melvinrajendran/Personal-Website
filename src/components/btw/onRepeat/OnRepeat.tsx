@@ -1,13 +1,12 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import Heading from '../../common/Heading';
+import { Col, Row } from 'react-bootstrap';
 import albums from './albums';
 import AlbumCard from './AlbumCard';
+import Section from '../../common/Section';
 
 const OnRepeat = () => {
   return (
-    <Container className="p-4">
-      <Heading text="// on repeat" />
+    <Section title="on repeat">
       <Row className="g-4 pt-4">
         {albums.map((album, index) => {
           return (
@@ -17,7 +16,7 @@ const OnRepeat = () => {
           );
         })}
       </Row>
-    </Container>
+    </Section>
   );
 };
 
