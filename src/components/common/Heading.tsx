@@ -1,4 +1,6 @@
+import { kebabCase } from 'lodash';
 import React from 'react';
+import './Heading.css';
 
 type HeadingProps = {
   text: string
@@ -7,9 +9,13 @@ type HeadingProps = {
 const Heading = ({
   text
 }: HeadingProps) => {
-  return <h1 className="display-3 text-center text-lg-start pb-3">
-    {text.toLowerCase()}
-  </h1>;
+  const ref = kebabCase(text);
+
+  return <a href={`#${ref}`}>
+    <h1 className="display-3 text-center text-lg-start pb-3" id={ref}>
+      {`// ${text.toLowerCase()}`}
+    </h1>
+  </a>;
 };
 
 export default Heading;

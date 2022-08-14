@@ -20,6 +20,18 @@ const workExperiences = [
     ]
   },
   {
+    name: 'PayPal',
+    jobTitle: 'Software Engineer Intern',
+    startToEndDate: 'MAY 22 - AUG 22',
+    bullets: [
+      'Worked on an Agile development team to deliver credit acquisition products',
+      'Utilized React, Node, TypeScript, GraphQL, and Git extensively',
+      'Collaborated frequently with other engineers to problem-solve, review and test code, showcase product demos, and reflect on every development cycle',
+      'Networked with company execs through intern program-wide events to learn more about the company, its mission, and ongoing innovations',
+      'Presented to the larger credit organization on my internship project, summer experience, and takeaways'
+    ]
+  },
+  {
     name: 'Code Ninjas',
     jobTitle: 'Programming Tutor',
     startToEndDate: 'NOV 19 - AUG 21',

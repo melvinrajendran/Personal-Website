@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Title from '../common/titles/Title';
+import Coursework from './coursework/Coursework';
 import Experiences from './experiences/Experiences';
 import Projects from './projects/Projects';
 
@@ -12,10 +13,11 @@ const Work = () => {
     <>
       <Title
         title="work"
-        subtitle="A collection of my notable experiences and favorite programming projects."
+        subtitle="A collection of my notable experiences, software projects, and coursework."
       />
       <Experiences />
       <Projects />
+      <Coursework />
     </>
   );
 };

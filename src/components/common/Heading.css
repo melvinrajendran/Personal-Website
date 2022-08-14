@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+
+a h1 {
+  transition: color 500ms;
+}
+
+a:hover h1 {
+  color: #495057;
+  transition: color 500ms;
+}
+
+h1 {
+  scroll-margin-top: 5rem;
+}
