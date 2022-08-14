@@ -6,34 +6,38 @@ import TimelineItem from './TimelineItem';
 import workExperiences from './workExperiences';
 
 const Timeline = () => {
-  const [clickedIndex, setClickedIndex] = useState(0);
-
-  function getClickedIndex() {
-    return clickedIndex;
-  }
-
-  function handleClick(id: number) {
-    setClickedIndex(id);
-  }
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <Row className="align-items-center gy-4">
-      <Col className="text-center" md={{ span: 4, offset: 0 }} lg={{ span: 3, offset: 1 }}>
+      <Col
+        className="text-center"
+        md={{ span: 4, offset: 0 }}
+        lg={{ span: 3, offset: 1 }}
+      >
         <ul className="timeline">
           {workExperiences.map((experience, index) => {
+            const { name, startToEndDate } = experience;
+            
             return <TimelineItem
               key={index}
-              id={index}
-              getClickedIndex={getClickedIndex}
-              handleClick={handleClick}
-              name={experience.name}
-              startToEndDate={experience.startToEndDate}
+              index={index}
+              selectedIndex={selectedIndex}
+              setSelectedIndex={setSelectedIndex}
+              name={name}
+              startToEndDate={startToEndDate}
             />;
           })}
         </ul>
       </Col>
-      <Col md={{ span: 7, offset: 1 }} lg={{ span: 6, offset: 1 }}>
-        <TimelineDescription key={clickedIndex} {...workExperiences[clickedIndex]} />
+      <Col
+        md={{ span: 7, offset: 1 }}
+        lg={{ span: 6, offset: 1 }}
+      >
+        <TimelineDescription
+          key={selectedIndex}
+          {...workExperiences[selectedIndex]}
+        />
       </Col>
     </Row>
   );

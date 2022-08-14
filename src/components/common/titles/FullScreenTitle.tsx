@@ -19,7 +19,7 @@ const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitl
             <h1 className="display-1 mb-4">
               <Typewriter
                 options={{
-                  strings: title,
+                  strings: title.toLowerCase(),
                   autoStart: true
                 }}
               />

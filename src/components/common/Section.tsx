@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap';
 import Heading from './Heading';
 
 type SectionProps = {
-  title: string,
-  children: ReactNode
+  title?: string,
+  children?: ReactNode
 };
 
 const Section = ({
@@ -13,7 +13,7 @@ const Section = ({
 }: SectionProps) => {
   return (
     <Container className="p-4">
-      <Heading text={`// ${title}`} />
+      {title && <Heading text={`// ${title}`} />}
       {children}
     </Container>
   );

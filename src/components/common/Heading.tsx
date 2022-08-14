@@ -7,7 +7,7 @@ type HeadingProps = {
 const Heading = ({
   text
 }: HeadingProps) => {
-  return <h1 className="display-3 text-center text-lg-start pb-3">{text}</h1>;
+  return <h1 className="display-3 text-center text-lg-start pb-3">{text.toLowerCase()}</h1>;
 };
 
 export default Heading;

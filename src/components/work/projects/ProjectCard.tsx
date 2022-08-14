@@ -22,24 +22,22 @@ const ProjectCard = ({
   technologies
 }: ProjectCardProps) => {
   return (
-    <div>
-      <Card className="project-card bg-white shadow">
-        <Card.Img src={imageURL} alt={imageAlt} />
-        <Card.Body className="pt-4">
-          <Card.Title>
-            <h5>{title}</h5>
-          </Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
-          <Card.Text>{text}</Card.Text>
-          <div className="align-text-bottom">
-            <a href={projectURL} target="_blank" rel="noopener noreferrer">
-              <i className="project-icon btn fab fa-github fa-lg" />
-            </a>
-            <small className="text-muted float-end">{technologies}</small>
-          </div>
-        </Card.Body>
-      </Card>
-    </div>
+    <Card className="project-card bg-white shadow">
+      <Card.Img src={imageURL} alt={imageAlt} />
+      <Card.Body className="pt-4">
+        <Card.Title>
+          <h5>{title}</h5>
+        </Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
+        <Card.Text>{text}</Card.Text>
+        <div className="align-text-bottom">
+          <a href={projectURL} target="_blank" rel="noopener noreferrer">
+            <i className="project-icon btn fab fa-github fa-lg" />
+          </a>
+          <small className="text-muted float-end">{technologies}</small>
+        </div>
+      </Card.Body>
+    </Card>
   );
 };
 

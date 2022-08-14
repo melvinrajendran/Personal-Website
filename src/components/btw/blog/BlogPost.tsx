@@ -22,10 +22,10 @@ const BlogPost = ({
     <article className="blog-post mb-5">
       <h2 className="blog-post-title mt-5 mb-3">
         <i className={`${iconClass} me-3`} />
-        {title}
+        {title.toLowerCase()}
       </h2>
       <p className="blog-post-meta h6 mb-4">
-        {`${month.toUpperCase()} ${day.toLocaleString('en-US', { minimumIntegerDigits: 2, useGrouping: false })}, ${year}`}
+        {`${month.toUpperCase()} ${day.toLocaleString('en-US', { minimumIntegerDigits: 2 })}, ${year}`}
       </p>
       <div className="blog-post-body">
         {body.map((paragraph) => {
