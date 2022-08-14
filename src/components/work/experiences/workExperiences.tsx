@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from 'react';
 
 const workExperiences = [
@@ -6,7 +7,7 @@ const workExperiences = [
     jobTitle: 'Logistics Organizer',
     startToEndDate: 'NOV 21 ~',
     bullets: [
-      <span key={0}>
+      <span>
         Organizes{' '}
         <a href="https://bit.camp/" className="link-cultured" target="_blank" rel="noopener noreferrer">
           Bitcamp
@@ -22,7 +23,12 @@ const workExperiences = [
     name: 'Code Ninjas',
     jobTitle: 'Programming Tutor',
     startToEndDate: 'NOV 19 - AUG 21',
-    bullets: ['Taught children ages 7 to 14 fundamental programming concepts in the context of game development', 'Organized and ran annual hackathon', 'Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning', 'Directed 2-month summer camps on Web Development, Python, and JavaScript']
+    bullets: [
+      'Taught children ages 7 to 14 fundamental programming concepts in the context of game development',
+      'Organized and ran annual hackathon',
+      'Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning',
+      'Directed 2-month summer camps on Web Development, Python, and JavaScript'
+    ]
   },
   {
     name: 'X-STEM Club',
@@ -33,7 +39,7 @@ const workExperiences = [
       'Planned and presented business material during club meetings',
       'Mentored club members as they created their own startups and applied to competitions',
       'Organized online event, LaunchSB, in which members pitched their startups to and received feedback from renowned entrepreneurs in the tech industry',
-      <span key={0}>
+      <span>
         Placed Top 30 in 2020{' '}
         <a href="https://blueoceancompetition.org/" className="link-cultured" target="_blank" rel="noopener noreferrer">
           Blue Ocean High School Entrepreneurship Competition
@@ -49,7 +55,11 @@ const workExperiences = [
     name: 'Peer Leadership Program',
     jobTitle: 'Peer Leader',
     startToEndDate: 'SEP 20 - JUN 21',
-    bullets: ['Mentored incoming freshmen as they transitioned into high school', 'Established positive long-term relationships through team-building activities and games', 'Presented on mental health, social media addiction, HIB, and conflicts in relationships']
+    bullets: [
+      'Mentored incoming freshmen as they transitioned into high school',
+      'Established positive long-term relationships through team-building activities and games',
+      'Presented on mental health, social media addiction, HIB, and conflicts in relationships'
+    ]
   }
 ];
 

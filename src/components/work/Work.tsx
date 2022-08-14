@@ -12,7 +12,8 @@ const Work = () => {
     <>
       <Title
         title="work"
-        subtitle="A collection of my notable experiences and favorite programming projects." />
+        subtitle="A collection of my notable experiences and favorite programming projects."
+      />
       <Experiences />
       <Projects />
     </>
