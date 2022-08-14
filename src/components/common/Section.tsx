@@ -14,7 +14,7 @@ const Section = ({
   return (
     <Container className="p-4">
       {title && <Heading text={`// ${title}`} />}
-      {children}
+      {children && children}
     </Container>
   );
 };

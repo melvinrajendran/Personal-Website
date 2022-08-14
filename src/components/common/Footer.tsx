@@ -14,14 +14,15 @@ const Footer = () => {
             return (
               <Col key={index} xs={2} lg={1} className="d-flex justify-content-center">
                 <a href={social.href} target="_blank" rel="noopener noreferrer">
-                  <i className={'social-icon btn fa-lg ' + social.iconClass} />
+                  <i className={`social-icon btn fa-lg ${social.iconClass}`} />
                 </a>
               </Col>
             );
           })}
         </Row>
-
-        <p className="text-muted text-center">&copy; {currentYear} Melvin Rajendran</p>
+        <p className="text-muted text-center">
+          &copy; {currentYear} Melvin Rajendran
+        </p>
       </footer>
     </Container>
   );
