@@ -28,10 +28,10 @@ const BlogPost = ({
         {`${month.toUpperCase()} ${day.toLocaleString('en-US', { minimumIntegerDigits: 2 })}, ${year}`}
       </p>
       <div className="blog-post-body">
-        {body.map((paragraph) => {
-          return <>
+        {body.map((paragraph, index) => {
+          return <div key={index}>
             {paragraph}
-          </>;
+          </div>;
         })}
       </div>
     </article>
