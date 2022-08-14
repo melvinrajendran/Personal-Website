@@ -1,5 +1,5 @@
 .timeline-item {
-  margin: 20px 0;
+  margin: 1.25rem 0;
   cursor: pointer;
 }
 
@@ -10,12 +10,12 @@
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #fff;
-  left: 11px;
-  width: 14px;
-  height: 14px;
+  border: 0.1875rem solid #fff;
+  left: 0.6875rem;
+  width: 0.875rem;
+  height: 0.875rem;
   z-index: 400;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
 }
 
 .selected-item {
