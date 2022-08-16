@@ -7,6 +7,16 @@ import About from './about/About';
 import Work from './work/Work';
 import BTW from './btw/BTW';
 
+/*
+ * TODO:
+ * Animation
+ * Responsiveness checks
+ * Dark mode color scheme
+ * Grid text appearance
+ * New blog post
+ * Should jump to anchor on page load
+ */
+
 const App = () => {
   return (
     <Router>

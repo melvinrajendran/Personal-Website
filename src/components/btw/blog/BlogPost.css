@@ -2,3 +2,14 @@
   line-height: 200%;
   text-align: justify;
 }
+
+.blog-post-anchor h2 {
+  transition: color 500ms;
+  scroll-margin-top: 5rem;
+  display: inline-block;
+}
+
+.blog-post-anchor:hover h2 {
+  color: #495057;
+  transition: color 500ms;
+}

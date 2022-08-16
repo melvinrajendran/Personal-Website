@@ -7,11 +7,8 @@ import './Coursework.css';
 const Coursework = () => {
   return (
     <Section title="coursework">
-      <Row className="p-4">
-        <Col
-          xs={{ span: 10, offset: 1 }}
-          md={{ span: 8, offset: 2 }}
-        >
+      <Row className="p-4 justify-content-center">
+        <Col>
           <ul className="h2 fw-normal coursework-list text-center">
             {courses.map((course, index) => {
               const { code, name } = course;

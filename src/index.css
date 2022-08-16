@@ -28,6 +28,10 @@ code {
   color: #404040;
 }
 
+:focus {
+  outline-color: #4361ee;
+}
+
 /* Links */
 
 .link-cultured {

@@ -13,19 +13,19 @@ const Navigation = () => {
           <Nav className="me-auto">
             <Nav.Link
               href="/"
-              className={`mx-lg-5 ${location.pathname === '/' ? 'active' : ''}`}
+              className={`mx-lg-4 mx-xl-5 ${location.pathname === '/' ? 'active' : ''}`}
             >
               About
             </Nav.Link>
             <Nav.Link
               href="/work"
-              className={`me-lg-5 ${location.pathname === '/work' ? 'active' : ''}`}
+              className={`me-md-4 me-xl-5 ${location.pathname === '/work' ? 'active' : ''}`}
             >
               Work
             </Nav.Link>
             <Nav.Link
               href="/btw"
-              className={`me-lg-5 ${location.pathname === '/btw' ? 'active' : ''}`}
+              className={`me-md-4 me-xl-5 ${location.pathname === '/btw' ? 'active' : ''}`}
             >
               BTW
             </Nav.Link>
@@ -50,7 +50,7 @@ const Navigation = () => {
           href="/"
           className="letter-icon position-fixed start-50 translate-middle"
         >
-          <span className="letter">M</span>
+          <span className="letter p-2">M</span>
         </Navbar.Brand>
       </Container>
     </Navbar>

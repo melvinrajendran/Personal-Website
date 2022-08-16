@@ -1,3 +1,4 @@
+import { kebabCase } from 'lodash';
 import React, { ReactElement } from 'react';
 import './BlogPost.css';
 
@@ -18,12 +19,16 @@ const BlogPost = ({
   year,
   body
 }: BlogPostProps) => {
+  const ref = kebabCase(title);
+
   return (
     <article className="blog-post mb-5">
-      <h2 className="blog-post-title mt-5 mb-3">
-        <i className={`${iconClass} me-3`} />
-        {title.toLowerCase()}
-      </h2>
+      <a href={`#${ref}`} className="blog-post-anchor">
+        <h2 className="blog-post-title my-3" id={ref}>
+          <i className={`h2 ${iconClass} me-3 pt-2`} />
+          {title.toLowerCase()}
+        </h2>
+      </a>
       <p className="blog-post-meta h6 mb-4">
         {`${month.toUpperCase()} ${day.toLocaleString('en-US', { minimumIntegerDigits: 2 })}, ${year}`}
       </p>

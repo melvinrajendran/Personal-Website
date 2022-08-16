@@ -22,6 +22,8 @@ const TimelineItem = ({
     <li
       className={`timeline-item rounded ml-3 p-4 shadow ${isSelected && 'selected-item'}`}
       onClick={() => setSelectedIndex(index)}
+      onKeyDown={(event) => event.key === 'Enter' && setSelectedIndex(index)}
+      tabIndex={0}
     >
       <div className="unclickable">
         <h2 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>

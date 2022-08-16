@@ -4,13 +4,11 @@ a {
 
 a h1 {
   transition: color 500ms;
+  scroll-margin-top: 5rem;
+  display: inline-block;
 }
 
 a:hover h1 {
   color: #495057;
   transition: color 500ms;
-}
-
-h1 {
-  scroll-margin-top: 5rem;
 }
