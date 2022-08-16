@@ -7,7 +7,7 @@ const TechnologyList = () => {
   const midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
 
   return (
-    <Row className="p-4">
+    <Row className="p-4 justify-content-center">
       {[0, 1].map((index) => {
         const startIndex = index === 0 ? 0 : midIndex;
         const endIndex = index === 0 ? midIndex : numItems;
@@ -15,9 +15,9 @@ const TechnologyList = () => {
         return (
           <Col
             key={index}
-            xs={{ span: 8, offset: 2 }}
-            md={{ span: 8, offset: 3 }}
-            lg={{ span: 4, offset: 2 - index }}
+            xs={7}
+            md={{ span: 6, offset: 1 }}
+            lg={{ span: 4, offset: index === 0 ? 2 : 1 }}
           >
             <ul className="h2 fw-normal">
               {technologyListItems.slice(startIndex, endIndex).map((technology, index) => {

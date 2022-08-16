@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <Container>
       <Row className="justify-content-center">
-        <Col md={7} className="px-4">
+        <Col md={11} lg={8} xl={6} className="px-4">
           {activeMonths.map((activeMonth, index) => {
             return (
               <div key={index}>

@@ -10,7 +10,7 @@ const Projects = () => {
       <Row className="g-4 py-4">
         {projectCards.map((project, index) => {
           return (
-            <Col className="d-flex justify-content-center" key={index}>
+            <Col className="d-flex justify-content-center py-2 py-xl-3" key={index}>
               <ProjectCard {...project} />
             </Col>
           );

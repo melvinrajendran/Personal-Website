@@ -13,7 +13,9 @@ const Section = ({
 }: SectionProps) => {
   return (
     <Container className="p-3">
-      {title && <Heading text={title} />}
+      <div className="text-center text-lg-start">
+        {title && <Heading text={title} />}
+      </div>
       {children && children}
     </Container>
   );
