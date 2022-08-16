@@ -1,5 +1,5 @@
 @media only screen and (min-width: 75rem) {
   .fs-title-container {
-    height: 94.5vh;
+    height: calc(100vh - 6.5rem);
   }
 }

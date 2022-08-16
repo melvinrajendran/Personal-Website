@@ -58,5 +58,12 @@
         }
       })(window.location);
     </script>
+    <script>
+      // Scroll to hash link on page load
+      window.addEventListener('load', function() {
+        if (location.hash)
+          location.href = location.hash;
+      });
+    </script>
   </body>
 </html>

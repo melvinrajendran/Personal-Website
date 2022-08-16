@@ -14,7 +14,7 @@ import BTW from './btw/BTW';
  * Dark mode color scheme
  * Grid text appearance
  * New blog post
- * Should jump to anchor on page load
+ * Should jump to anchor on page load unless it's a refresh
  */
 
 const App = () => {
