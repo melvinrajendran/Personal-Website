@@ -10,11 +10,8 @@ import BTW from './btw/BTW';
 /*
  * TODO:
  * Animation
- * Responsiveness checks
  * Dark mode color scheme
- * Grid text appearance
- * New blog post
- * Should jump to anchor on page load unless it's a refresh
+ * Jumping to hash links on page load
  */
 
 const App = () => {
