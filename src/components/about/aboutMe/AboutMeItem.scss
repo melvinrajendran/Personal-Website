@@ -4,3 +4,9 @@
   color: $ultramarineBlue;
   font-size: 7rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  .about-icon {
+    color: $cornflowerBlue;
+  }
+}

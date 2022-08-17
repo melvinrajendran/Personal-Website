@@ -26,12 +26,12 @@ const ProjectCard = ({
       <Card.Img src={imageURL} alt={imageAlt} />
       <Card.Body className="pt-4">
         <Card.Title>
-          <h5>{title}</h5>
+          <h3 className="h5">{title}</h3>
         </Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>
         <div className="align-text-bottom">
-          <a href={projectURL} target="_blank" rel="noopener noreferrer">
+          <a href={projectURL} target="_blank" rel="noopener noreferrer" title="GitHub">
             <i className="project-icon btn fab fa-github fa-lg" />
           </a>
           <small className="text-muted float-end">{technologies}</small>

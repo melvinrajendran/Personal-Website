@@ -12,9 +12,9 @@ const Heading = ({
   const ref = kebabCase(text);
 
   return <a href={`#${ref}`}>
-    <h1 className="display-4 mb-3" id={ref}>
+    <h2 className="display-4 mb-3" id={ref}>
       {`// ${text.toLowerCase()}`}
-    </h1>
+    </h2>
   </a>;
 };
 

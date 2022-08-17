@@ -58,15 +58,23 @@
     text-decoration-color: $raisinBlack;
   }
 
+  .nav-link:hover {
+    text-decoration-color: $cornflowerBlue;
+  }
+
   .dropdown-menu:hover .social-icon {
     color: $davysGrey;
   }
 
   .dropdown-item:hover .social-icon {
-    color: $ultramarineBlue;
+    color: $cornflowerBlue;
   }
 
   .dropdown-menu {
     background-color: $eerieBlack;
+  }
+
+  .letter:hover {
+    color: $cornflowerBlue;
   }
 }

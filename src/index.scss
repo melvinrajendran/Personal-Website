@@ -92,7 +92,7 @@ code {
   h4,
   h5,
   h6 {
-    color: $ultramarineBlue;
+    color: $cornflowerBlue;
   }
 
   ::selection {
@@ -101,7 +101,7 @@ code {
   }
 
   :focus {
-    outline-color: $ultramarineBlue;
+    outline-color: $cornflowerBlue;
   }
 
   .link-cultured {
@@ -111,7 +111,7 @@ code {
   
   .link-cultured:hover {
     color: $gainsboro;
-    text-decoration-color: $ultramarineBlue;
+    text-decoration-color: $cornflowerBlue;
   }
   
   .link-white {
@@ -121,14 +121,22 @@ code {
   
   .link-white:hover {
     color: $gainsboro;
-    text-decoration-color: $ultramarineBlue;
+    text-decoration-color: $cornflowerBlue;
   }
   
   .border-purple {
-    border: 0.5rem solid $ultramarineBlue;
+    border: 0.5rem solid $cornflowerBlue;
   }
 
   img {
-    filter: brightness(.85) contrast(1.1);
+    filter: brightness(.8) contrast(1.2);
+  }
+
+  .border-top {
+    border-top: 1px solid $davysGrey !important;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid $davysGrey !important;
   }
 }

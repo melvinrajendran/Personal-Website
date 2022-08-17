@@ -26,9 +26,9 @@ const TimelineItem = ({
       tabIndex={0}
     >
       <div className="unclickable">
-        <h2 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>
+        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>
           {name}
-        </h2>
+        </h3>
         <div className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}>
           <i className="fa fa-clock-o mr-1" /> {startToEndDate}
         </div>

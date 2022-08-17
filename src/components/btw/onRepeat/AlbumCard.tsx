@@ -29,9 +29,9 @@ const AlbumCard = ({
       </a>
       <Card.Body className="pt-4">
         <Card.Title>
-          <h5>
+          <h3 className="h5">
             {albumTitle}
-          </h5>
+          </h3>
         </Card.Title>
         <Card.Text>
           {artist}

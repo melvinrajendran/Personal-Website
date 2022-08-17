@@ -16,10 +16,10 @@ const TimelineDescription = ({
 }: TimelineDescriptionProps) => {
   return (
     <>
-      <h2>
-        <span className="title-text">{`${jobTitle} @ `}</span>
-        {name}
-      </h2>
+      <h3>
+        <span className="h2 title-text">{`${jobTitle} @ `}</span>
+        <span className="h2">{name}</span>
+      </h3>
       <p className="h5 fw-normal mb-3">
         <i className="fa fa-clock-o mr-1" /> {startToEndDate}
       </p>
