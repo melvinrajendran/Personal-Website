@@ -23,6 +23,7 @@
 
 .dropdown-menu:hover .social-icon {
   color: $gainsboro;
+  transition: color 500ms;
 }
 
 .dropdown-item:hover {
@@ -31,6 +32,7 @@
 
 .dropdown-item:hover .social-icon {
   color: $ultramarineBlue;
+  transition: color 500ms;
 }
 
 .dropdown-item:active {
@@ -49,4 +51,22 @@
 .letter:hover {
   color: $ultramarineBlue;
   transition: color 500ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-link {
+    text-decoration-color: $raisinBlack;
+  }
+
+  .dropdown-menu:hover .social-icon {
+    color: $davysGrey;
+  }
+
+  .dropdown-item:hover .social-icon {
+    color: $ultramarineBlue;
+  }
+
+  .dropdown-menu {
+    background-color: $eerieBlack;
+  }
 }

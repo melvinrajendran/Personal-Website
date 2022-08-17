@@ -8,3 +8,9 @@
   border: none;
   background-color: $cultured;
 }
+
+@media (prefers-color-scheme: dark) {
+  .album-card {
+    background-color: $raisinBlack;
+  }
+}

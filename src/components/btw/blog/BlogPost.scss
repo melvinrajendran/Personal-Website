@@ -15,3 +15,9 @@
   color: $davysGrey;
   transition: color 500ms;
 }
+
+@media (prefers-color-scheme: dark) {
+  .blog-post-anchor:hover h2 {
+    color: $gainsboro;
+  }
+}

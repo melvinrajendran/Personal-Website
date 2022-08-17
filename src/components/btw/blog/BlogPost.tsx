@@ -24,7 +24,7 @@ const BlogPost = ({
   return (
     <article className="blog-post mb-5">
       <a href={`#${ref}`} className="blog-post-anchor">
-        <h2 className="blog-post-title my-3" id={ref}>
+        <h2 className="blog-post-title my-3 pb-1" id={ref}>
           <i className={`h2 ${iconClass} me-3 pt-2`} />
           {title.toLowerCase()}
         </h2>

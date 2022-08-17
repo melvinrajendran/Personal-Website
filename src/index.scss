@@ -79,3 +79,56 @@ code {
 .mono {
   filter: grayscale(100%);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $raisinBlack;
+    color: $gainsboro;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $ultramarineBlue;
+  }
+
+  ::selection {
+    background: $davysGrey;
+    color: $platinum;
+  }
+
+  :focus {
+    outline-color: $ultramarineBlue;
+  }
+
+  .link-cultured {
+    color: $gainsboro;
+    text-decoration-color: $raisinBlack;
+  }
+  
+  .link-cultured:hover {
+    color: $gainsboro;
+    text-decoration-color: $ultramarineBlue;
+  }
+  
+  .link-white {
+    color: $gainsboro;
+    text-decoration-color: $eerieBlack
+  }
+  
+  .link-white:hover {
+    color: $gainsboro;
+    text-decoration-color: $ultramarineBlue;
+  }
+  
+  .border-purple {
+    border: 0.5rem solid $ultramarineBlue;
+  }
+
+  img {
+    filter: brightness(.85) contrast(1.1);
+  }
+}

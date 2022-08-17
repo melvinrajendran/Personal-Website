@@ -13,14 +13,14 @@ const Footer = () => {
           {socials.map((social, index) => {
             return (
               <Col key={index} xs={2} lg={1} className="d-flex justify-content-center">
-                <a href={social.href} target="_blank" rel="noopener noreferrer">
+                <a title={social.title} href={social.href} target="_blank" rel="noopener noreferrer">
                   <i className={`social-icon btn fa-lg ${social.iconClass}`} />
                 </a>
               </Col>
             );
           })}
         </Row>
-        <p className="text-muted text-center">
+        <p className="text-center">
           &copy; {currentYear} Melvin Rajendran
         </p>
       </footer>

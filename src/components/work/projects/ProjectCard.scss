@@ -19,3 +19,21 @@
   color: $ultramarineBlue;
   transition: color 500ms;
 }
+
+@media (prefers-color-scheme: dark) {
+  .project-card {
+    background-color: $eerieBlack !important;
+  }
+
+  .card-subtitle {
+    color: $platinum !important;
+  }
+
+  .text-muted {
+    color: $platinum !important;
+  }
+
+  .project-icon {
+    color: $gainsboro;
+  }
+}

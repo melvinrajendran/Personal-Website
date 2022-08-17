@@ -13,3 +13,9 @@
 .course-code {
   color: $ultramarineBlue;
 }
+
+@media (prefers-color-scheme: dark) {
+  .course-name {
+    color: $gainsboro;
+  }
+}

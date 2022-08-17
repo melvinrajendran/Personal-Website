@@ -14,3 +14,9 @@ a:hover h1 {
   color: $davysGrey;
   transition: color 500ms;
 }
+
+@media (prefers-color-scheme: dark) {
+  a:hover h1 {
+    color: $gainsboro;
+  }
+}

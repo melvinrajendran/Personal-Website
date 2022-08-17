@@ -10,7 +10,6 @@ import BTW from './btw/BTW';
 /*
  * TODO:
  * Animation
- * Dark mode color scheme
  * Jumping to hash links on page load
  */
 

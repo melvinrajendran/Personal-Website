@@ -1,9 +1,37 @@
 @import '../../styles/colors';
 
+.social-icon {
+  color: $davysGrey;
+}
+
 .row:hover .social-icon {
   color: $gainsboro;
+  transition: color 500ms;
 }
 
 .row .social-icon:hover {
   color: $ultramarineBlue;
+  transition: color 500ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-icon {
+    color: $platinum;
+  }
+
+  .row:hover .social-icon {
+    color: $davysGrey;
+  }
+  
+  .row .social-icon:hover {
+    color: $ultramarineBlue;
+  }
+
+  .border-top {
+    border-top: 1px solid $davysGrey !important;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid $davysGrey !important;
+  }
 }
