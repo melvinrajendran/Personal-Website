@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import './AboutMeItem.css';
+import './AboutMeItem.scss';
 
 type AboutMeItemProps = {
   index: number,

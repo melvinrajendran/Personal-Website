@@ -1,13 +1,15 @@
+@import '../../styles/colors';
+
 .nav-link {
   font-weight: 500;
   text-decoration: underline 0.2em;
-  text-decoration-color: #f8f9fa;
+  text-decoration-color: $cultured;
   text-underline-offset: 0.2em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .nav-link:hover {
-  text-decoration-color: #4361ee;
+  text-decoration-color: $ultramarineBlue;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -20,7 +22,7 @@
 }
 
 .dropdown-menu:hover .social-icon {
-  color: #d9d9d9;
+  color: $gainsboro;
 }
 
 .dropdown-item:hover {
@@ -28,7 +30,7 @@
 }
 
 .dropdown-item:hover .social-icon {
-  color: #4361ee;
+  color: $ultramarineBlue;
 }
 
 .dropdown-item:active {
@@ -45,6 +47,6 @@
 }
 
 .letter:hover {
-  color: #4361ee;
+  color: $ultramarineBlue;
   transition: color 500ms;
 }

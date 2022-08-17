@@ -1,6 +1,6 @@
 import { kebabCase } from 'lodash';
 import React, { ReactElement } from 'react';
-import './BlogPost.css';
+import './BlogPost.scss';
 
 type BlogPostProps = {
   iconClass: string,

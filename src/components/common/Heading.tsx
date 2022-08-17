@@ -1,6 +1,6 @@
 import { kebabCase } from 'lodash';
 import React from 'react';
-import './Heading.css';
+import './Heading.scss';
 
 type HeadingProps = {
   text: string

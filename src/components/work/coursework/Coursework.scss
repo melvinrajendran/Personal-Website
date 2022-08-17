@@ -1,3 +1,5 @@
+@import '../../../styles/colors';
+
 .coursework-list {
   list-style-type: none;
   margin: 0;
@@ -5,9 +7,9 @@
 }
 
 .course-name {
-  color: #495057;
+  color: $davysGrey;
 }
 
 .course-code {
-  color: #4361EE;
+  color: $ultramarineBlue;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Section from '../../common/Section';
 import courses from './courses';
-import './Coursework.css';
+import './Coursework.scss';
 
 const Coursework = () => {
   return (

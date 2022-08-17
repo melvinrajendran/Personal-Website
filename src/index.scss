@@ -1,12 +1,14 @@
+@import 'styles/colors';
+
 body {
-  background-color: #f8f9fa;
+  background-color: $cultured;
   padding-top: 3.5rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  color: #495057;
+  color: $davysGrey;
 }
 
 h1,
@@ -16,7 +18,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #4361ee;
+  color: $ultramarineBlue;
 }
 
 code {
@@ -24,43 +26,43 @@ code {
 }
 
 ::selection {
-  background: #e3e3e3;
-  color: #404040;
+  background: $platinum;
+  color: $davysGrey;
 }
 
 :focus {
-  outline-color: #4361ee;
+  outline-color: $ultramarineBlue;
 }
 
 /* Links */
 
 .link-cultured {
-  color: #495057;
+  color: $davysGrey;
   font-weight: bold;
   text-decoration: underline 0.19em;
-  text-decoration-color: #f8f9fa;
+  text-decoration-color: $cultured;
   text-underline-offset: 0.175em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-cultured:hover {
-  color: #495057;
-  text-decoration-color: #4361ee;
+  color: $davysGrey;
+  text-decoration-color: $ultramarineBlue;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-white {
-  color: #495057;
+  color: $davysGrey;
   font-weight: bold;
   text-decoration: underline 0.19em;
-  text-decoration-color: #fff;
+  text-decoration-color: $white;
   text-underline-offset: 0.175em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-white:hover {
-  color: #495057;
-  text-decoration-color: #4361ee;
+  color: $davysGrey;
+  text-decoration-color: $ultramarineBlue;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -71,7 +73,7 @@ code {
 }
 
 .border-purple {
-  border: 0.5rem solid #4361ee;
+  border: 0.5rem solid $ultramarineBlue;
 }
 
 .mono {

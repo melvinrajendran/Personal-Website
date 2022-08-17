@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import './Timeline.css';
+import './Timeline.scss';
 import TimelineDescription from './TimelineDescription';
 import TimelineItem from './TimelineItem';
 import workExperiences from './workExperiences';

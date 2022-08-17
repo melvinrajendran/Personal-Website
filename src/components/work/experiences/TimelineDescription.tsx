@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import './TimelineDescription.css';
+import './TimelineDescription.scss';
 
 type TimelineDescriptionProps = {
   jobTitle: string,

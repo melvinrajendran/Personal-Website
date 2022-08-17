@@ -1,5 +1,5 @@
 import React from 'react';
-import './FullScreenTitle.css';
+import './FullScreenTitle.scss';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 

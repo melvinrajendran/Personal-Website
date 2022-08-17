@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { Card } from 'react-bootstrap';
-import './ProjectCard.css';
+import './ProjectCard.scss';
 
 type ProjectCardProps = {
   imageURL: string,

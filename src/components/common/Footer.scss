@@ -1,0 +1,9 @@
+@import '../../styles/colors';
+
+.row:hover .social-icon {
+  color: $gainsboro;
+}
+
+.row .social-icon:hover {
+  color: $ultramarineBlue;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './AlbumCard.css';
+import './AlbumCard.scss';
 
 type AlbumCardProps = {
   songURL: string,

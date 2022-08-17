@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
-import './Navigation.css';
+import './Navigation.scss';
 import socials from './socials';
 
 const Navigation = () => {

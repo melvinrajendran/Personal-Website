@@ -1,3 +1,5 @@
+@import '../../../styles/colors';
+
 .timeline-item {
   margin: 1.25rem 0;
   cursor: pointer;
@@ -6,11 +8,11 @@
 /* Timeline item circle marker */
 .timeline-item::before {
   content: " ";
-  background: #ddd;
+  background: $platinum;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 0.1875rem solid #fff;
+  border: 0.1875rem solid $white;
   left: 0.6875rem;
   width: 0.875rem;
   height: 0.875rem;
@@ -19,16 +21,16 @@
 }
 
 .selected-item {
-  background: #4361ee;
+  background: $ultramarineBlue;
   transition: background 500ms;
 }
 
 .selected-text {
-  color: #fff;
+  color: $white;
 }
 
 .selected-subtext {
-  color: #e3e3e3;
+  color: $platinum;
 }
 
 .unclickable {
