@@ -15,8 +15,8 @@ const AboutMeList = ({ items }: AboutMeListProps) => {
   return (
     <>
       {items.map((item, index) => {
-        const { text, iconClass } = item;
-        const hasEvenIndex = index % 2 === 0;
+        const { text, iconClass } = item,
+          hasEvenIndex = index % 2 === 0;
 
         return (
           <Row key={index}>

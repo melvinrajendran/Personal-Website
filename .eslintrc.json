@@ -19,6 +19,11 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "curly": "error",
+    "one-var": ["error", "always"],
+    "vars-on-top": "error",
+    "func-names": ["error", "always"],
+    "camelcase": "error",
     "prettier/prettier": "error"
   },
   "settings": {

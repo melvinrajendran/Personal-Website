@@ -14,6 +14,10 @@ In Version 2.0, I implemented React functional components that, when used in con
 
 The code for these previous versions is no longer (readily) available on GitHub, as I believe the current version of my website is the best reflection of my skill set. However, if you'd like to dig through the commit history and locate the older files, feel free to do so 😊.
 
+## Code Style
+
+The primary style guide used in this codebase is linked here: https://github.com/rwaldron/idiomatic.js.
+
 ## Color Palette
 
 | Color            | Hex                                                                                                                                                                              |

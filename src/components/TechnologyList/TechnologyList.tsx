@@ -6,14 +6,14 @@ type TechnologyListProps = {
 };
 
 const TechnologyList = ({ items }: TechnologyListProps) => {
-  const numItems = items.length;
-  const midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
+  const numItems = items.length,
+    midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
 
   return (
     <Row className="p-4 justify-content-center">
       {[0, 1].map((index) => {
-        const startIndex = index === 0 ? 0 : midIndex;
-        const endIndex = index === 0 ? midIndex : numItems;
+        const startIndex = index === 0 ? 0 : midIndex,
+          endIndex = index === 0 ? midIndex : numItems;
 
         return (
           <Col
