@@ -1,4 +1,5 @@
 @import 'styles/colors';
+@import 'styles/fonts';
 
 body {
   background-color: $cultured;
@@ -6,8 +7,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-family: $bodyFontFamily;
+  font-weight: $bodyFontWeight;
   color: $davysGrey;
 }
 
@@ -17,12 +18,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: $headingFontFamily;
+  font-weight: $headingFontWeight;
   color: $ultramarineBlue;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: $codeFontFamily;
+  font-weight: $codeFontWeight;
 }
 
 ::selection {

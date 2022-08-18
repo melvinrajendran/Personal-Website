@@ -1,0 +1,55 @@
+@import '../../styles/colors';
+
+.timeline-item {
+  margin: 1.25rem 0;
+  cursor: pointer;
+  transition: color 500ms;
+}
+
+/* Timeline item circle marker */
+.timeline-item::before {
+  content: " ";
+  background: $platinum;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 0.1875rem solid $white;
+  left: 0.6875rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  z-index: 400;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
+}
+
+.selected-item {
+  background-color: $ultramarineBlue;
+  transition: background-color 500ms, color 500ms;
+}
+
+.selected-text {
+  color: $white;
+}
+
+.selected-subtext {
+  color: $platinum;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .timeline-item {
+    background-color: $eerieBlack;
+  }
+
+  .timeline-item::before {
+    background: $gainsboro;
+    border: 0.1875rem solid $eerieBlack;
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .selected-item {
+    background-color: $cornflowerBlue;
+  }
+}

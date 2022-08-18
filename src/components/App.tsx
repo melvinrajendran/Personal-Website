@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Footer from './common/Footer';
-import Navigation from './common/Navigation';
-import NotFound from './common/NotFound';
-import About from './about/About';
-import Work from './work/Work';
-import BTW from './btw/BTW';
+import Footer from './Footer/Footer';
+import Navigation from './Navigation/Navigation';
+import About from '../pages/About/About';
+import Work from '../pages/Work/Work';
+import BTW from '../pages/BTW/BTW';
+import NotFound from '../pages/NotFound/NotFound';
 
 /*
  * TODO:
