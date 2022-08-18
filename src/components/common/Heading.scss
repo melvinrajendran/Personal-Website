@@ -4,19 +4,19 @@ a {
   text-decoration: none;
 }
 
-a h1 {
+a h2 {
   transition: color 500ms;
   scroll-margin-top: 5rem;
   display: inline-block;
 }
 
-a:hover h1 {
+a:hover h2 {
   color: $davysGrey;
   transition: color 500ms;
 }
 
 @media (prefers-color-scheme: dark) {
-  a:hover h1 {
+  a:hover h2 {
     color: $gainsboro;
   }
 }
