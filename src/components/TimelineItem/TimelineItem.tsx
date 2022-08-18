@@ -2,11 +2,11 @@ import React from 'react';
 import './TimelineItem.scss';
 
 type TimelineItemProps = {
-  index: number,
-  selectedIndex: number,
-  setSelectedIndex: (index: number) => void,
-  name: string,
-  startToEndDate: string
+  index: number;
+  selectedIndex: number;
+  setSelectedIndex: (index: number) => void;
+  name: string;
+  startToEndDate: string;
 };
 
 const TimelineItem = ({
@@ -14,7 +14,7 @@ const TimelineItem = ({
   selectedIndex,
   setSelectedIndex,
   name,
-  startToEndDate
+  startToEndDate,
 }: TimelineItemProps) => {
   const isSelected = selectedIndex === index;
 
@@ -26,10 +26,10 @@ const TimelineItem = ({
       tabIndex={0}
     >
       <div className="unclickable">
-        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>
-          {name}
-        </h3>
-        <div className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}>
+        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>{name}</h3>
+        <div
+          className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}
+        >
           <i className="fa fa-clock-o mr-1" /> {startToEndDate}
         </div>
       </div>

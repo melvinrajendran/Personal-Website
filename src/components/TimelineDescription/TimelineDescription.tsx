@@ -2,17 +2,17 @@ import React, { ReactElement } from 'react';
 import './TimelineDescription.scss';
 
 type TimelineDescriptionProps = {
-  jobTitle: string,
-  name: string,
-  startToEndDate: string,
-  bullets: Array<ReactElement | string>
-}
+  jobTitle: string;
+  name: string;
+  startToEndDate: string;
+  bullets: Array<ReactElement | string>;
+};
 
 const TimelineDescription = ({
   jobTitle,
   name,
   startToEndDate,
-  bullets
+  bullets,
 }: TimelineDescriptionProps) => {
   return (
     <>
@@ -25,11 +25,7 @@ const TimelineDescription = ({
       </p>
       <ul className="timeline-ul">
         {bullets.map((bullet, index) => {
-          return (
-            <li key={index}>
-              {bullet}
-            </li>
-          );
+          return <li key={index}>{bullet}</li>;
         })}
       </ul>
     </>

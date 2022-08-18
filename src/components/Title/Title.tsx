@@ -2,9 +2,9 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 type TitleProps = {
-  title: string,
-  subtitle: string
-}
+  title: string;
+  subtitle: string;
+};
 
 const Title = ({ title, subtitle }: TitleProps) => {
   return (

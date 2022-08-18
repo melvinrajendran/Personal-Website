@@ -11,7 +11,7 @@ const technologies = [
   'Express',
   'MongoDB',
   'SQL',
-  'GraphQL'
+  'GraphQL',
 ];
 
 export default technologies;

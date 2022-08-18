@@ -2,12 +2,10 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 type TechnologyListProps = {
-  items: string[]
+  items: string[];
 };
 
-const TechnologyList = ({
-  items
-}: TechnologyListProps) => {
+const TechnologyList = ({ items }: TechnologyListProps) => {
   const numItems = items.length;
   const midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
 

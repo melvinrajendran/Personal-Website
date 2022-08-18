@@ -4,7 +4,8 @@
 body {
   background-color: $cultured;
   padding-top: 3.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: $bodyFontFamily;
@@ -111,28 +112,28 @@ code {
     color: $gainsboro;
     text-decoration-color: $raisinBlack;
   }
-  
+
   .link-cultured:hover {
     color: $gainsboro;
     text-decoration-color: $cornflowerBlue;
   }
-  
+
   .link-white {
     color: $gainsboro;
-    text-decoration-color: $eerieBlack
+    text-decoration-color: $eerieBlack;
   }
-  
+
   .link-white:hover {
     color: $gainsboro;
     text-decoration-color: $cornflowerBlue;
   }
-  
+
   .border-purple {
     border: 0.5rem solid $cornflowerBlue;
   }
 
   img {
-    filter: brightness(.8) contrast(1.2);
+    filter: brightness(0.8) contrast(1.2);
   }
 
   .border-top {

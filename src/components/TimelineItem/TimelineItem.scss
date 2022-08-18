@@ -8,7 +8,7 @@
 
 /* Timeline item circle marker */
 .timeline-item::before {
-  content: " ";
+  content: ' ';
   background: $platinum;
   display: inline-block;
   position: absolute;
@@ -48,7 +48,7 @@
     border: 0.1875rem solid $eerieBlack;
     box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
   }
-  
+
   .selected-item {
     background-color: $cornflowerBlue;
   }

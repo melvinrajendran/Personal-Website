@@ -9,15 +9,20 @@ const experiences = [
     bullets: [
       <span>
         Organizes{' '}
-        <a href="https://bit.camp/" className="link-cultured" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://bit.camp/"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Bitcamp
         </a>
         , the University of Maryland&apos;s 36-hour hackathon that hosts 1,200+ campers annually
       </span>,
       'Communicates with local vendors to secure power equipment for the event',
       'Designs Xfinity Center floor plans to align with university social distancing measures',
-      'Operates A/V equipment throughout the event to host speakers and make announcements to campers'
-    ]
+      'Operates A/V equipment throughout the event to host speakers and make announcements to campers',
+    ],
   },
   {
     name: 'PayPal',
@@ -28,8 +33,8 @@ const experiences = [
       'Utilized React, Node, TypeScript, GraphQL, and Git extensively',
       'Collaborated frequently with other engineers to problem-solve, review and test code, showcase product demos, and reflect on every development cycle',
       'Networked with company execs through intern program-wide events to learn more about the company, its mission, and ongoing innovations',
-      'Presented to the larger credit organization on my internship project, summer experience, and takeaways'
-    ]
+      'Presented to the larger credit organization on my internship project, summer experience, and takeaways',
+    ],
   },
   {
     name: 'Code Ninjas',
@@ -39,8 +44,8 @@ const experiences = [
       'Taught children ages 7 to 14 fundamental programming concepts in the context of game development',
       'Organized and ran annual hackathon',
       'Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning',
-      'Directed 2-month summer camps on Web Development, Python, and JavaScript'
-    ]
+      'Directed 2-month summer camps on Web Development, Python, and JavaScript',
+    ],
   },
   {
     name: 'X-STEM Club',
@@ -53,15 +58,25 @@ const experiences = [
       'Organized online event, LaunchSB, in which members pitched their startups to and received feedback from renowned entrepreneurs in the tech industry',
       <span>
         Placed Top 30 in 2020{' '}
-        <a href="https://blueoceancompetition.org/" className="link-cultured" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://blueoceancompetition.org/"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Blue Ocean High School Entrepreneurship Competition
         </a>{' '}
         for creating a shared parking application called{' '}
-        <a href="https://youtu.be/rYuGI8eEXg0" className="link-cultured" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://youtu.be/rYuGI8eEXg0"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Haven
         </a>
-      </span>
-    ]
+      </span>,
+    ],
   },
   {
     name: 'Peer Leadership Program',
@@ -70,9 +85,9 @@ const experiences = [
     bullets: [
       'Mentored incoming freshmen as they transitioned into high school',
       'Established positive long-term relationships through team-building activities and games',
-      'Presented on mental health, social media addiction, HIB, and conflicts in relationships'
-    ]
-  }
+      'Presented on mental health, social media addiction, HIB, and conflicts in relationships',
+    ],
+  },
 ];
 
 export default experiences;

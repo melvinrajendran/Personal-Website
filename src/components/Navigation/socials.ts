@@ -2,23 +2,23 @@ const socials = [
   {
     href: 'mailto:melvin.rajendran@gmail.com',
     iconClass: 'fas fa-envelope',
-    title: 'Email'
+    title: 'Email',
   },
   {
     href: 'https://www.linkedin.com/in/melvinrajendran/',
     iconClass: 'fab fa-linkedin-in',
-    title: 'LinkedIn'
+    title: 'LinkedIn',
   },
   {
     href: 'https://www.instagram.com/melvnraj/',
     iconClass: 'fab fa-instagram',
-    title: 'Instagram'
+    title: 'Instagram',
   },
   {
     href: 'https://github.com/melvinrajendran',
     iconClass: 'fab fa-github',
-    title: 'GitHub'
-  }
+    title: 'GitHub',
+  },
 ];
 
 export default socials;

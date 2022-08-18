@@ -10,7 +10,7 @@ ul.timeline {
 
 /* Timeline vertical line */
 ul.timeline:before {
-  content: " ";
+  content: ' ';
   background: $cultured;
   display: inline-block;
   position: absolute;

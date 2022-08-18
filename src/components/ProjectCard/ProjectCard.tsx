@@ -3,13 +3,13 @@ import { Card } from 'react-bootstrap';
 import './ProjectCard.scss';
 
 type ProjectCardProps = {
-  imageURL: string,
-  imageAlt: string,
-  title: string,
-  date: string,
-  text: ReactElement,
-  projectURL: string,
-  technologies: ReactElement
+  imageURL: string;
+  imageAlt: string;
+  title: string;
+  date: string;
+  text: ReactElement;
+  projectURL: string;
+  technologies: ReactElement;
 };
 
 const ProjectCard = ({
@@ -19,7 +19,7 @@ const ProjectCard = ({
   date,
   text,
   projectURL,
-  technologies
+  technologies,
 }: ProjectCardProps) => {
   return (
     <Card className="project-card bg-white shadow">

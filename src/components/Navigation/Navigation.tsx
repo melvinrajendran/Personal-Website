@@ -6,13 +6,14 @@ import socials from './socials';
 
 const Navigation = () => {
   // State variable to store the current color scheme
-  const [colorScheme, setColorScheme] = useState(window.matchMedia
-    && window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light');
+  const [colorScheme, setColorScheme] = useState(
+    window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light',
+  );
 
   // Event listener to update the current color scheme based on the user's preference
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
     setColorScheme(event.matches ? 'dark' : 'light');
   });
 
@@ -57,10 +58,7 @@ const Navigation = () => {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand
-          href="/"
-          className="letter-icon position-fixed start-50 translate-middle"
-        >
+        <Navbar.Brand href="/" className="letter-icon position-fixed start-50 translate-middle">
           <span className="letter p-2">M</span>
         </Navbar.Brand>
       </Container>

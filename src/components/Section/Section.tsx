@@ -3,21 +3,17 @@ import { Container } from 'react-bootstrap';
 import Heading from '../Heading/Heading';
 
 type SectionProps = {
-  title: string,
-  hideTitle?: boolean,
-  children: ReactNode
+  title: string;
+  hideTitle?: boolean;
+  children: ReactNode;
 };
 
-const Section = ({
-  title,
-  hideTitle,
-  children
-}: SectionProps) => {
+const Section = ({ title, hideTitle, children }: SectionProps) => {
   return (
     <Container className="p-3">
-      {!hideTitle && <div className="text-center text-lg-start">
-        {title && <Heading text={title} />}
-      </div>}
+      {!hideTitle && (
+        <div className="text-center text-lg-start">{title && <Heading text={title} />}</div>
+      )}
       {children}
     </Container>
   );
