@@ -7,9 +7,9 @@
 }
 
 .fs-subtitle-appear {
-  @include fadeInAppear(0, 100px);
+  @include fadeIn;
 }
 
 .fs-subtitle-appear-active {
-  @include fadeInAppearActive(1000ms, 3000ms);
+  @include fadeInActive(1000ms, 3000ms);
 }

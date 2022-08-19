@@ -1,9 +1,9 @@
 @import '../../styles/animations';
 
-.subtitle-appear {
+.about-me-item-enter {
   @include fadeIn;
 }
 
-.subtitle-appear-active {
+.about-me-item-enter-active {
   @include fadeInActive;
 }
