@@ -1,0 +1,11 @@
+@mixin fadeInAppear($translateX: 0px, $translateY: 0px) {
+  opacity: 0;
+  transform: translate($translateX, $translateY);
+}
+
+@mixin fadeInAppearActive($duration: 0ms, $delay: 0ms) {
+  opacity: 1;
+  transform: initial;
+  transition: all $duration cubic-bezier(0.33, 1, 0.68, 1);
+  transition-delay: $delay;
+}

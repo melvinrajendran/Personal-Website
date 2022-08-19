@@ -2,6 +2,7 @@ import React from 'react';
 import './FullScreenTitle.scss';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
+import { CSSTransition } from 'react-transition-group';
 
 type FullScreenTitleProps = {
   title: string;
@@ -18,7 +19,9 @@ const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitl
           <h1 className="display-2 mb-4">
             <Typewriter options={{ strings: title.toLowerCase(), autoStart: true }} />
           </h1>
-          <p className="fs-3">{subtitle}</p>
+          <CSSTransition in appear timeout={4000} classNames="fs-subtitle">
+            <p className="fs-3">{subtitle}</p>
+          </CSSTransition>
         </Col>
         <Col xl={5} className="d-flex justify-content-center">
           <Image

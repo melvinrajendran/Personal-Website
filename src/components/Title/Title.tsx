@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { CSSTransition } from 'react-transition-group';
+import './Title.scss';
 
 type TitleProps = {
   title: string;
@@ -12,7 +14,9 @@ const Title = ({ title, subtitle }: TitleProps) => {
       <Row className="justify-content-center">
         <Col md={10} lg={7} className="p-5">
           <h1 className="display-2 mb-4 text-center">{title.toLowerCase()}</h1>
-          <p className="fs-3 text-center">{subtitle}</p>
+          <CSSTransition in appear timeout={1000} classNames="subtitle">
+            <p className="fs-3 text-center">{subtitle}</p>
+          </CSSTransition>
         </Col>
       </Row>
     </Container>

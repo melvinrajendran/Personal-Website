@@ -1,5 +1,15 @@
+@import '../../styles/animations';
+
 @media only screen and (min-width: 75rem) {
   .fs-title-container {
     height: calc(100vh - 6.5rem);
   }
+}
+
+.fs-subtitle-appear {
+  @include fadeInAppear(0, 100px);
+}
+
+.fs-subtitle-appear-active {
+  @include fadeInAppearActive(1000ms, 3000ms);
 }

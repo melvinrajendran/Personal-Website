@@ -1,0 +1,9 @@
+@import '../../styles/animations';
+
+.subtitle-appear {
+  @include fadeInAppear(0, 100px);
+}
+
+.subtitle-appear-active {
+  @include fadeInAppearActive(1000ms, 0);
+}
