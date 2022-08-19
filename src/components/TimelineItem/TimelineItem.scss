@@ -2,6 +2,8 @@
 
 .timeline-item {
   margin: 1.25rem 0;
+  min-width: 17.5rem;
+  max-width: 17.5rem;
   cursor: pointer;
   transition: color 500ms;
 }

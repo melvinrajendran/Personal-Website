@@ -78,16 +78,6 @@ const experiences = [
       </span>,
     ],
   },
-  {
-    name: 'Peer Leadership Program',
-    jobTitle: 'Peer Leader',
-    startToEndDate: 'SEP 20 - JUN 21',
-    bullets: [
-      'Mentored incoming freshmen as they transitioned into high school',
-      'Established positive long-term relationships through team-building activities and games',
-      'Presented on mental health, social media addiction, HIB, and conflicts in relationships',
-    ],
-  },
 ];
 
 export default experiences;
