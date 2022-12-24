@@ -13,7 +13,7 @@ type FullScreenTitleProps = {
 
 const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitleProps) => {
   return (
-    <Container fluid className="p-4">
+    <Container className="p-4">
       <Row className="p-5 fs-title-container align-items-center">
         <Col xl={7} className="text-center text-xl-start pb-5 pt-xl-5">
           <h1 className="display-2 mb-4">

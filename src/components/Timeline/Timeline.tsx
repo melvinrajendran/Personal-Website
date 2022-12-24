@@ -19,8 +19,13 @@ const Timeline = ({ items }: TimelineProps) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <Row className="align-items-center gy-4">
-      <Col className="text-center" md={{ span: 4, offset: 0 }} lg={{ span: 3, offset: 1 }}>
+    <Row className="align-items-center gy-4 my-1">
+      <Col
+        className="text-center"
+        md={{ span: 4, offset: 0 }}
+        lg={{ span: 3, offset: 0 }}
+        xl={{ span: 3, offset: 1 }}
+      >
         <ul className="timeline">
           {items.map((experience, index) => {
             const { name, startToEndDate } = experience;
@@ -38,7 +43,7 @@ const Timeline = ({ items }: TimelineProps) => {
           })}
         </ul>
       </Col>
-      <Col md={{ span: 7, offset: 1 }} lg={{ span: 6, offset: 1 }}>
+      <Col md={{ span: 6, offset: 2 }} lg={{ span: 7, offset: 2 }} xl={{ span: 6, offset: 1 }}>
         <TimelineDescription key={selectedIndex} {...items[selectedIndex]} />
       </Col>
     </Row>

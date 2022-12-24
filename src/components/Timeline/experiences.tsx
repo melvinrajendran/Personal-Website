@@ -3,6 +3,28 @@ import React from 'react';
 
 const experiences = [
   {
+    name: 'QUESTech',
+    jobTitle: 'Board Member',
+    startToEndDate: 'SEP 22 ~',
+    bullets: [
+      <span>
+        Plans events to teach 250+{' '}
+        <a
+          href="https://www.rhsmith.umd.edu/quest"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          QUEST Honors Program
+        </a>{' '}
+        members about new and innovative technology
+      </span>,
+      'Hosts online alumni panel with 5+ speakers to provide insights into data science, software engineering, and product/program management in modern businesses',
+      'Prepares and conducts 15-minute presentation at technology fair, introducing web development and providing learning resources',
+      'Organizes mini-events in which students get hands-on experience with fun technology, connect with others, and de-stress',
+    ],
+  },
+  {
     name: 'Bitcamp',
     jobTitle: 'Logistics Organizer',
     startToEndDate: 'NOV 21 ~',
@@ -19,6 +41,7 @@ const experiences = [
         </a>
         , the University of Maryland&apos;s 36-hour hackathon that hosts 1,200+ campers annually
       </span>,
+      'Schedules shifts for volunteers and mentors to assist campers, serve food, and run workshops',
       'Communicates with local vendors to secure power equipment for the event',
       'Designs Xfinity Center floor plans to align with university social distancing measures',
       'Operates A/V equipment throughout the event to host speakers and make announcements to campers',
@@ -45,37 +68,6 @@ const experiences = [
       'Organized and ran annual hackathon',
       'Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning',
       'Directed 2-month summer camps on Web Development, Python, and JavaScript',
-    ],
-  },
-  {
-    name: 'X-STEM Club',
-    jobTitle: 'Board Member / Educational Lead',
-    startToEndDate: 'SEP 20 - JUN 21',
-    bullets: [
-      'Competed in STEM-related entrepreneurship competitions',
-      'Planned and presented business material during club meetings',
-      'Mentored club members as they created their own startups and applied to competitions',
-      'Organized online event, LaunchSB, in which members pitched their startups to and received feedback from renowned entrepreneurs in the tech industry',
-      <span>
-        Placed Top 30 in 2020{' '}
-        <a
-          href="https://blueoceancompetition.org/"
-          className="link-cultured"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Blue Ocean High School Entrepreneurship Competition
-        </a>{' '}
-        for creating a shared parking application called{' '}
-        <a
-          href="https://youtu.be/rYuGI8eEXg0"
-          className="link-cultured"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Haven
-        </a>
-      </span>,
     ],
   },
 ];

@@ -12,7 +12,7 @@ const aboutMeItems = [
     iconClass: 'fas fa-eye',
   },
   {
-    text: "During my free time, you'll find me lifting weights, trying out new foods, or listening to Kendrick Lamar.",
+    text: "During my free time, you'll find me lifting weights, trying out new recipes, or listening to Kendrick Lamar.",
     iconClass: 'fas fa-headphones-alt',
   },
 ];

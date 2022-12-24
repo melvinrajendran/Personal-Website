@@ -12,6 +12,9 @@ const technologies = [
   'MongoDB',
   'SQL',
   'GraphQL',
+  'Ruby',
+  'OCaml',
+  'Rust',
 ];
 
 export default technologies;
