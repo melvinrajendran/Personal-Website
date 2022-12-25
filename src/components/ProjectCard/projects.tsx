@@ -5,7 +5,7 @@ const projects = [
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
     title: 'Convertify',
-    date: 'January 2022 ~',
+    date: 'JAN 22 ~',
     text: (
       <span>
         A web application that enables Spotify users to quickly convert their playlists between
@@ -31,7 +31,7 @@ const projects = [
     imageURL: 'images/projects/RocketLeagueGame.png',
     imageAlt: 'Rocket League Game',
     title: 'Rocket League',
-    date: 'May 2021',
+    date: 'MAY 21',
     text: (
       <span>
         A &quot;soccar&quot; game using{' '}
@@ -55,7 +55,7 @@ const projects = [
     imageURL: 'images/projects/GalagaGame.png',
     imageAlt: 'Galaga Game',
     title: 'Galaga',
-    date: 'March 2021 - April 2021',
+    date: 'MAR 21 - APR 21',
     text: (
       <span>
         A space shooter in which AI enemies are trained using curriculum-based reinforcement
@@ -82,7 +82,7 @@ const projects = [
     imageURL: 'images/projects/JuliaSetProgram.png',
     imageAlt: 'Julia Set Program',
     title: 'Julia Set Visualizer',
-    date: 'January 2021',
+    date: 'JAN 21',
     text: (
       <span>
         An app that visualizes a{' '}
