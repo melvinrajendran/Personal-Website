@@ -5,6 +5,7 @@ import './ProjectCard.scss';
 type ProjectCardProps = {
   imageURL: string;
   imageAlt: string;
+  projectLink?: string;
   title: string;
   date: string;
   text: ReactElement;
@@ -15,6 +16,7 @@ type ProjectCardProps = {
 const ProjectCard = ({
   imageURL,
   imageAlt,
+  projectLink,
   title,
   date,
   text,
@@ -26,7 +28,13 @@ const ProjectCard = ({
       <Card.Img src={imageURL} alt={imageAlt} />
       <Card.Body className="pt-4">
         <Card.Title>
-          <h3 className="h5">{title}</h3>
+          {projectLink ? (
+            <a href={projectLink} target="_blank" rel="noopener noreferrer" className="link-card">
+              <h3 className="h5 d-inline">{title}</h3>
+            </a>
+          ) : (
+            <h3 className="h5">{title}</h3>
+          )}
         </Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>

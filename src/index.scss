@@ -70,6 +70,21 @@ code {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
+.link-card {
+  color: $ultramarineBlue;
+  font-weight: bold;
+  text-decoration: underline 0.19em;
+  text-decoration-color: $eerieBlack;
+  text-underline-offset: 0.175em;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
+.link-card:hover {
+  color: $ultramarineBlue;
+  text-decoration-color: $cornflowerBlue;
+  transition: color 500ms, text-decoration-color 500ms;
+}
+
 /* Images and Cards */
 
 .rounded-corners {

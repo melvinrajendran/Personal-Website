@@ -4,8 +4,9 @@ const projects = [
   {
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
+    projectLink: 'https://convertify.onrender.com',
     title: 'Convertify',
-    date: 'JAN 22 ~',
+    date: 'DEC 22 - JAN 23',
     text: (
       <span>
         A web application that enables Spotify users to quickly convert their playlists between
