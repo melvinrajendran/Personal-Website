@@ -4,7 +4,7 @@ const projects = [
   {
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
-    projectLink: 'https://convertify.onrender.com',
+    projectURL: 'https://convertify.onrender.com',
     title: 'Convertify',
     date: 'DEC 22 - JAN 23',
     text: (
@@ -13,7 +13,7 @@ const projects = [
         explicit and clean.
       </span>
     ),
-    projectURL: 'https://github.com/melvinrajendran/Convertify',
+    codeURL: 'https://github.com/melvinrajendran/Convertify',
     technologies: (
       <span>
         React,{' '}
@@ -47,7 +47,7 @@ const projects = [
         to host online games in a room-based multiplayer server.
       </span>
     ),
-    projectURL:
+    codeURL:
       'https://github.com/melvinrajendran/High-School-CS/tree/master/Virtual%20Reality%20and%20Game%20Design%202020-21/RocketLeagueGame',
     technologies: <span>Unity, C#, PUN</span>,
   },
@@ -63,7 +63,7 @@ const projects = [
         learning.
       </span>
     ),
-    projectURL:
+    codeURL:
       'https://github.com/melvinrajendran/High-School-CS/tree/master/Virtual%20Reality%20and%20Game%20Design%202020-21/GalagaGame',
     technologies: (
       <span>
@@ -98,7 +98,7 @@ const projects = [
         and enables adjustment of both its values and appearance.
       </span>
     ),
-    projectURL:
+    codeURL:
       'https://github.com/melvinrajendran/High-School-CS/tree/master/Data%20Structures%202020-21/GUI/Julia%20Set%20Activity',
     technologies: <span>Java, Swing</span>,
   },
