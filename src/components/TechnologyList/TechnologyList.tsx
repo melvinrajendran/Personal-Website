@@ -10,7 +10,7 @@ type TechnologyListProps = {
 
 const TechnologyList = ({ items }: TechnologyListProps) => {
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.75,
     triggerOnce: true,
   });
   const numItems = items.length;
