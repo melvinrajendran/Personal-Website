@@ -1,6 +1,6 @@
 const aboutMeItems = [
   {
-    text: "I'm studying Computer Science at the University of Maryland with a minor in Business Analytics.",
+    text: "I'm a sophomore studying Computer Science and Business Analytics at the University of Maryland.",
     iconClass: 'fas fa-university',
   },
   {

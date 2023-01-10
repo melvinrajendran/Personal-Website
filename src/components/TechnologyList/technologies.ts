@@ -1,5 +1,6 @@
 const technologies = [
   'Java',
+  'Python',
   'C',
   'C#',
   'JavaScript ES6+',
