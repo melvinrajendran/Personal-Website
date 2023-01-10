@@ -1,13 +1,4 @@
 @import '../../styles/colors';
-@import '../../styles/animations';
-
-.timeline-description-enter {
-  @include fadeIn;
-}
-
-.timeline-description-enter-active {
-  @include fadeInActive;
-}
 
 .title-text {
   color: $raisinBlack;

@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import './Timeline.scss';
 import TimelineDescription from '../TimelineDescription/TimelineDescription';
 import TimelineItem from '../TimelineItem/TimelineItem';
+import { CSSTransition } from 'react-transition-group';
 
 type TimelineItem = {
   name: string;
@@ -44,7 +45,9 @@ const Timeline = ({ items }: TimelineProps) => {
         </ul>
       </Col>
       <Col md={{ span: 6, offset: 2 }} lg={{ span: 7, offset: 2 }} xl={{ span: 6, offset: 1 }}>
-        <TimelineDescription key={selectedIndex} {...items[selectedIndex]} />
+        <CSSTransition key={selectedIndex} in appear timeout={1000} classNames="description">
+          <TimelineDescription {...items[selectedIndex]} />
+        </CSSTransition>
       </Col>
     </Row>
   );
