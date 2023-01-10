@@ -1,4 +1,13 @@
 @import '../../styles/colors';
+@import '../../styles/animations';
+
+.course-list-enter {
+  @include fadeIn;
+}
+
+.course-list-enter-active {
+  @include fadeInActive;
+}
 
 .coursework-list {
   list-style-type: none;
