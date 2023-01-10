@@ -1,4 +1,13 @@
 @import '../../styles/colors';
+@import '../../styles/animations';
+
+.album-enter {
+  @include fadeIn;
+}
+
+.album-enter-active {
+  @include fadeInActive;
+}
 
 .album-card {
   max-height: 23rem;
