@@ -74,14 +74,14 @@ code {
   color: $ultramarineBlue;
   font-weight: bold;
   text-decoration: underline 0.19em;
-  text-decoration-color: $eerieBlack;
+  text-decoration-color: $white;
   text-underline-offset: 0.175em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-card:hover {
   color: $ultramarineBlue;
-  text-decoration-color: $cornflowerBlue;
+  text-decoration-color: $ultramarineBlue;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -141,6 +141,21 @@ code {
   .link-white:hover {
     color: $gainsboro;
     text-decoration-color: $cornflowerBlue;
+  }
+
+  .link-card {
+    color: $cornflowerBlue;
+    font-weight: bold;
+    text-decoration: underline 0.19em;
+    text-decoration-color: $eerieBlack;
+    text-underline-offset: 0.175em;
+    transition: color 500ms, text-decoration-color 500ms;
+  }
+
+  .link-card:hover {
+    color: $cornflowerBlue;
+    text-decoration-color: $cornflowerBlue;
+    transition: color 500ms, text-decoration-color 500ms;
   }
 
   .border-purple {

@@ -43,7 +43,7 @@ const blogPosts = [
         A couple of friends and I spent the day walking around Princeton, and as we were about to
         drive home, we realized that we had parked right next to the Princeton Record Exchange. As
         we stepped inside the quaint, retro-inspired store, we immediately noticed the aisles of
-        crates packed with vinyls from all different eras and genres of music. I flipped through
+        crates packed with vinyl from all different eras and genres of music. I flipped through
         hundreds of vibrant, colorful records and finally landed on one of my favorite hip-hop
         releases:{' '}
         <a
@@ -101,7 +101,7 @@ const blogPosts = [
         </li>
       </ul>,
       <p>
-        Interestingly enough, music production and software engineering demand the same attention to
+        Interestingly, music production and software engineering demand the same attention to
         detail, abstract thinking, and ability to zoom out, seeing how small changes impact a big
         project.
       </p>,
