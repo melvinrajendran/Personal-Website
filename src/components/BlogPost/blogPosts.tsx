@@ -9,6 +9,42 @@ type CalendarMonth = {
 
 const blogPosts = [
   {
+    iconClass: 'fas fa-tablet-alt',
+    title: 'on being an ipad kid',
+    month: 'January',
+    day: 16,
+    year: 2023,
+    body: [
+      <p>Here’s my six-month review of the 2021 iPad Pro that nobody asked for:</p>,
+      <p>I love it.</p>,
+      <p>
+        There’s a certain feeling that comes with handwriting notes, and it helps me retain
+        information. At the same time, typing notes enables me to produce organized, high-quality
+        work. The iPad succeeds at providing both key features: handwritten note-taking and the
+        digital tools to elevate it.
+      </p>,
+      <p>
+        Using the iPad Pro has revolutionized my life as a student. I walk to class with nothing but
+        my laptop and iPad in my backpack, making cross-campus treks easier. My notes are better
+        than ever, complete with images, annotated lecture slides, screenshots of textbook pages,
+        and an assortment of colors, pens, and highlights. I can also use my iPad as a second screen
+        when using my laptop, playing videos or displaying notes to improve my productivity.
+      </p>,
+      <p>
+        As long as I take care of it, I can see myself using my iPad far beyond college and into my
+        professional life.
+      </p>,
+      <p>What tech has transformed your day-to-day?</p>,
+      // <img
+      //   className="rounded-corners shadow mt-4 img-fluid mx-auto d-block"
+      //   width="450"
+      //   height="600"
+      //   src="images/blog/ipad.heic"
+      //   alt="Melvin's workspace"
+      // />,
+    ],
+  },
+  {
     iconClass: 'fa fa-keyboard',
     title: 'codersthetic',
     month: 'May',
