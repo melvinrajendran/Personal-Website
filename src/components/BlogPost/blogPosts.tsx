@@ -9,6 +9,22 @@ type CalendarMonth = {
 
 const blogPosts = [
   {
+    iconClass: 'fas fa-rocket',
+    title: 'be ambitious',
+    month: 'April',
+    day: 10,
+    year: 2023,
+    body: [
+      <p>
+        I received this advice from my first manager while I was working as an intern. Over time, it
+        has really resonated with me, applying far beyond just the workplace. This advice has
+        motivated me to set bold goals for myself, be the hardest-working person I know, and pursue
+        opportunities even if they seem out of reach.
+      </p>,
+      <p>To whoever needs this, I hope you can do the same.</p>,
+    ],
+  },
+  {
     iconClass: 'fas fa-tablet-alt',
     title: 'on being an ipad kid',
     month: 'January',
@@ -30,18 +46,16 @@ const blogPosts = [
         and an assortment of colors, pens, and highlights. I can also use my iPad as a second screen
         when using my laptop, playing videos or displaying notes to improve my productivity.
       </p>,
+      <img
+        className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
+        src="images/blog/ipad.jpg"
+        alt="Melvin's 2021 iPad Pro"
+      />,
       <p>
         As long as I take care of it, I can see myself using my iPad far beyond college and into my
         professional life.
       </p>,
       <p>What tech has transformed your day-to-day?</p>,
-      // <img
-      //   className="rounded-corners shadow mt-4 img-fluid mx-auto d-block"
-      //   width="450"
-      //   height="600"
-      //   src="images/blog/ipad.heic"
-      //   alt="Melvin's workspace"
-      // />,
     ],
   },
   {

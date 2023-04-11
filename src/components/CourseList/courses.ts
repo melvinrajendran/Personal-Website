@@ -5,6 +5,14 @@ type Course = {
 
 const courses: Array<Course> = [
   {
+    code: 'CMSC420',
+    name: 'Advanced Data Structures',
+  },
+  {
+    code: 'CMSC320',
+    name: 'Introduction to Data Science',
+  },
+  {
     code: 'CMSC330',
     name: 'Organization of Programming Languages',
   },

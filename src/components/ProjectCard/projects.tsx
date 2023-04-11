@@ -2,6 +2,33 @@ import React from 'react';
 
 const projects = [
   {
+    imageURL: 'images/projects/QUESTechDatathon.png',
+    imageAlt: 'QUESTech Datathon',
+    title: 'QUESTech Datathon',
+    date: 'MAR 23',
+    text: (
+      <span>
+        A Jupyter notebook analyzing how Elon Musk&apos;s tweets correlate with Tesla order
+        cancellation.
+      </span>
+    ),
+    codeURL: 'https://github.com/melvinrajendran/QUESTech-Datathon',
+    technologies: <span>Python, Jupyter Notebook, NLTK</span>,
+  },
+  {
+    imageURL: 'images/projects/VideoDownloader.png',
+    imageAlt: 'Video Downloader',
+    title: 'Video Downloader',
+    date: 'JAN 23',
+    text: (
+      <span>
+        A Python script that downloads a YouTube video by URL. No YouTube Premium required.
+      </span>
+    ),
+    codeURL: 'https://github.com/melvinrajendran/Convertify',
+    technologies: <span>Python, Unix, pytube</span>,
+  },
+  {
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',

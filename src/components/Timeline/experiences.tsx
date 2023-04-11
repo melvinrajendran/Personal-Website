@@ -8,7 +8,7 @@ const experiences = [
     startToEndDate: 'SEP 22 ~',
     bullets: [
       <span>
-        Plans events to teach 250+{' '}
+        Plan events to teach 250+{' '}
         <a
           href="https://www.rhsmith.umd.edu/quest"
           className="link-cultured"
@@ -17,11 +17,22 @@ const experiences = [
         >
           QUEST Honors Program
         </a>{' '}
-        members about new and innovative technology
+        students about new and innovative technology
       </span>,
-      'Hosts online alumni panel with 5+ speakers to provide insights into data science, software engineering, and product/program management in modern businesses',
-      'Prepares and conducts 15-minute presentation at technology fair, introducing web development and providing learning resources',
-      'Organizes mini-events in which students get hands-on experience with fun technology, connect with others, and de-stress',
+      'Host online alumni panel with 5+ speakers to provide insights into data science, software engineering, and product/program management in modern industries',
+      'Prepare and conduct 15-minute presentation at technology fair, introducing web development, leading an activity on impressive user interfaces, and providing additional learning resources',
+      <span>
+        Won 1st place at{' '}
+        <a
+          href="https://blog.umd.edu/questpress/2023/03/17/the-quest-for-data-highlights-from-quests-annual-datathon/"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          2023 QUESTech Datathon
+        </a>{' '}
+        ($500) for analyzing how Elon Musk&apos;s tweets correlate with Tesla order cancellation
+      </span>,
     ],
   },
   {
@@ -30,7 +41,7 @@ const experiences = [
     startToEndDate: 'NOV 21 ~',
     bullets: [
       <span>
-        Organizes{' '}
+        Organize{' '}
         <a
           href="https://bit.camp/"
           className="link-cultured"
@@ -39,12 +50,13 @@ const experiences = [
         >
           Bitcamp
         </a>
-        , the University of Maryland&apos;s 36-hour hackathon that hosts 1,200+ campers annually
+        , the University of Maryland&apos;s 36-hour hackathon that hosts 1,200+ attendees annually
       </span>,
-      'Schedules shifts for volunteers and mentors to assist campers, serve food, and run workshops',
-      'Communicates with local vendors to secure power equipment for the event',
-      'Designs Xfinity Center floor plans to align with university social distancing measures',
-      'Operates A/V equipment throughout the event to host speakers and make announcements to campers',
+      'Scheduled shifts for 100+ volunteers and mentors to assist participants, serve food, and run workshops',
+      'Built digital system that matched mentors to volunteers with a 98% success rate',
+      'Communicated with local vendors to secure power equipment for the event',
+      'Designed Xfinity Center floor plans to align with university social distancing measures',
+      'Operated A/V equipment throughout the event to host speakers and make announcements',
     ],
   },
   {
@@ -52,11 +64,10 @@ const experiences = [
     jobTitle: 'Software Engineer Intern',
     startToEndDate: 'MAY 22 - AUG 22',
     bullets: [
-      'Worked on an Agile development team to deliver credit acquisition products',
+      'Worked on an agile development team to deliver credit acquisition products and achieve one-year migration, focusing on mobile-first design and web accessibility',
+      'Revamped testing tool for the Credit Application Experience in four weeks, ensuring 100% usability of menu options and improved testing speed',
+      'Developed the user interface and back-end service calls for the Choose Your Credit Offers page (Presents financing options to users applying for PayPal Credit during checkout) over six weeks',
       'Utilized React, Node, TypeScript, GraphQL, and Git extensively',
-      'Collaborated frequently with other engineers to problem-solve, review and test code, showcase product demos, and reflect on every development cycle',
-      'Networked with company execs through intern program-wide events to learn more about the company, its mission, and ongoing innovations',
-      'Presented to the larger credit organization on my internship project, summer experience, and takeaways',
     ],
   },
   {
@@ -64,10 +75,10 @@ const experiences = [
     jobTitle: 'Programming Tutor',
     startToEndDate: 'NOV 19 - AUG 21',
     bullets: [
-      'Taught children ages 7 to 14 fundamental programming concepts in the context of game development',
-      'Organized and ran annual hackathon',
-      'Conducted machine learning workshops in which students gained exposure to sentiment analysis and supervised learning',
-      'Directed 2-month summer camps on Web Development, Python, and JavaScript',
+      'Taught 80+ students fundamental programming concepts by developing video games with JavaScript',
+      'Conducted machine learning workshops in which students applied supervised learning techniques to train a chatbot to perform sentiment analysis',
+      'Directed 10-day summer camps on web development (HTML, CSS, JavaScript) and Python for 100+ students',
+      'Organized and ran annual hackathon in which students collaborated to create 20+ custom Scratch games',
     ],
   },
 ];
