@@ -25,8 +25,8 @@ const projects = [
         A Python script that downloads a YouTube video by URL. No YouTube Premium required.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/Convertify',
-    technologies: <span>Python, Unix, pytube</span>,
+    codeURL: 'https://github.com/melvinrajendran/Video-Downloader',
+    technologies: <span>Python, Unix, PyTube</span>,
   },
   {
     imageURL: 'images/projects/Convertify.png',
