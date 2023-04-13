@@ -16,19 +16,6 @@ const projects = [
     technologies: <span>Python, Jupyter Notebook, NLTK</span>,
   },
   {
-    imageURL: 'images/projects/VideoDownloader.png',
-    imageAlt: 'Video Downloader',
-    title: 'Video Downloader',
-    date: 'JAN 23',
-    text: (
-      <span>
-        A Python script that downloads a YouTube video by URL. No YouTube Premium required.
-      </span>
-    ),
-    codeURL: 'https://github.com/melvinrajendran/Video-Downloader',
-    technologies: <span>Python, Unix, PyTube</span>,
-  },
-  {
     imageURL: 'images/projects/Convertify.png',
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',
