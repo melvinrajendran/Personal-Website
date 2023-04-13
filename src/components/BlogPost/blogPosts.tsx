@@ -17,8 +17,8 @@ const blogPosts = [
     body: [
       <p>
         I received this advice from my first manager while I was working as an intern. Over time, it
-        has really resonated with me, applying far beyond just the workplace. This advice has
-        motivated me to set bold goals for myself, be the hardest-working person I know, and pursue
+        has really resonated with me, applying far beyond just the office. This advice has motivated
+        me to set bold goals for myself, be the hardest-working person I know, and pursue
         opportunities even if they seem out of reach.
       </p>,
       <p>To whoever needs this, I hope you can do the same.</p>,

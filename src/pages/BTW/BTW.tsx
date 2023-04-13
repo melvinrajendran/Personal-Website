@@ -12,7 +12,10 @@ const BTW = () => {
 
   return (
     <>
-      <Title title="by the way" subtitle="Other cool things that I'm up to." />
+      <Title
+        title="by the way"
+        subtitle="Life updates, random ideas, and other cool things that I'm up to."
+      />
       <Section title="blog" hideTitle>
         <Blog />
       </Section>
