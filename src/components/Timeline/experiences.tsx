@@ -3,6 +3,17 @@ import React from 'react';
 
 const experiences = [
   {
+    name: 'PayPal',
+    jobTitle: 'Software Engineer Intern',
+    startToEndDate: 'MAY 22 - AUG 22, AUG 23 ~',
+    bullets: [
+      'Worked on an agile development team to deliver credit acquisition products and achieve one-year migration, focusing on mobile-first design and web accessibility',
+      'Revamped testing tool for the Credit Application Experience in four weeks, ensuring 100% usability of menu options and improved testing speed',
+      'Developed the user interface and back-end service calls for the Choose Your Credit Offers page (Presents financing options to users applying for PayPal Credit during checkout) over six weeks',
+      'Utilized React, Node, TypeScript, GraphQL, Git, Unix, and Jira extensively',
+    ],
+  },
+  {
     name: 'QUESTech',
     jobTitle: 'Board Member',
     startToEndDate: 'SEP 22 ~',
@@ -57,17 +68,6 @@ const experiences = [
       'Communicated with local vendors to secure power equipment for the event',
       'Designed Xfinity Center floor plans to align with university social distancing measures',
       'Operated A/V equipment throughout the event to host speakers and make announcements',
-    ],
-  },
-  {
-    name: 'PayPal',
-    jobTitle: 'Software Engineer Intern',
-    startToEndDate: 'MAY 22 - AUG 22',
-    bullets: [
-      'Worked on an agile development team to deliver credit acquisition products and achieve one-year migration, focusing on mobile-first design and web accessibility',
-      'Revamped testing tool for the Credit Application Experience in four weeks, ensuring 100% usability of menu options and improved testing speed',
-      'Developed the user interface and back-end service calls for the Choose Your Credit Offers page (Presents financing options to users applying for PayPal Credit during checkout) over six weeks',
-      'Utilized React, Node, TypeScript, GraphQL, and Git extensively',
     ],
   },
   {

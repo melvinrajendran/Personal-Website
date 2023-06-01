@@ -29,16 +29,24 @@ const courses: Array<Course> = [
     name: 'Discrete Structures',
   },
   {
-    code: 'STAT400',
-    name: 'Applied Probability and Statistics I',
-  },
-  {
     code: 'CMSC132',
     name: 'Object-Oriented Programming II',
   },
   {
+    code: 'STAT400',
+    name: 'Applied Probability and Statistics I',
+  },
+  {
     code: 'MATH240',
     name: 'Introduction to Linear Algebra',
+  },
+  {
+    code: 'MATH140',
+    name: 'Calculus I',
+  },
+  {
+    code: 'MATH141',
+    name: 'Calculus II',
   },
 ];
 

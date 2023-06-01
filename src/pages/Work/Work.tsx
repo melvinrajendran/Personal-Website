@@ -17,7 +17,7 @@ const Work = () => {
     <>
       <Title
         title="work"
-        subtitle="A collection of my notable experiences, projects, and coursework."
+        subtitle="A collection of my notable experiences, software projects, and coursework."
       />
       <Section title="experiences">
         <Timeline items={experiences} />

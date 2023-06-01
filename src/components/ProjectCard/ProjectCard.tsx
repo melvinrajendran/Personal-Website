@@ -25,7 +25,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="project-card bg-white shadow">
-      <Card.Img src={imageURL} alt={imageAlt} />
+      <Card.Img className="card-img" src={imageURL} alt={imageAlt} />
       <Card.Body className="pt-4">
         <Card.Title>
           {projectURL ? (
@@ -38,11 +38,11 @@ const ProjectCard = ({
         </Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>
-        <div className="align-text-bottom">
+        <div className="d-flex align-items-center">
           <a href={codeURL} target="_blank" rel="noopener noreferrer" title="GitHub">
-            <i className="project-icon btn fab fa-github fa-lg" />
+            <i className="px-0 project-icon btn fab fa-github fa-lg" />
           </a>
-          <small className="text-muted float-end">{technologies}</small>
+          <small className="ms-auto text-muted">{technologies}</small>
         </div>
       </Card.Body>
     </Card>
