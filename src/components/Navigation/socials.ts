@@ -1,6 +1,6 @@
 const socials = [
   {
-    href: 'mailto:melvin.rajendran@gmail.com',
+    href: 'mailto:melvinrajendran@gmail.com',
     iconClass: 'fas fa-envelope',
     title: 'Email',
   },
@@ -15,7 +15,7 @@ const socials = [
     title: 'GitHub',
   },
   {
-    href: 'https://www.instagram.com/melvnraj/',
+    href: 'https://www.instagram.com/melvinrajen/',
     iconClass: 'fab fa-instagram',
     title: 'Instagram',
   },

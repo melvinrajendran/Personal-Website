@@ -1,10 +1,10 @@
 const albums = [
   {
-    albumURL: 'https://open.spotify.com/album/6Per97deaWqrJlKQNX8RGK?si=uV0UXJBbQ6GSsUmqJFmSdA',
-    imageURL: '/images/music/lil-lets.jpg',
-    imageAlt: "Let's Start Here.",
-    title: "Let's Start Here.",
-    artist: 'Lil Yachty',
+    albumURL: 'https://open.spotify.com/album/367frJ4GG9UMlXlMrVanYL?si=9izCCz4ZTRGj9mnzwvkU6g',
+    imageURL: '/images/music/jordan-forward.png',
+    imageAlt: 'FORWARD',
+    title: 'FORWARD',
+    artist: 'Jordan Ward',
   },
   {
     albumURL: 'https://open.spotify.com/album/1GG6U2SSJPHO6XsFiBzxYv?si=kACohvR2QKy9du7TvvY_Tw',

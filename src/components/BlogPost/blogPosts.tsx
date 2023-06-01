@@ -80,7 +80,7 @@ const blogPosts = [
   },
   {
     iconClass: 'fas fa-compact-disc',
-    title: 'humble beginnings of a vinyl collection',
+    title: 'humble beginnings of a record collection',
     month: 'July',
     day: 4,
     year: 2021,
@@ -128,7 +128,7 @@ const blogPosts = [
         </a>
         :
       </p>,
-      <ul className="fw-bold">
+      <ul>
         <li>
           &quot;
           <em>
@@ -145,7 +145,7 @@ const blogPosts = [
         <li>
           <em>
             Music is a form of self-expression. Many programmers, often to the dismay of corporate
-            managers, try to express themselves through code
+            managers, try to express themselves through code.
           </em>
           &quot;
         </li>
