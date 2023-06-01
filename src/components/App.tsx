@@ -7,12 +7,6 @@ import Work from '../pages/Work/Work';
 import BTW from '../pages/BTW/BTW';
 import NotFound from '../pages/NotFound/NotFound';
 
-/*
- * TODO:
- * Animation
- * Jumping to hash links on page load
- */
-
 const App = () => {
   return (
     <Router>

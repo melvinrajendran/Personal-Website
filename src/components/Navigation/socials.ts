@@ -10,14 +10,14 @@ const socials = [
     title: 'LinkedIn',
   },
   {
-    href: 'https://www.instagram.com/melvnraj/',
-    iconClass: 'fab fa-instagram',
-    title: 'Instagram',
-  },
-  {
     href: 'https://github.com/melvinrajendran',
     iconClass: 'fab fa-github',
     title: 'GitHub',
+  },
+  {
+    href: 'https://www.instagram.com/melvnraj/',
+    iconClass: 'fab fa-instagram',
+    title: 'Instagram',
   },
 ];
 

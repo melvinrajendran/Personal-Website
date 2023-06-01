@@ -1,10 +1,10 @@
 const aboutMeItems = [
   {
-    text: "I'm a sophomore studying Computer Science and Business Analytics at the University of Maryland.",
+    text: "I'm a junior studying computer science and mathematics at the University of Maryland.",
     iconClass: 'fas fa-university',
   },
   {
-    text: "I'm also a full-stack developer knowledgeable in building web applications.",
+    text: "I'm also a full-stack developer skilled in bringing innovative application ideas to life.",
     iconClass: 'fas fa-code',
   },
   {
