@@ -15,7 +15,7 @@ const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitl
   return (
     <Container className="p-4">
       <Row className="p-5 fs-title-container align-items-center">
-        <Col xl={7} className="text-center text-xl-start pb-5 pt-xl-5">
+        <Col xl={7} className="text-center text-xl-start pb-5 pb-xl-0">
           <h1 className="display-2 mb-4">
             <Typewriter options={{ strings: title.toLowerCase(), autoStart: true }} />
           </h1>

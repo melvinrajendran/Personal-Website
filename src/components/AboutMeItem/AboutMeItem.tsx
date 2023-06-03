@@ -18,7 +18,7 @@ const AboutMeItem = ({ index, text, iconClass }: AboutMeItemProps) => {
   const hasEvenIndex = index % 2 === 0;
 
   return (
-    <Row key={index}>
+    <Row className="align-items-center" key={index}>
       <CSSTransition in={inView} timeout={1000} classNames="about-me-item">
         <Col
           lg
