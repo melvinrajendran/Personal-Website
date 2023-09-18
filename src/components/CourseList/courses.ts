@@ -6,23 +6,24 @@ type Course = {
 const courses: Array<Course> = [
   {
     code: 'CMSC420',
-    name: 'Advanced Data Structures',
-  },
-  {
-    code: 'CMSC320',
-    name: 'Introduction to Data Science',
-  },
-  {
-    code: 'CMSC330',
-    name: 'Organization of Programming Languages',
+    name: 'Data Structures',
   },
   {
     code: 'CMSC351',
     name: 'Algorithms',
   },
   {
+    code: 'CMSC320',
+    name: 'Data Science',
+  },
+  {
+    code: 'CMSC330',
+    name: 'Programming Languages',
+  },
+
+  {
     code: 'CMSC216',
-    name: 'Introduction to Computer Systems',
+    name: 'Computer Systems',
   },
   {
     code: 'CMSC250',
@@ -38,7 +39,7 @@ const courses: Array<Course> = [
   },
   {
     code: 'MATH240',
-    name: 'Introduction to Linear Algebra',
+    name: 'Linear Algebra',
   },
   {
     code: 'MATH140 & MATH141',

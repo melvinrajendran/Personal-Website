@@ -16,12 +16,12 @@ const blogPosts = [
     year: 2023,
     body: [
       <p>
-        I received this advice from my first manager while I was working as an intern. Over time, it
+        I received this advice from my manager on my first day working as an intern. Over time, it
         has really resonated with me, applying far beyond just the office. This advice has motivated
         me to set bold goals for myself, be the hardest-working person I know, and pursue
         opportunities even if they seem out of reach.
       </p>,
-      <p>To whoever needs this, I hope you can do the same.</p>,
+      <p>To whoever needs this, I know you can do the same.</p>,
     ],
   },
   {
@@ -34,13 +34,14 @@ const blogPosts = [
       <p>Here’s my six-month review of the 2021 iPad Pro that nobody asked for:</p>,
       <p>I love it.</p>,
       <p>
-        There’s a certain feeling that comes with handwriting notes, and it helps me retain
-        information. At the same time, typing notes enables me to produce organized, high-quality
-        work. The iPad succeeds at providing both key features: handwritten note-taking and the
-        digital tools to elevate it.
+        There’s a certain feeling that comes with handwriting notes, and it helps me better retain
+        information. At the same time, typed notes are often more organized and of higher quality,
+        leveraging the suite of tools within apps like Google Docs or Microsoft Word. The iPad
+        succeeds at providing both key features: handwritten note-taking and the digital tools to
+        elevate it.
       </p>,
       <p>
-        Using the iPad Pro has revolutionized my life as a student. I walk to class with nothing but
+        Using the iPad Pro has truly changed my life as a student. I walk to class with nothing but
         my laptop and iPad in my backpack, making cross-campus treks easier. My notes are better
         than ever, complete with images, annotated lecture slides, screenshots of textbook pages,
         and an assortment of colors, pens, and highlights. I can also use my iPad as a second screen
@@ -91,11 +92,10 @@ const blogPosts = [
       </p>,
       <p>
         A couple of friends and I spent the day walking around Princeton, and as we were about to
-        drive home, we realized that we had parked right next to the Princeton Record Exchange. As
-        we stepped inside the quaint, retro-inspired store, we immediately noticed the aisles of
-        crates packed with vinyl from all different eras and genres of music. I flipped through
-        hundreds of vibrant, colorful records and finally landed on one of my favorite hip-hop
-        releases:{' '}
+        drive home, we realized that we had parked next to a local record exchange. Curious, we
+        stepped inside the quaint, retro-inspired store and immediately noticed the aisles of crates
+        packed with vinyl from all different eras and genres of music. I flipped through over a
+        hundred records before landing on one of my favorite hip-hop releases:{' '}
         <a
           href="https://open.spotify.com/album/42fyKPanos0Q3woi848ktg?si=l70SrdDYTV-7hOoYjQkn4Q&dl_branch=1"
           className="link-cultured"
@@ -104,7 +104,7 @@ const blogPosts = [
         >
           <em>Imperial</em>
         </a>{' '}
-        by Denzel Curry. Spoiler alert: I bought it.
+        by Denzel Curry. Of course I bought it.
       </p>,
       <p>
         Now, as I format the &lt;p&gt; tags for what I hope will be a long-term blog, this album is
@@ -115,9 +115,9 @@ const blogPosts = [
       <p>
         In more ways than one, I’ve seen parallels between music and programming. In every CS class
         that I’ve taken in high school, songs ranging from pop hits to punk rock have served as the
-        backdrop to the meticulous keyboard taps and mouse clicks. Some of the most avid music
-        listeners I know are programmers. But it’s so much more than that. Here’s some insights from
-        Jeff Atwood’s{' '}
+        backdrop to the meticulous keyboard and mouse clicks. Some of the most avid music listeners
+        I know are programmers. But it’s so much more than that. Here’s some insights from Jeff
+        Atwood’s{' '}
         <a
           href="https://blog.codinghorror.com/the-one-thing-programmers-and-musicians-have-in-common/"
           className="link-cultured"

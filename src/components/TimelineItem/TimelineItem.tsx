@@ -6,7 +6,7 @@ type TimelineItemProps = {
   selectedIndex: number;
   setSelectedIndex: (index: number) => void;
   name: string;
-  startToEndDate: string;
+  startToEndDates: string[];
 };
 
 const TimelineItem = ({
@@ -14,9 +14,10 @@ const TimelineItem = ({
   selectedIndex,
   setSelectedIndex,
   name,
-  startToEndDate,
+  startToEndDates,
 }: TimelineItemProps) => {
   const isSelected = selectedIndex === index;
+  const reversedStartToEndDates = [...startToEndDates].reverse();
 
   return (
     <li
@@ -30,7 +31,7 @@ const TimelineItem = ({
         <div
           className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}
         >
-          <i className="fa fa-clock-o mr-1" /> {startToEndDate}
+          <i className="fas fa-clock mr-1" /> {reversedStartToEndDates.join(', ')}
         </div>
       </div>
     </li>

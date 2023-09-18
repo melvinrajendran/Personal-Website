@@ -4,14 +4,14 @@ import './TimelineDescription.scss';
 type TimelineDescriptionProps = {
   jobTitle: string;
   name: string;
-  startToEndDate: string;
-  bullets: Array<ReactElement | string>;
+  startToEndDates: Array<string>;
+  bullets: Array<Array<ReactElement | string>>;
 };
 
 const TimelineDescription = ({
   jobTitle,
   name,
-  startToEndDate,
+  startToEndDates,
   bullets,
 }: TimelineDescriptionProps) => {
   return (
@@ -20,14 +20,20 @@ const TimelineDescription = ({
         <span className="h2 title-text">{`${jobTitle} @ `}</span>
         <span className="h2">{name}</span>
       </h3>
-      <p className="h5 fw-normal mb-3">
-        <i className="fa fa-clock-o mr-1" /> {startToEndDate}
-      </p>
-      <ul className="timeline-ul">
-        {bullets.map((bullet, index) => {
-          return <li key={index}>{bullet}</li>;
-        })}
-      </ul>
+      {bullets.map((group, index) => {
+        return (
+          <div key={index}>
+            <p className="h5 fw-normal my-3">
+              <i className="fas fa-clock mr-1" /> {startToEndDates[index]}
+            </p>
+            <ul className="timeline-ul">
+              {group.map((bullet, index) => {
+                return <li key={index}>{bullet}</li>;
+              })}
+            </ul>
+          </div>
+        );
+      })}
     </div>
   );
 };

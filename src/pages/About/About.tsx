@@ -16,7 +16,7 @@ const About = () => {
       <FullScreenTitle
         title="hey, i'm melvin."
         subtitle="An aspiring software engineer."
-        imageSrc="/images/melvin-portrait.jpg"
+        imageSrc="/images/profile/melvin-portrait.jpg"
         imageAlt="Portrait of Melvin Rajendran"
       />
       <Section title="about me">

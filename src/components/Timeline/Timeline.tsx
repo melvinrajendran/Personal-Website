@@ -8,8 +8,8 @@ import { CSSTransition } from 'react-transition-group';
 type TimelineItem = {
   name: string;
   jobTitle: string;
-  startToEndDate: string;
-  bullets: Array<string | ReactElement>;
+  startToEndDates: Array<string>;
+  bullets: Array<Array<string | ReactElement>>;
 };
 
 type TimelineProps = {
@@ -29,7 +29,7 @@ const Timeline = ({ items }: TimelineProps) => {
       >
         <ul className="timeline">
           {items.map((experience, index) => {
-            const { name, startToEndDate } = experience;
+            const { name, startToEndDates } = experience;
 
             return (
               <TimelineItem
@@ -38,7 +38,7 @@ const Timeline = ({ items }: TimelineProps) => {
                 selectedIndex={selectedIndex}
                 setSelectedIndex={setSelectedIndex}
                 name={name}
-                startToEndDate={startToEndDate}
+                startToEndDates={startToEndDates}
               />
             );
           })}
