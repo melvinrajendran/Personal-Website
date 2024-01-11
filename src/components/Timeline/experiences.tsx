@@ -58,7 +58,7 @@ const experiences = [
           students with emerging technologies in real-world applications
         </span>,
         'Maintain a comprehensive intranet platform to consolidate program resources and improve access for current students, alumni, and faculty members',
-        'Host online alumni panel with 5+ speakers to provide insights into data science, software engineering, and product/program management in modern industries',
+        'Host annual alumni panel with 10+ speakers to provide insights into data science, software engineering, and product/program management in modern industries',
         'Prepare and conduct 15-minute presentation on web development at annual technology fair, teaching how to build a portfolio website for career development',
         <span>
           Won 1st place at{' '}

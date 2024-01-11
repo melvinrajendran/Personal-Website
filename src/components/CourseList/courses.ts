@@ -5,8 +5,16 @@ type Course = {
 
 const courses: Array<Course> = [
   {
+    code: 'CMSC417',
+    name: 'Computer Networks',
+  },
+  {
     code: 'CMSC420',
     name: 'Data Structures',
+  },
+  {
+    code: 'CMSC424',
+    name: 'Database Design',
   },
   {
     code: 'CMSC351',
@@ -20,7 +28,6 @@ const courses: Array<Course> = [
     code: 'CMSC330',
     name: 'Programming Languages',
   },
-
   {
     code: 'CMSC216',
     name: 'Computer Systems',

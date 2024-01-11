@@ -2,6 +2,31 @@ import React from 'react';
 
 const projects = [
   {
+    imageURL: 'images/projects/BitTorrentClient.png',
+    imageAlt: 'BitTorrent Client',
+    title: 'BitTorrent Client',
+    date: 'DEC 23 - JAN 24',
+    text: (
+      <span>
+        Full-featured BitTorrent v1.0 client with support for downloading and uploading files.
+      </span>
+    ),
+    codeURL: 'https://github.com/melvinrajendran/BitTorrent-Client',
+    technologies: (
+      <span>
+        Go,{' '}
+        <a
+          href="https://github.com/marksamman/bencode"
+          className="link-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Bencode
+        </a>
+      </span>
+    ),
+  },
+  {
     imageURL: 'images/projects/SP500StockPriceAnalysis.png',
     imageAlt: 'S&P Stock Price Analysis',
     projectURL: 'https://melvinrajendran.github.io/SP500-Stock-Price-Analysis/',
