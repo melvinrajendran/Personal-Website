@@ -4,7 +4,7 @@ const aboutMeItems = [
     iconClass: 'fas fa-university',
   },
   {
-    text: "I'm also a full-stack developer skilled in bringing innovative application ideas to life.",
+    text: "I'm also a full-stack developer skilled in bringing innovative software ideas to life.",
     iconClass: 'fas fa-code',
   },
   {

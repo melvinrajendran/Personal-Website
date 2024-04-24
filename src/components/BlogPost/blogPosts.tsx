@@ -9,6 +9,55 @@ type CalendarMonth = {
 
 const blogPosts = [
   {
+    iconClass: 'fas fa-key',
+    title: 'and throw away the key',
+    month: 'April',
+    day: 24,
+    year: 2024,
+    body: [
+      <p>
+        A little over a month ago, I came across an ad for{' '}
+        <a
+          href="https://getbrick.app/"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Brick
+        </a>
+        , a productivity app for iPhone that pairs with a physical device to prevent distractions.
+        Being a productivity junkie myself, and having been underwhelmed by Apple&apos;s native App
+        Limits feature for some time, it was an easy pickup.
+      </p>,
+      <p>
+        The device itself is a 3D-printed &quot;brick&quot; with an NFC tag inside. After selecting
+        apps to allow, you tap your phone against the Brick to enter &quot;bricked&quot; mode. This
+        blocks all other apps, even preventing the bypasses that are built into the App Limits
+        feature (i.e. &quot;Ignore Limit For Today&quot;). To &quot;unbrick&quot; your phone, simply
+        tap your phone against the Brick again and all apps become useable. The idea is that the
+        Brick is the &quot;key&quot; to your distracting apps that you leave in one location as you
+        go about your day.
+      </p>,
+      <p>
+        Even just a few weeks into using my Brick, my screen time has been cut in half and I feel
+        noticeably less distracted during the day. I tap my Brick every morning on my way out of my
+        apartment, and *boom*, Instagram, TikTok, and YouTube are no longer at my fingertips until I
+        get home. Despite Brick&apos;s lack of convenient features like integrating with Focus and
+        providing detailed analytics, I&apos;m sure that the team is already hard at work on these
+        features and more.
+      </p>,
+      <p>
+        Altogether, using my Brick reminds me of something my high-school chemistry teacher used to
+        say: &quot;Whatever job you do, do it with your phone off ◡̈&quot;.
+      </p>,
+      <img
+        className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
+        src="images/blog/brick.jpeg"
+        alt="Brick"
+      />,
+    ],
+  },
+  {
     iconClass: 'fas fa-rocket',
     title: 'be ambitious',
     month: 'April',

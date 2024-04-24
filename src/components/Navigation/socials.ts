@@ -15,7 +15,7 @@ const socials = [
     title: 'GitHub',
   },
   {
-    href: 'https://www.instagram.com/melvinrajen/',
+    href: 'https://www.instagram.com/melvinarajendran/',
     iconClass: 'fab fa-instagram',
     title: 'Instagram',
   },

@@ -34,7 +34,7 @@ const TechnologyList = ({ items }: TechnologyListProps) => {
                 {items.slice(startIndex, endIndex).map((technology, index) => {
                   return (
                     <li key={index}>
-                      <p>{technology}</p>
+                      <p className="fs-3">{technology}</p>
                     </li>
                   );
                 })}

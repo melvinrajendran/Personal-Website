@@ -59,7 +59,7 @@ const experiences = [
         </span>,
         'Maintain a comprehensive intranet platform to consolidate program resources and improve access for current students, alumni, and faculty members',
         'Host annual alumni panel with 10+ speakers to provide insights into data science, software engineering, and product/program management in modern industries',
-        'Prepare and conduct 15-minute presentation on web development at annual technology fair, teaching how to build a portfolio website for career development',
+        'Prepare and conduct 15-minute presentations on web development and prompt engineering at annual technology fair, encouraging students to build career development skills',
         <span>
           Won 1st place at{' '}
           <a
@@ -91,24 +91,11 @@ const experiences = [
           >
             Bitcamp
           </a>
-          , the University of Maryland&apos;s 36-hour hackathon that hosts 1,200+ attendees annually
+          , the largest collegiate hackathon on the east coast that hosts 1,200+ attendees annually
         </span>,
-        'Manage a team of 11 members to strategically plan and coordinate utilities (power equipment, audio-visual equipment, and wi-fi), personnel (mentors and volunteers), travel arrangements, food, and hardware for the event',
-        'Negotiate favorable pricing with local vendors, leading to cost savings for equipment-related expenses',
-        'Built a digital system on Slack that matched 85+ mentors to participants with a 98% success rate',
-      ],
-    ],
-  },
-  {
-    name: 'Code Ninjas',
-    jobTitle: 'Programming Tutor',
-    startToEndDates: ['NOV 19 - AUG 21'],
-    bullets: [
-      [
-        'Taught 80+ students fundamental programming concepts by developing video games with JavaScript',
-        'Conducted machine learning workshops in which students applied supervised learning techniques to train a chatbot to perform sentiment analysis',
-        'Directed 10-day summer camps on web development (HTML, CSS, JavaScript) and Python for 100+ students',
-        'Organized and ran the annual hackathon in which students collaborated to create 20+ custom Scratch games',
+        'Strategically allocate $175,000 budget to secure necessary logistics contracts and maximize rollover amidst a transition to a new venue',
+        'Manage a team of 11 members to plan and coordinate utilities (power equipment, audio-visual equipment, and wi-fi), personnel (mentors and volunteers), travel reimbursement, food, and computer hardware for the event',
+        'Collaborate daily with 6 other teams and their directors to determine exact requirements and clear safety concerns for weekend-of events',
       ],
     ],
   },
