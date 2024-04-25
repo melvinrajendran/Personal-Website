@@ -18,24 +18,33 @@ const CourseList = ({ items }: CourseListProps) => {
     threshold: 0.5,
     triggerOnce: true,
   });
+  const numItems = items.length;
+  const midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
 
   return (
     <CSSTransition in={inView} timeout={1000} classNames="course-list">
       <Row ref={ref} className={`${!inView && 'invisible'} p-4 justify-content-center`}>
-        <Col>
-          <ul className="h2 fw-normal coursework-list text-center">
-            {items.map((course, index) => {
-              const { code, name } = course;
+        {[0, 1].map((index) => {
+          const startIndex = index === 0 ? 0 : midIndex;
+          const endIndex = index === 0 ? midIndex : numItems;
 
-              return (
-                <li key={index} className="py-3">
-                  <h3 className="course-name">{name}</h3>
-                  <p className="h6 fw-normal course-code">{code}</p>
-                </li>
-              );
-            })}
-          </ul>
-        </Col>
+          return (
+            <Col key={index} lg={{ span: 5, offset: index === 0 ? 0 : 1 }}>
+              <ul className="h2 fw-normal coursework-list text-center">
+                {items.slice(startIndex, endIndex).map((course, index) => {
+                  const { code, name } = course;
+
+                  return (
+                    <li key={index} className="py-3">
+                      <h3 className="course-name">{name}</h3>
+                      <p className="h6 fw-normal course-code">{code}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </Col>
+          );
+        })}
       </Row>
     </CSSTransition>
   );
