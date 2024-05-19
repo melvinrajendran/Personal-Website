@@ -9,6 +9,30 @@ type CalendarMonth = {
 
 const blogPosts = [
   {
+    iconClass: 'fas fa-microphone',
+    title: 'a blog post about another blog',
+    month: 'May',
+    day: 19,
+    year: 2024,
+    body: [
+      <p>
+        I (also) started an Instagram blog! Not sure exactly what kinds of posts I&apos;ll want to
+        make in the future — maybe men&apos;s fashion, fitness, lifestyle, and/or tech-related stuff
+        — but for now, I&apos;m reviewing some of my favorite new album releases. If you&apos;re
+        interested, feel free to follow{' '}
+        <a
+          href="https://www.instagram.com/mellytalksabout/"
+          className="link-cultured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @mellytalksabout
+        </a>
+        .
+      </p>,
+    ],
+  },
+  {
     iconClass: 'fas fa-key',
     title: 'and throw away the key',
     month: 'April',
