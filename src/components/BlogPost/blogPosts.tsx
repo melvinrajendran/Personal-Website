@@ -17,13 +17,13 @@ const blogPosts = [
     body: [
       <p>
         For the longest time, I&apos;ve wanted to start a long-term software project and build
-        something that people would actually use. And at the very least, I now have an idea.
+        something that people would actually use. And now, I have an idea.
       </p>,
       <p>
         It&apos;s a personal finance app that leverages natural language processing to simplify
         managing your spending. While the exact feature set isn&apos;t fully defined just yet,
-        I&apos;ve jotted some notes down and sketched some promising wireframes to kick things off.
-        I know that <em>I</em> would personally use this app, so maybe others would too.
+        I&apos;ve jotted some notes down and sketched some wireframes that are promising. I know
+        that <em>I</em> would personally use this app, so maybe others would too.
       </p>,
       <p>
         Fingers crossed that this post serves as extra motivation for me to follow through.
