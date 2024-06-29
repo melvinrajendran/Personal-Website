@@ -9,6 +9,30 @@ type CalendarMonth = {
 
 const blogPosts = [
   {
+    iconClass: 'fas fa-gem',
+    title: 'in the beginning',
+    month: 'June',
+    day: 28,
+    year: 2024,
+    body: [
+      <p>
+        For the longest time, I&apos;ve wanted to start a long-term software project and build
+        something that people would actually use. And at the very least, I now have an idea.
+      </p>,
+      <p>
+        It&apos;s a personal finance app that leverages natural language processing to simplify
+        managing your spending. While the exact feature set isn&apos;t fully defined just yet,
+        I&apos;ve jotted some notes down and sketched some promising wireframes to kick things off.
+        I know that <em>I</em> would personally use this app, so maybe others would too.
+      </p>,
+      <p>
+        Fingers crossed that this post serves as extra motivation for me to follow through.
+        Tentatively, I&apos;m aiming to launch to the App Store within the next six months to a
+        year.
+      </p>,
+    ],
+  },
+  {
     iconClass: 'fas fa-microphone',
     title: 'a blog post about another blog',
     month: 'May',
@@ -89,10 +113,10 @@ const blogPosts = [
     year: 2023,
     body: [
       <p>
-        I received this advice from my manager on my first day working as an intern. Over time, it
-        has really resonated with me, applying far beyond just the office. This advice has motivated
-        me to set bold goals for myself, be the hardest-working person I know, and pursue
-        opportunities even if they seem out of reach.
+        I received this advice from my manager on my first day working as an intern:{' '}
+        <em>&quot;Be ambitious&quot;</em>. Over time, it has really resonated with me, applying far
+        beyond just the office. This advice has motivated me to set bold goals for myself, be the
+        hardest-working person I know, and pursue opportunities even if they seem out of reach.
       </p>,
       <p>To whoever needs this, I know you can do the same.</p>,
     ],
@@ -203,9 +227,8 @@ const blogPosts = [
       </p>,
       <ul>
         <li>
-          &quot;
           <em>
-            Creating music and software are simultaneously collaborative and individualistic
+            &quot;Creating music and software are simultaneously collaborative and individualistic
             undertakings.
           </em>
         </li>
@@ -218,9 +241,8 @@ const blogPosts = [
         <li>
           <em>
             Music is a form of self-expression. Many programmers, often to the dismay of corporate
-            managers, try to express themselves through code.
+            managers, try to express themselves through code.&quot;
           </em>
-          &quot;
         </li>
       </ul>,
       <p>
