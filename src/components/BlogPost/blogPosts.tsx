@@ -51,7 +51,7 @@ const blogPosts = [
         </a>
         , a productivity app for iPhone that pairs with a physical device to prevent distractions.
         Being a productivity junkie myself, and having been underwhelmed by Apple&apos;s native App
-        Limits feature for some time, it was an easy pickup.
+        Limits feature for some time, it was an obvious pickup.
       </p>,
       <p>
         The device itself is a 3D-printed &quot;brick&quot; with an NFC tag inside. After selecting
@@ -89,7 +89,7 @@ const blogPosts = [
     year: 2023,
     body: [
       <p>
-        I received this advice from my manager on my first day working as an intern:{' '}
+        I received this advice from my manager on my very first day working as an intern:{' '}
         <em>&quot;Be ambitious&quot;</em>. Over time, it has really resonated with me, applying far
         beyond just the office. This advice has motivated me to set bold goals for myself, be the
         hardest-working person I know, and pursue opportunities even if they seem out of reach.
@@ -115,7 +115,7 @@ const blogPosts = [
       </p>,
       <p>
         Using the iPad Pro has truly changed my life as a student. I walk to class with nothing but
-        my laptop and iPad in my backpack, making cross-campus treks easier. My notes are better
+        my laptop and iPad in my backpack, making cross-campus trips easier. My notes are better
         than ever, complete with images, annotated lecture slides, screenshots of textbook pages,
         and an assortment of colors, pens, and highlights. I can also use my iPad as a second screen
         when using my laptop, playing videos or displaying notes to improve my productivity.
@@ -167,8 +167,8 @@ const blogPosts = [
         A couple of friends and I spent the day walking around Princeton, and as we were about to
         drive home, we realized that we had parked next to a local record exchange. Curious, we
         stepped inside the quaint, retro-inspired store and immediately noticed the aisles of crates
-        packed with vinyl from all different eras and genres of music. I flipped through over a
-        hundred records before landing on one of my favorite hip-hop releases:{' '}
+        packed with vinyl from all different eras and genres of music. I probably flipped through
+        over a hundred records before landing on one of my favorite hip-hop releases:{' '}
         <a
           href="https://open.spotify.com/album/42fyKPanos0Q3woi848ktg?si=l70SrdDYTV-7hOoYjQkn4Q&dl_branch=1"
           className="link-cultured"
@@ -182,49 +182,15 @@ const blogPosts = [
       <p>
         Now, as I format the &lt;p&gt; tags for what I hope will be a long-term blog, this album is
         playing in the background. While I’m still in search of the perfect turntable and speakers
-        to hear the “crisp, warm” audio that audiophiles preach comes with vinyl, Spotify will cut
+        to hear the “crisp, warm” quality that audiophiles preach comes with vinyl, Spotify will cut
         it for now.
       </p>,
       <p>
-        In more ways than one, I’ve seen parallels between music and programming. In every CS class
-        that I’ve taken in high school, songs ranging from pop hits to punk rock have served as the
-        backdrop to the meticulous keyboard and mouse clicks. Some of the most avid music listeners
-        I know are programmers. But it’s so much more than that. Here’s some insights from Jeff
-        Atwood’s{' '}
-        <a
-          href="https://blog.codinghorror.com/the-one-thing-programmers-and-musicians-have-in-common/"
-          className="link-cultured"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          blog
-        </a>
-        :
-      </p>,
-      <ul>
-        <li>
-          <em>
-            &quot;Creating music and software are simultaneously collaborative and individualistic
-            undertakings.
-          </em>
-        </li>
-        <li>
-          <em>
-            Music is an abstract medium - the printed note requires interpretation and execution.
-            Like the written line of code, there is often much more than meets the eye.
-          </em>
-        </li>
-        <li>
-          <em>
-            Music is a form of self-expression. Many programmers, often to the dismay of corporate
-            managers, try to express themselves through code.&quot;
-          </em>
-        </li>
-      </ul>,
-      <p>
-        Interestingly, music production and software engineering demand the same attention to
-        detail, abstract thinking, and ability to zoom out, seeing how small changes impact a big
-        project.
+        There&apos;s something so special about vinyl records (and physical media in general).
+        They&apos;re nostalgic and cozy. There&apos;s no Instagram notifications interrupting the
+        listening experience. And it&apos;s fun to own the music you listen to and connect with your
+        favorite artists in a unique way. I&apos;m really excited to grow my collection, and I
+        can&apos;t wait to always have a record playing at home.
       </p>,
     ],
   },

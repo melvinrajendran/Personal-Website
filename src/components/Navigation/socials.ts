@@ -14,11 +14,6 @@ const socials = [
     iconClass: 'fab fa-github',
     title: 'GitHub',
   },
-  {
-    href: 'https://www.instagram.com/melvinarajendran/',
-    iconClass: 'fab fa-instagram',
-    title: 'Instagram',
-  },
 ];
 
 export default socials;

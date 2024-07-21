@@ -3,6 +3,8 @@ import FullScreenTitle from '../../components/FullScreenTitle/FullScreenTitle';
 import Section from '../../components/Section/Section';
 import AboutMeList from '../../components/AboutMeList/AboutMeList';
 import aboutMeItems from '../../components/AboutMeList/aboutMeItems';
+import SkillList from '../../components/SkillList/SkillList';
+import skills from '../../components/SkillList/skills';
 
 const About = () => {
   useEffect(() => {
@@ -19,6 +21,9 @@ const About = () => {
       />
       <Section title="about me">
         <AboutMeList items={aboutMeItems} />
+      </Section>
+      <Section title="skills">
+        <SkillList sections={skills} />
       </Section>
     </>
   );

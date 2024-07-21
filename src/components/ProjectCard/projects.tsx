@@ -21,7 +21,7 @@ const projects = [
     date: 'DEC 23 - JAN 24',
     text: (
       <span>
-        Full-featured BitTorrent v1.0 client with support for downloading and uploading files.
+        A full-featured BitTorrent v1.0 client with support for downloading and uploading files.
       </span>
     ),
     codeURL: 'https://github.com/melvinrajendran/BitTorrent-Client',
@@ -52,7 +52,7 @@ const projects = [
       </span>
     ),
     codeURL: 'https://github.com/melvinrajendran/SP500-Stock-Price-Analysis',
-    technologies: <span>Python, Jupyter, Keras, Scikit-Learn</span>,
+    technologies: <span>Python, Keras, Scikit-Learn</span>,
   },
   {
     imageURL: 'images/projects/QUESTechDatathon.png',
@@ -66,7 +66,7 @@ const projects = [
       </span>
     ),
     codeURL: 'https://github.com/melvinrajendran/QUESTech-Datathon',
-    technologies: <span>Python, Jupyter, NLTK</span>,
+    technologies: <span>Python, NLTK</span>,
   },
   {
     imageURL: 'images/projects/Convertify.png',

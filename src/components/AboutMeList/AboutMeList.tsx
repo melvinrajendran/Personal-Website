@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import AboutMeItem from '../AboutMeItem/AboutMeItem';
 import './AboutMeList.scss';
 
 type AboutMeItem = {
-  text: string;
+  text: ReactElement | string;
   iconClass: string;
 };
 

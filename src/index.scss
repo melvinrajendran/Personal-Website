@@ -29,6 +29,10 @@ code {
   font-weight: $codeFontWeight;
 }
 
+li::marker {
+  color: $ultramarineBlue;
+}
+
 ::selection {
   background: $platinum;
   color: $davysGrey;
@@ -111,6 +115,10 @@ code {
   h4,
   h5,
   h6 {
+    color: $cornflowerBlue;
+  }
+
+  li::marker {
     color: $cornflowerBlue;
   }
 

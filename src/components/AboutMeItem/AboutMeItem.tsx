@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { CSSTransition } from 'react-transition-group';
@@ -6,7 +6,7 @@ import './AboutMeItem.scss';
 
 type AboutMeItemProps = {
   index: number;
-  text: string;
+  text: ReactElement | string;
   iconClass: string;
 };
 

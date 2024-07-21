@@ -30,7 +30,7 @@ const SkillList = ({ sections }: SkillListProps) => {
             <Container fluid ref={ref} className={`${!inView && 'invisible'} pt-4`}>
               <Row>
                 <Col>
-                  <h3 className="h2 text-center">{section.title}</h3>
+                  <h3 className="skill-section h2 text-center">{section.title}</h3>
                 </Col>
               </Row>
               <Row className="p-4 justify-content-center">

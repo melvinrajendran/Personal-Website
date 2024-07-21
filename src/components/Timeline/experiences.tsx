@@ -58,11 +58,11 @@ const experiences = [
           >
             QUEST Honors Program
           </a>{' '}
-          students with emerging technologies in real-world applications
+          students with emerging technologies in real-world applications.
         </span>,
-        'Maintain a comprehensive intranet platform to consolidate program resources and improve access for current students, alumni, and faculty members',
-        'Host annual alumni panel with 10+ speakers to provide insights into data science, software engineering, and product/program management in modern industries',
-        'Prepare and conduct 15-minute presentations on web development and prompt engineering at annual technology fair, encouraging students to build career development skills',
+        'Maintain a comprehensive intranet platform to consolidate program resources and improve access for current students, alumni, and faculty members.',
+        'Host annual alumni panel with 10+ speakers to provide insights into data science, software engineering, and product/program management in modern industries.',
+        'Prepare and conduct 15-minute presentations on web development and prompt engineering at annual technology fair, encouraging students to build career development skills.',
         <span>
           Won 1st place at{' '}
           <a
@@ -73,7 +73,7 @@ const experiences = [
           >
             2023 QUESTech Datathon
           </a>{' '}
-          ($500) for analyzing how Elon Musk&apos;s tweets correlate with Tesla order cancellation
+          ($500) for analyzing how Elon Musk&apos;s tweets correlate with Tesla order cancellation.
         </span>,
       ],
     ],
@@ -94,11 +94,11 @@ const experiences = [
           >
             Bitcamp
           </a>
-          , the largest collegiate hackathon on the east coast that hosts 1,200+ attendees annually
+          , the largest collegiate hackathon on the east coast that hosts 1,200+ attendees annually.
         </span>,
-        'Strategically allocate $175,000 budget to secure necessary logistics contracts and maximize rollover amidst a transition to a new venue',
-        'Manage a team of 11 members to plan and coordinate utilities (power equipment, audio-visual equipment, and wi-fi), personnel (mentors and volunteers), travel reimbursement, food, and computer hardware for the event',
-        'Collaborate daily with 6 other teams and their directors to determine exact requirements and clear safety concerns for weekend-of events',
+        'Strategically allocate $175,000 budget to secure necessary logistics contracts and maximize rollover amidst a transition to a new venue.',
+        'Manage a team of 11 members to plan and coordinate utilities (power equipment, audio-visual equipment, and wi-fi), personnel (mentors and volunteers), travel reimbursement, food, and computer hardware for the event.',
+        'Collaborate daily with 6 other teams and their directors to determine exact requirements and clear safety concerns for weekend-of events.',
       ],
     ],
   },
