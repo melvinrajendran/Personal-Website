@@ -36,7 +36,7 @@ const CourseList = ({ items }: CourseListProps) => {
 
                   return (
                     <li key={index} className="py-3">
-                      <h3 className="course-name">{name}</h3>
+                      <h3 className="h4 course-name">{name}</h3>
                       <p className="h6 fw-normal course-code">{code}</p>
                     </li>
                   );
