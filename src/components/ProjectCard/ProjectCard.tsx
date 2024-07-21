@@ -9,7 +9,7 @@ type ProjectCardProps = {
   title: string;
   date: string;
   text: ReactElement;
-  codeURL: string;
+  codeURL?: string;
   technologies: ReactElement;
 };
 
@@ -39,9 +39,13 @@ const ProjectCard = ({
         <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>
         <div className="d-flex align-items-center">
-          <a href={codeURL} target="_blank" rel="noopener noreferrer" title="GitHub">
-            <i className="px-0 project-icon btn fab fa-github fa-lg" />
-          </a>
+          {codeURL ? (
+            <a href={codeURL} target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i className="px-0 project-icon btn fab fa-github fa-lg" />
+            </a>
+          ) : (
+            <i className="px-0 project-icon btn fab fa-github fa-lg disabled" />
+          )}
           <small className="ms-auto text-muted">{technologies}</small>
         </div>
       </Card.Body>

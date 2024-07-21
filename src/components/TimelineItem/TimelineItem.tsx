@@ -31,7 +31,7 @@ const TimelineItem = ({
         <div
           className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}
         >
-          <i className="fas fa-clock mr-1" /> {reversedStartToEndDates.join(', ')}
+          {reversedStartToEndDates.join(', ')}
         </div>
       </div>
     </li>

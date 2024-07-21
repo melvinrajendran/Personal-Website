@@ -1,0 +1,57 @@
+const skills = [
+  {
+    title: 'Languages',
+    items: [
+      'Java',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+      'C',
+      'Go',
+      'Ruby',
+      'OCaml',
+      'Racket',
+      'Rust',
+      'SQL',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
+    title: 'Frameworks',
+    items: [
+      'Spring Boot',
+      'Maven',
+      'JUnit',
+      'TestNG',
+      'Spark',
+      'React',
+      'Next.js',
+      'Node.js',
+      'Express',
+      'tRPC',
+      'GraphQL',
+      'React Native',
+      'Expo',
+      'MongoDB',
+      'Tailwind CSS',
+    ],
+  },
+  {
+    title: 'Developer Tools',
+    items: [
+      'Git',
+      'GitHub',
+      'Unix',
+      'Docker',
+      'Kubernetes',
+      'Jenkins',
+      'Visual Studio Code',
+      'IntelliJ IDEA',
+      'Jupyter Notebook',
+      'Jira',
+    ],
+  },
+];
+
+export default skills;

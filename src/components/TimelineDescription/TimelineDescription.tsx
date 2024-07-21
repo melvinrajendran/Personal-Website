@@ -23,9 +23,7 @@ const TimelineDescription = ({
       {bullets.map((group, index) => {
         return (
           <div key={index}>
-            <p className="h5 fw-normal my-3">
-              <i className="fas fa-clock mr-1" /> {startToEndDates[index]}
-            </p>
+            <p className="h5 fw-normal my-3">{startToEndDates[index]}</p>
             <ul className="timeline-ul">
               {group.map((bullet, index) => {
                 return <li key={index}>{bullet}</li>;

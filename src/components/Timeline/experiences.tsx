@@ -5,8 +5,11 @@ const experiences = [
   {
     name: 'PayPal',
     jobTitle: 'Software Engineer Intern',
-    startToEndDates: ['JUN - AUG 23', 'MAY - AUG 22'],
+    startToEndDates: ['MAY 24 ~', 'JUN - AUG 23', 'MAY - AUG 22'],
     bullets: [
+      [
+        'Work on the Credit Platform team to develop and maintain microservices leveraged across all consumer and business credit products.',
+      ],
       [
         <span>
           Worked on the Credit User Experience team to develop full-stack applications to acquire
@@ -28,14 +31,14 @@ const experiences = [
           >
             PayPal Credit
           </a>{' '}
-          products
+          products.
         </span>,
-        'Built Credit Admin, a tool for 100+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions',
-        'Generated a 70% average decrease in the lines of code needed to implement a feature by leveraging Next.js, tRPC, Emotion, and Express with a focus on inner-sourcing and providing a seamless user experience',
+        'Built Credit Admin, a tool for 100+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
+        'Generated a 70% average decrease in the lines of code needed to implement a feature by leveraging Next.js, tRPC, Emotion, and Express with a focus on inner-sourcing and providing a seamless user experience.',
       ],
       [
-        'Revamped testing tool for the Credit Application Experience, generating a 133% increase in menu-option usability and a 75% improvement in data setup speed',
-        'Developed the React user interface and GraphQL service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), utilizing Jest to ensure 100% test coverage of user flows',
+        'Revamped testing tool for the Credit Application Experience, generating a 133% increase in menu-option usability and a 75% improvement in data setup speed.',
+        'Developed the React user interface and GraphQL service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), utilizing Jest to ensure 100% test coverage of user flows.',
       ],
     ],
   },

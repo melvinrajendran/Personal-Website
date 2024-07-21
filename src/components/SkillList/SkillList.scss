@@ -1,0 +1,13 @@
+@import '../../styles/animations';
+
+.skill-list-enter {
+  @include fadeIn;
+}
+
+.skill-list-enter-active {
+  @include fadeInActive;
+}
+
+.skill-section-list li::marker {
+  font-size: 0.75em;
+}

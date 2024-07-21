@@ -21,12 +21,7 @@ const Timeline = ({ items }: TimelineProps) => {
 
   return (
     <Row className="align-items-center gy-4 my-1">
-      <Col
-        className="text-center"
-        md={{ span: 4, offset: 0 }}
-        lg={{ span: 3, offset: 0 }}
-        xl={{ span: 3, offset: 1 }}
-      >
+      <Col className="text-center" lg={{ span: 3, offset: 0 }} xl={{ span: 3, offset: 1 }}>
         <ul className="timeline">
           {items.map((experience, index) => {
             const { name, startToEndDates } = experience;
@@ -44,7 +39,7 @@ const Timeline = ({ items }: TimelineProps) => {
           })}
         </ul>
       </Col>
-      <Col md={{ span: 6, offset: 2 }} lg={{ span: 7, offset: 2 }} xl={{ span: 6, offset: 1 }}>
+      <Col lg={{ span: 7, offset: 2 }} xl={{ span: 6, offset: 1 }}>
         <CSSTransition key={selectedIndex} in appear timeout={1000} classNames="description">
           <TimelineDescription {...items[selectedIndex]} />
         </CSSTransition>

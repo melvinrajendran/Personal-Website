@@ -2,6 +2,19 @@ import React from 'react';
 
 const projects = [
   {
+    imageURL: 'images/projects/Emerald.png',
+    imageAlt: 'Emerald',
+    projectURL: 'https://emerald.money',
+    title: 'Emerald',
+    date: 'JUN 24 ~',
+    text: (
+      <span>
+        A personal finance app that leverages NLP to simplify budgeting and wealth management.
+      </span>
+    ),
+    technologies: <span>React Native, TypeScript, Expo</span>,
+  },
+  {
     imageURL: 'images/projects/BitTorrentClient.png',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',

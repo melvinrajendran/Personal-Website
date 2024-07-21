@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import FullScreenTitle from '../../components/FullScreenTitle/FullScreenTitle';
 import Section from '../../components/Section/Section';
 import AboutMeList from '../../components/AboutMeList/AboutMeList';
-import TechnologyList from '../../components/TechnologyList/TechnologyList';
+import SkillList from '../../components/SkillList/SkillList';
 import aboutMeItems from '../../components/AboutMeList/aboutMeItems';
-import technologies from '../../components/TechnologyList/technologies';
+import skills from '../../components/SkillList/skills';
 
 const About = () => {
   useEffect(() => {
@@ -22,8 +22,8 @@ const About = () => {
       <Section title="about me">
         <AboutMeList items={aboutMeItems} />
       </Section>
-      <Section title="technologies">
-        <TechnologyList items={technologies} />
+      <Section title="skills">
+        <SkillList sections={skills} />
       </Section>
     </>
   );

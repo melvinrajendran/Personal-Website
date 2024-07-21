@@ -27,7 +27,7 @@ const AboutMeItem = ({ index, text, iconClass }: AboutMeItemProps) => {
           }`}
           ref={ref}
         >
-          <p className="p-4 fs-3 fw-normal">{text}</p>
+          <p className="p-4 fs-4 fw-normal">{text}</p>
         </Col>
       </CSSTransition>
       <Col lg className={`mb-4 text-center ${hasEvenIndex ? 'order-lg-2' : 'order-lg-1'}`}>

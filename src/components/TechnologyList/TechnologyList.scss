@@ -1,9 +1,0 @@
-@import '../../styles/animations';
-
-.technology-list-enter {
-  @include fadeIn;
-}
-
-.technology-list-enter-active {
-  @include fadeInActive;
-}

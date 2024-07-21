@@ -8,7 +8,7 @@ type Project = {
   title: string;
   date: string;
   text: ReactElement;
-  codeURL: string;
+  codeURL?: string;
   projectURL?: string;
   technologies: ReactElement;
 };
