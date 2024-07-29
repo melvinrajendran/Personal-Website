@@ -15,7 +15,7 @@ const aboutMeItems = [
       <span>
         I&apos;m currently pursuing a Bachelor of Science in Computer Science at the{' '}
         <a
-          href="https://www.umd.edu/"
+          href="https://www.cs.umd.edu/"
           target="_blank"
           rel="noopener noreferrer"
           className="link-cultured"

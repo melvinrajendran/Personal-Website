@@ -13,11 +13,11 @@ type AboutMeListProps = {
 
 const AboutMeList = ({ items }: AboutMeListProps) => {
   return (
-    <>
+    <div className="mt-4">
       {items.map((item, index) => {
         return <AboutMeItem key={index} index={index} {...item} />;
       })}
-    </>
+    </div>
   );
 };
 
