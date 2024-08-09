@@ -12,7 +12,7 @@ Version 1.0 of my personal website was built using HTML, CSS, JavaScript, and Bo
 
 In Version 2.0, I implemented React functional components that, when used in conjunction with ES6 mapping, consolidated the repetitive code in Version 1.0. Furthermore, I used React hooks to animate the site's pages and custom components. As a final touch, I designed a more colorful, simplistic user interface that I'm really proud of.
 
-The code for these previous versions is no longer (readily) available on GitHub, as I believe the current version of my website is the best reflection of my skill set. However, if you'd like to dig through the commit history and locate the older files, feel free to do so 😊.
+The code for these previous versions is no longer (readily) available on GitHub, as I believe the current version of my website is the best reflection of my skill set. However, if you'd like to dig through the commit history and locate the older files, feel free to do so 😁.
 
 ## Code Style
 
