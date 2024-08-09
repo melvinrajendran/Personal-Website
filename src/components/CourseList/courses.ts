@@ -49,6 +49,10 @@ const courses: Array<Course> = [
     name: 'Compilers',
   },
   {
+    code: 'CMSC472',
+    name: 'Deep Learning',
+  },
+  {
     code: 'MATH140 & MATH141',
     name: 'Calculus',
   },

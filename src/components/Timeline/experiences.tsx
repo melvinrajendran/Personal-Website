@@ -5,33 +5,17 @@ const experiences = [
   {
     name: 'PayPal',
     jobTitle: 'Software Engineer Intern',
-    startToEndDates: ['MAY 24 ~', 'JUN - AUG 23', 'MAY - AUG 22'],
+    startToEndDates: ['MAY 24 - AUG 24', 'JUN - AUG 23', 'MAY - AUG 22'],
     bullets: [
       [
-        'Work on the Credit Platform team to develop and maintain microservices leveraged across all consumer and business credit products.',
+        'Worked on the Credit Platform team to develop and maintain microservices leveraged across all consumer and business credit products.',
+        'Successfully consolidated components for the Credit Accounts v2 API, which enables the retrieval and management of credit account information.',
+        'Delivered 2+ weeks of time savings for team engineers with regard to maintenance and required upgrades, facilitating faster development cycles.',
       ],
       [
         <span>
           Worked on the Credit User Experience team to develop full-stack applications to acquire
-          users for the{' '}
-          <a
-            href="https://www.paypal.com/credit-application/co/landing"
-            className="link-cultured"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            PayPal Cashback Mastercard
-          </a>{' '}
-          and{' '}
-          <a
-            href="https://www.paypal.com/us/webapps/mpp/paypal-credit"
-            className="link-cultured"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            PayPal Credit
-          </a>{' '}
-          products.
+          and service users for revolving credit products.
         </span>,
         'Built Credit Admin, a tool for 100+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
         'Generated a 70% average decrease in the lines of code needed to implement a feature by leveraging Next.js, tRPC, Emotion, and Express with a focus on inner-sourcing and providing a seamless user experience.',
