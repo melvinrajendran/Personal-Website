@@ -9,15 +9,15 @@ const experiences = [
     bullets: [
       [
         'Worked on the Credit Platform team to develop and maintain microservices leveraged across all consumer and business credit products.',
-        'Successfully consolidated components for the Credit Accounts v2 API, which enables the retrieval and management of credit account information.',
-        'Delivered 2+ weeks of time savings for team engineers with regard to maintenance and required upgrades, facilitating faster development cycles.',
+        'Successfully consolidated 3 components for the Credit Accounts v2 API, which enables the retrieval and management of credit account information.',
+        "Delivered 3+ weeks of annual time savings for the team's engineers with regard to maintenance and required upgrades, facilitating faster development cycles and accelerated developer productivity.",
       ],
       [
         <span>
           Worked on the Credit User Experience team to develop full-stack applications to acquire
           and service users for revolving credit products.
         </span>,
-        'Built Credit Admin, a tool for 100+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
+        'Built Credit Admin, a tool for 200+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
         'Generated a 70% average decrease in the lines of code needed to implement a feature by leveraging Next.js, tRPC, Emotion, and Express with a focus on inner-sourcing and providing a seamless user experience.',
       ],
       [
