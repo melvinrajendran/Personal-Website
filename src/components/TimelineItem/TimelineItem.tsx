@@ -17,7 +17,9 @@ const TimelineItem = ({
   startToEndDates,
 }: TimelineItemProps) => {
   const isSelected = selectedIndex === index;
-  const reversedStartToEndDates = [...startToEndDates].reverse();
+  const overallStartToEndDate = `${startToEndDates[startToEndDates.length - 1].split(' - ')[0]} - ${
+    startToEndDates[0].split(' - ')[1]
+  }`;
 
   return (
     <li
@@ -29,9 +31,9 @@ const TimelineItem = ({
       <div className="unclickable">
         <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>{name}</h3>
         <div
-          className={`small text-gray text-start mt-2 fw-bold ${isSelected && 'selected-subtext'}`}
+          className={`small text-gray text-start mt-2 mb-0 h5 ${isSelected && 'selected-subtext'}`}
         >
-          {reversedStartToEndDates.join(', ')}
+          {overallStartToEndDate}
         </div>
       </div>
     </li>

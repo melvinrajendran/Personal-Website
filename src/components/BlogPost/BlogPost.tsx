@@ -23,7 +23,7 @@ const BlogPost = ({ iconClass, title, month, day, year, body }: BlogPostProps) =
         </h2>
       </a>
       <p className="blog-post-meta h6 mb-4">
-        {`${month.toUpperCase()} ${day.toLocaleString('en-US', {
+        {`${month} ${day.toLocaleString('en-US', {
           minimumIntegerDigits: 2,
         })}, ${year}`}
       </p>

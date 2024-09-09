@@ -6,7 +6,7 @@ const projects = [
     imageAlt: 'Emerald',
     projectURL: 'https://emerald.money',
     title: 'Emerald',
-    date: 'JUN 24 ~',
+    date: 'June 2024 - Present',
     text: (
       <span>
         A personal finance app that leverages NLP to simplify budgeting and wealth management.
@@ -18,7 +18,7 @@ const projects = [
     imageURL: 'images/projects/BitTorrentClient.png',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',
-    date: 'DEC 23 - JAN 24',
+    date: 'December 2023 - January 2024',
     text: (
       <span>
         A full-featured BitTorrent v1.0 client with support for downloading and uploading files.
@@ -44,7 +44,7 @@ const projects = [
     imageAlt: 'S&P Stock Price Analysis',
     projectURL: 'https://melvinrajendran.github.io/SP500-Stock-Price-Analysis/',
     title: 'S&P Stock Price Analysis',
-    date: 'MAY 23',
+    date: 'May 2023',
     text: (
       <span>
         A data science tutorial analyzing stocks on the S&P 500. Uses LSTM modeling to predict stock
@@ -58,7 +58,7 @@ const projects = [
     imageURL: 'images/projects/QUESTechDatathon.png',
     imageAlt: 'QUESTech Datathon',
     title: 'QUESTech Datathon',
-    date: 'MAR 23',
+    date: 'March 2023',
     text: (
       <span>
         A Jupyter notebook analyzing how Elon Musk&apos;s tweets correlate with Tesla order
@@ -73,7 +73,7 @@ const projects = [
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',
     title: 'Convertify',
-    date: 'DEC 22 - JAN 23',
+    date: 'December 2022 - January 2023',
     text: (
       <span>
         A web application that enables Spotify users to quickly convert their playlists between

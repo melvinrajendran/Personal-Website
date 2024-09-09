@@ -36,7 +36,7 @@ const ProjectCard = ({
             <h3 className="h5">{title}</h3>
           )}
         </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
+        <Card.Subtitle className="mb-2">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>
         <div className="d-flex align-items-center">
           {codeURL ? (

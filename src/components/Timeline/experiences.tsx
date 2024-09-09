@@ -5,31 +5,54 @@ const experiences = [
   {
     name: 'PayPal',
     jobTitle: 'Software Engineer Intern',
-    startToEndDates: ['MAY 24 - AUG 24', 'JUN - AUG 23', 'MAY - AUG 22'],
+    startToEndDates: [
+      'May 2024 - August 2024',
+      'June 2023 - August 2023',
+      'May 2022 - August 2022',
+    ],
     bullets: [
       [
-        'Worked on the Credit Platform team to develop and maintain microservices leveraged across all consumer and business credit products.',
-        'Successfully consolidated 3 components for the Credit Accounts v2 API, which enables the retrieval and management of credit account information.',
-        "Delivered 3+ weeks of annual time savings for the team's engineers with regard to maintenance and required upgrades, facilitating faster development cycles and accelerated developer productivity.",
+        'Worked on the Credit Platform team to develop and maintain microservices that are leveraged across all consumer and business credit products.',
+        'Successfully consolidated 3 components for the Credit Accounts v2 API, which enables retrieving and managing credit account information, obtaining credit line offers, onboarding account owners, and determining account closure eligibility.',
       ],
       [
         <span>
-          Worked on the Credit User Experience team to develop full-stack applications to acquire
-          and service users for revolving credit products.
+          Worked on the Credit User Experience team to develop full-stack web applications to
+          acquire and service users for the{' '}
+          <a
+            href="https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard"
+            className="link-cultured"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PayPal Cashback Mastercard
+          </a>{' '}
+          and{' '}
+          <a
+            href="https://www.paypal.com/us/digital-wallet/ways-to-pay/credit-services/paypal-credit"
+            className="link-cultured"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PayPal Credit
+          </a>{' '}
+          products.
         </span>,
         'Built Credit Admin, a tool for 200+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
-        'Generated a 70% average decrease in the lines of code needed to implement a feature by leveraging Next.js, tRPC, Emotion, and Express with a focus on inner-sourcing and providing a seamless user experience.',
       ],
       [
-        'Revamped testing tool for the Credit Application Experience, generating a 133% increase in menu-option usability and a 75% improvement in data setup speed.',
-        'Developed the React user interface and GraphQL service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), utilizing Jest to ensure 100% test coverage of user flows.',
+        <span>
+          Revamped the testing tool for the Credit Application Experience, significantly improving
+          data setup speed for developers testing the various user flows.
+        </span>,
+        "Developed the user interface and service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), furthering the team's ongoing migration effort.",
       ],
     ],
   },
   {
     name: 'QUESTech',
     jobTitle: 'Board Member',
-    startToEndDates: ['SEP 22 ~'],
+    startToEndDates: ['September 2022 - Present'],
     bullets: [
       [
         <span>
@@ -65,7 +88,7 @@ const experiences = [
   {
     name: 'Bitcamp',
     jobTitle: 'Logistics Director',
-    startToEndDates: ['NOV 21 ~'],
+    startToEndDates: ['November 2021 - Present'],
     bullets: [
       [
         <span>
