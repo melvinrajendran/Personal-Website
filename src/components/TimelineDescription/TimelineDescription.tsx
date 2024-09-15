@@ -5,14 +5,14 @@ import { TimelineItem } from '../Timeline/Timeline';
 const TimelineDescription = ({ organization, roles }: TimelineItem) => {
   return (
     <div>
-      <h3 className="h2 title-text mb-4">{organization}</h3>
+      <h3 className="h2 title-text mb-3">{organization}</h3>
       {roles.map((r, index) => {
         const { role, startDate, endDate, bullets } = r;
         return (
           <div key={index}>
             <div>
               <h4 className="h5 d-inline">{role}</h4>
-              <p className="h6 d-inline">
+              <p className="h5 d-inline">
                 {' '}
                 | {startDate} - {endDate}
               </p>
