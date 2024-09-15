@@ -22,7 +22,7 @@ const blogPosts = [
         interested, feel free to follow{' '}
         <a
           href="https://www.instagram.com/mellytalksabout/"
-          className="link-cultured"
+          className="link-off-white"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,7 +43,7 @@ const blogPosts = [
         A little over a month ago, I came across an ad for{' '}
         <a
           href="https://getbrick.app/"
-          className="link-cultured"
+          className="link-off-white"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -166,7 +166,7 @@ const blogPosts = [
         over a hundred records before landing on one of my favorite hip-hop releases:{' '}
         <a
           href="https://open.spotify.com/album/42fyKPanos0Q3woi848ktg?si=l70SrdDYTV-7hOoYjQkn4Q&dl_branch=1"
-          className="link-cultured"
+          className="link-off-white"
           target="_blank"
           rel="noopener noreferrer"
         >

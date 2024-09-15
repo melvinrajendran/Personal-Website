@@ -24,7 +24,7 @@ const experiences = [
             acquire and service users for the{' '}
             <a
               href="https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard"
-              className="link-cultured"
+              className="link-off-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ const experiences = [
             and{' '}
             <a
               href="https://www.paypal.com/us/digital-wallet/ways-to-pay/credit-services/paypal-credit"
-              className="link-cultured"
+              className="link-off-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,7 +70,7 @@ const experiences = [
             Plan events to engage 250+{' '}
             <a
               href="https://www.rhsmith.umd.edu/quest"
-              className="link-cultured"
+              className="link-off-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ const experiences = [
             Won 1st place at{' '}
             <a
               href="https://blog.umd.edu/questpress/2023/03/17/the-quest-for-data-highlights-from-quests-annual-datathon/"
-              className="link-cultured"
+              className="link-off-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -110,7 +110,7 @@ const experiences = [
             Organize{' '}
             <a
               href="https://bit.camp/"
-              className="link-cultured"
+              className="link-off-white"
               target="_blank"
               rel="noopener noreferrer"
             >

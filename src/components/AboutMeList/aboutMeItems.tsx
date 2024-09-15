@@ -18,7 +18,7 @@ const aboutMeItems = [
           href="https://www.cs.umd.edu/"
           target="_blank"
           rel="noopener noreferrer"
-          className="link-cultured"
+          className="link-off-white"
         >
           University of Maryland
         </a>

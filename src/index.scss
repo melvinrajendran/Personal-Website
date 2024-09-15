@@ -44,7 +44,7 @@ li::marker {
 
 /* Links */
 
-.link-cultured {
+.link-off-white {
   color: $davysGrey;
   font-weight: bold;
   text-decoration: underline 0.19em;
@@ -53,7 +53,7 @@ li::marker {
   transition: color 500ms, text-decoration-color 500ms;
 }
 
-.link-cultured:hover {
+.link-off-white:hover {
   color: $davysGrey;
   text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
