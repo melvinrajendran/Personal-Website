@@ -16,9 +16,3 @@
 .skill-section-list li::marker {
   font-size: 0.75em;
 }
-
-@media (prefers-color-scheme: dark) {
-  .skill-section {
-    color: $gainsboro;
-  }
-}

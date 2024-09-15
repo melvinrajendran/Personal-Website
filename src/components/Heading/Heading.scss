@@ -14,9 +14,3 @@ a:hover h2 {
   color: $davysGrey;
   transition: color 500ms;
 }
-
-@media (prefers-color-scheme: dark) {
-  a:hover h2 {
-    color: $gainsboro;
-  }
-}

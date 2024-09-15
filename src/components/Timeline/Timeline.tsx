@@ -5,11 +5,16 @@ import TimelineDescription from '../TimelineDescription/TimelineDescription';
 import TimelineItem from '../TimelineItem/TimelineItem';
 import { CSSTransition } from 'react-transition-group';
 
-type TimelineItem = {
-  name: string;
-  jobTitle: string;
-  startToEndDates: Array<string>;
-  bullets: Array<Array<string | ReactElement>>;
+type Role = {
+  role: string;
+  startDate: string;
+  endDate: string;
+  bullets: Array<string | ReactElement>;
+};
+
+export type TimelineItem = {
+  organization: string;
+  roles: Role[];
 };
 
 type TimelineProps = {
@@ -24,7 +29,7 @@ const Timeline = ({ items }: TimelineProps) => {
       <Col className="text-center" lg={{ span: 3, offset: 0 }} xl={{ span: 3, offset: 1 }}>
         <ul className="timeline">
           {items.map((experience, index) => {
-            const { name, startToEndDates } = experience;
+            const { organization, roles } = experience;
 
             return (
               <TimelineItem
@@ -32,8 +37,9 @@ const Timeline = ({ items }: TimelineProps) => {
                 index={index}
                 selectedIndex={selectedIndex}
                 setSelectedIndex={setSelectedIndex}
-                name={name}
-                startToEndDates={startToEndDates}
+                organization={organization}
+                startDate={roles[0].startDate}
+                endDate={roles[roles.length - 1].endDate}
               />
             );
           })}

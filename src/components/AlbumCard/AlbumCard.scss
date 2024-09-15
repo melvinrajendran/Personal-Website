@@ -6,11 +6,5 @@
   min-height: 23rem;
   min-width: 16rem;
   border: none;
-  background-color: $cultured;
-}
-
-@media (prefers-color-scheme: dark) {
-  .album-card {
-    background-color: $raisinBlack;
-  }
+  background-color: $offWhite;
 }

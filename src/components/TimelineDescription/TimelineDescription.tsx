@@ -1,31 +1,24 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import './TimelineDescription.scss';
+import { TimelineItem } from '../Timeline/Timeline';
 
-type TimelineDescriptionProps = {
-  jobTitle: string;
-  name: string;
-  startToEndDates: Array<string>;
-  bullets: Array<Array<ReactElement | string>>;
-};
-
-const TimelineDescription = ({
-  jobTitle,
-  name,
-  startToEndDates,
-  bullets,
-}: TimelineDescriptionProps) => {
+const TimelineDescription = ({ organization, roles }: TimelineItem) => {
   return (
     <div>
-      <h3>
-        <span className="h2 title-text">{`${jobTitle} @ `}</span>
-        <span className="h2">{name}</span>
-      </h3>
-      {bullets.map((group, index) => {
+      <h3 className="h2 title-text mb-4">{organization}</h3>
+      {roles.map((r, index) => {
+        const { role, startDate, endDate, bullets } = r;
         return (
           <div key={index}>
-            <p className="h5 my-3">{startToEndDates[index]}</p>
-            <ul className="timeline-ul">
-              {group.map((bullet, index) => {
+            <div>
+              <h4 className="h5 d-inline">{role}</h4>
+              <p className="h6 d-inline">
+                {' '}
+                | {startDate} - {endDate}
+              </p>
+            </div>
+            <ul className="timeline-ul mt-3">
+              {bullets.map((bullet, index) => {
                 return <li key={index}>{bullet}</li>;
               })}
             </ul>

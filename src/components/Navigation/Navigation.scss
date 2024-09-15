@@ -1,16 +1,26 @@
 @import '../../styles/colors';
 @import '../../styles/fonts';
 
+nav {
+  background-color: $offWhite;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 0.875rem;
+  margin-top: 0.35rem;
+}
+
 .nav-link {
   font-weight: 500;
   text-decoration: underline 0.2em;
-  text-decoration-color: $cultured;
+  text-decoration-color: $offWhite;
   text-underline-offset: 0.2em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .nav-link:hover {
-  text-decoration-color: $ultramarineBlue;
+  text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -20,6 +30,8 @@
 
 .dropdown-menu {
   min-width: fit-content;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .dropdown-menu:hover .social-icon {
@@ -32,7 +44,7 @@
 }
 
 .dropdown-item:hover .social-icon {
-  color: $ultramarineBlue;
+  color: $fernGreen;
   transition: color 500ms;
 }
 
@@ -50,32 +62,6 @@
 }
 
 .letter:hover {
-  color: $ultramarineBlue;
+  color: $fernGreen;
   transition: color 500ms;
-}
-
-@media (prefers-color-scheme: dark) {
-  .nav-link {
-    text-decoration-color: $raisinBlack;
-  }
-
-  .nav-link:hover {
-    text-decoration-color: $cornflowerBlue;
-  }
-
-  .dropdown-menu:hover .social-icon {
-    color: $davysGrey;
-  }
-
-  .dropdown-item:hover .social-icon {
-    color: $cornflowerBlue;
-  }
-
-  .dropdown-menu {
-    background-color: $eerieBlack;
-  }
-
-  .letter:hover {
-    color: $cornflowerBlue;
-  }
 }

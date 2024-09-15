@@ -5,21 +5,20 @@ type TimelineItemProps = {
   index: number;
   selectedIndex: number;
   setSelectedIndex: (index: number) => void;
-  name: string;
-  startToEndDates: string[];
+  organization: string;
+  startDate: string;
+  endDate: string;
 };
 
 const TimelineItem = ({
   index,
   selectedIndex,
   setSelectedIndex,
-  name,
-  startToEndDates,
+  organization,
+  startDate,
+  endDate,
 }: TimelineItemProps) => {
   const isSelected = selectedIndex === index;
-  const overallStartToEndDate = `${startToEndDates[startToEndDates.length - 1].split(' - ')[0]} - ${
-    startToEndDates[0].split(' - ')[1]
-  }`;
 
   return (
     <li
@@ -29,11 +28,11 @@ const TimelineItem = ({
       tabIndex={0}
     >
       <div className="unclickable">
-        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>{name}</h3>
+        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>{organization}</h3>
         <div
           className={`small text-gray text-start mt-2 mb-0 h5 ${isSelected && 'selected-subtext'}`}
         >
-          {overallStartToEndDate}
+          {startDate} - {endDate}
         </div>
       </div>
     </li>

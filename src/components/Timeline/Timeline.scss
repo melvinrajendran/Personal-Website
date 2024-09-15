@@ -20,7 +20,7 @@ ul.timeline {
 /* Timeline vertical line */
 ul.timeline:before {
   content: ' ';
-  background: $cultured;
+  background: $white;
   display: inline-block;
   position: absolute;
   left: 1rem;
@@ -28,10 +28,4 @@ ul.timeline:before {
   height: 100%;
   z-index: 0;
   border-radius: 1rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  ul.timeline:before {
-    background: $eerieBlack;
-  }
 }

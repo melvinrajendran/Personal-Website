@@ -10,20 +10,6 @@
 }
 
 .row .social-icon:hover {
-  color: $ultramarineBlue;
+  color: $fernGreen;
   transition: color 500ms;
-}
-
-@media (prefers-color-scheme: dark) {
-  .social-icon {
-    color: $platinum;
-  }
-
-  .row:hover .social-icon {
-    color: $davysGrey;
-  }
-
-  .row .social-icon:hover {
-    color: $cornflowerBlue;
-  }
 }

@@ -120,11 +120,6 @@ const blogPosts = [
         and an assortment of colors, pens, and highlights. I can also use my iPad as a second screen
         when using my laptop, playing videos or displaying notes to improve my productivity.
       </p>,
-      <img
-        className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
-        src="images/blog/ipad.jpg"
-        alt="Melvin's 2021 iPad Pro"
-      />,
       <p>
         As long as I take care of it, I can see myself using my iPad far beyond college and into my
         professional life.

@@ -8,7 +8,7 @@
   min-width: 20rem;
   width: 20rem;
   border: none;
-  background-color: $cultured;
+  background-color: $white;
 }
 
 .project-icon {
@@ -16,7 +16,7 @@
 }
 
 .project-icon:hover {
-  color: $ultramarineBlue;
+  color: $fernGreen;
   transition: color 500ms;
 }
 
@@ -27,26 +27,4 @@
   max-width: 20rem;
   object-fit: cover;
   object-position: 100% 0%;
-}
-
-@media (prefers-color-scheme: dark) {
-  .project-card {
-    background-color: $eerieBlack !important;
-  }
-
-  .card-subtitle {
-    color: $platinum !important;
-  }
-
-  .text-muted {
-    color: $platinum !important;
-  }
-
-  .project-icon {
-    color: $gainsboro;
-  }
-
-  .project-icon:hover {
-    color: $cornflowerBlue;
-  }
 }

@@ -2,7 +2,7 @@
 @import 'styles/fonts';
 
 body {
-  background-color: $cultured;
+  background-color: $offWhite;
   padding-top: 3.5rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -21,7 +21,7 @@ h5,
 h6 {
   font-family: $headingFontFamily;
   font-weight: $headingFontWeight;
-  color: $ultramarineBlue;
+  color: $fernGreen;
 }
 
 code {
@@ -30,7 +30,7 @@ code {
 }
 
 li::marker {
-  color: $ultramarineBlue;
+  color: $fernGreen;
 }
 
 ::selection {
@@ -39,7 +39,7 @@ li::marker {
 }
 
 :focus {
-  outline-color: $ultramarineBlue;
+  outline-color: $fernGreen;
 }
 
 /* Links */
@@ -48,14 +48,14 @@ li::marker {
   color: $davysGrey;
   font-weight: bold;
   text-decoration: underline 0.19em;
-  text-decoration-color: $cultured;
+  text-decoration-color: $offWhite;
   text-underline-offset: 0.175em;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-cultured:hover {
   color: $davysGrey;
-  text-decoration-color: $ultramarineBlue;
+  text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
@@ -70,12 +70,12 @@ li::marker {
 
 .link-white:hover {
   color: $davysGrey;
-  text-decoration-color: $ultramarineBlue;
+  text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-card {
-  color: $ultramarineBlue;
+  color: $fernGreen;
   font-weight: bold;
   text-decoration: underline 0.19em;
   text-decoration-color: $white;
@@ -84,97 +84,21 @@ li::marker {
 }
 
 .link-card:hover {
-  color: $ultramarineBlue;
-  text-decoration-color: $ultramarineBlue;
+  color: $fernGreen;
+  text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 /* Images and Cards */
 
 .rounded-corners {
-  border-radius: 1.875rem;
+  border-radius: 1rem;
 }
 
 .border-purple {
-  border: 0.5rem solid $ultramarineBlue;
+  border: 0.5rem solid $fernGreen;
 }
 
 .mono {
   filter: grayscale(100%);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: $raisinBlack;
-    color: $gainsboro;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $cornflowerBlue;
-  }
-
-  li::marker {
-    color: $cornflowerBlue;
-  }
-
-  ::selection {
-    background: $davysGrey;
-    color: $platinum;
-  }
-
-  :focus {
-    outline-color: $cornflowerBlue;
-  }
-
-  .link-cultured {
-    color: $gainsboro;
-    text-decoration-color: $raisinBlack;
-  }
-
-  .link-cultured:hover {
-    color: $gainsboro;
-    text-decoration-color: $cornflowerBlue;
-  }
-
-  .link-white {
-    color: $gainsboro;
-    text-decoration-color: $eerieBlack;
-  }
-
-  .link-white:hover {
-    color: $gainsboro;
-    text-decoration-color: $cornflowerBlue;
-  }
-
-  .link-card {
-    color: $cornflowerBlue;
-    font-weight: bold;
-    text-decoration: underline 0.19em;
-    text-decoration-color: $eerieBlack;
-    text-underline-offset: 0.175em;
-    transition: color 500ms, text-decoration-color 500ms;
-  }
-
-  .link-card:hover {
-    color: $cornflowerBlue;
-    text-decoration-color: $cornflowerBlue;
-    transition: color 500ms, text-decoration-color 500ms;
-  }
-
-  .border-purple {
-    border: 0.5rem solid $cornflowerBlue;
-  }
-
-  .border-top {
-    border-top: 1px solid $davysGrey !important;
-  }
-
-  .border-bottom {
-    border-bottom: 1px solid $davysGrey !important;
-  }
 }
