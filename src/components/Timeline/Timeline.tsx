@@ -38,8 +38,8 @@ const Timeline = ({ items }: TimelineProps) => {
                 selectedIndex={selectedIndex}
                 setSelectedIndex={setSelectedIndex}
                 organization={organization}
-                startDate={roles[0].startDate}
-                endDate={roles[roles.length - 1].endDate}
+                startDate={roles[roles.length - 1].startDate}
+                endDate={roles[0].endDate}
               />
             );
           })}
