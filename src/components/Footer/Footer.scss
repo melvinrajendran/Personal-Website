@@ -1,11 +1,11 @@
 @import '../../styles/colors';
 
 .social-icon {
-  color: $davysGrey;
+  color: $outerSpace;
 }
 
 .row:hover .social-icon {
-  color: $gainsboro;
+  color: $offPlatinum;
   transition: color 500ms;
 }
 

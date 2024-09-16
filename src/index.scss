@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $bodyFontFamily;
   font-weight: $bodyFontWeight;
-  color: $davysGrey;
+  color: $outerSpace;
 }
 
 h1,
@@ -35,7 +35,7 @@ li::marker {
 
 ::selection {
   background: $platinum;
-  color: $davysGrey;
+  color: $outerSpace;
 }
 
 :focus {
@@ -45,7 +45,7 @@ li::marker {
 /* Links */
 
 .link-off-white {
-  color: $davysGrey;
+  color: $outerSpace;
   font-weight: bold;
   text-decoration: underline 0.19em;
   text-decoration-color: $offWhite;
@@ -54,13 +54,13 @@ li::marker {
 }
 
 .link-off-white:hover {
-  color: $davysGrey;
+  color: $outerSpace;
   text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
 
 .link-white {
-  color: $davysGrey;
+  color: $outerSpace;
   font-weight: bold;
   text-decoration: underline 0.19em;
   text-decoration-color: $white;
@@ -69,7 +69,7 @@ li::marker {
 }
 
 .link-white:hover {
-  color: $davysGrey;
+  color: $outerSpace;
   text-decoration-color: $fernGreen;
   transition: color 500ms, text-decoration-color 500ms;
 }
