@@ -1,8 +1,8 @@
-# Personal Website v3
+# Personal Website
 
 <img width="1512" alt="Screenshot 2024-09-16 at 11 51 43 AM" src="https://github.com/user-attachments/assets/33c1e4a6-cf0f-4aa8-a461-83aac714e392">
 
-This repository houses the source code for the latest version of my personal website. The site is built using React with TypeScript, React Bootstrap components, and React Router for client-side routing. It contains information about myself, specifically my interests, work experiences, and personal projects. I've also started a small (but growing) blog about my passions aside from coding. Feel free to check it out here: https://www.melvinrajendran.com.
+This repository houses the source code for Version 3 (v3) of my personal website. The site is built using React with TypeScript, React Bootstrap components, and React Router for client-side routing. It contains information about myself, specifically my interests, work experiences, and personal projects. I've also started a small (but growing) blog about my passions aside from coding. Feel free to check it out here: https://www.melvinrajendran.com.
 
 In many ways, this site has been my web development playground, and I've used it to apply new skills as I've learned them. I plan on adding newer details, projects, and features to it throughout my career. In the meantime, I would be more than happy to hear any feedback regarding areas of improvement.
 
